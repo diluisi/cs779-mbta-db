@@ -14,8 +14,6 @@ services_url = ''
 
 def generate_vehicle_csv():
     vehicles = r.get(vehicles_url).json()
-    with open('vehicles.csv', 'w') as fs:
-        fs.write('id' + '\n')
 
     for vehicle in vehicles['data']:
         with open('vehicles.csv', 'a') as fs:
@@ -24,8 +22,6 @@ def generate_vehicle_csv():
 
 def generate_routes_csv():
     routes = r.get(routes_url).json()
-    with open('routes.csv', 'w') as fs:
-        fs.write('id' + '\n')
 
     for route in routes['data']:
         with open('routes.csv', 'a') as fs:
@@ -34,8 +30,6 @@ def generate_routes_csv():
 
 def generate_stops_csv():
     stops = r.get(stops_url).json()
-    with open('stops.csv', 'w') as fs:
-        fs.write('id' + '\n')
 
     for stop in stops['data']:
         with open('stops.csv', 'a') as fs:
@@ -44,12 +38,14 @@ def generate_stops_csv():
 
 def generate_lines_csv():
     lines = r.get(lines_url).json()
-    with open('lines.csv', 'w') as fs:
-        fs.write('id' + '\n')
 
     for line in lines['data']:
         with open('lines.csv', 'a') as fs:
             fs.write(line['id'] + '\n')
+
+def generate_schedules_csv():
+    with open('routes.csv', 'r') as fs:
+        pass
 
 
 if __name__ == '__main__':
