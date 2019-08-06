@@ -1,15 +1,7 @@
-import requests as r
+# Fetch ids and store as csv files
 
-base_url = 'https://api-v3.mbta.com/'
-routes_url = base_url + 'routes'
-schedules_url = ''
-stops_url = base_url + 'stops'
-trips_url = ''
-lines_url = base_url + 'lines'
-route_patterns_url = ''
-vehicles_url = base_url + 'vehicles'
-shapes_url = ''
-services_url = ''
+import requests as r
+from mbta import *
 
 
 def generate_vehicle_csv():
@@ -42,10 +34,6 @@ def generate_lines_csv():
     for line in lines['data']:
         with open('lines.csv', 'a') as fs:
             fs.write(line['id'] + '\n')
-
-def generate_schedules_csv():
-    with open('routes.csv', 'r') as fs:
-        pass
 
 
 if __name__ == '__main__':
