@@ -5,35 +5,98 @@ from mbta import *
 
 
 def generate_vehicle_csv():
+    headers = ['id', 'label']
+    direction_ids = []
+    current_statuses = []
+
     vehicles = r.get(vehicles_url).json()
 
-    for vehicle in vehicles['data']:
-        with open('vehicles.csv', 'a') as fs:
-            fs.write(vehicle['id'] + '\n')
+    with open('vehicles.csv', 'a') as fs:
+        fs.write(','.join(headers))
+
+        for vehicle in vehicles['data']:
+            fs.write('\n' + ','.join(
+                [vehicle[header] if header in vehicle else vehicle['attributes'][header] for header in headers]))
+
+            current_statuses.append(vehicle['attributes']['current_status'])
+            direction_ids.append(str(vehicle['attributes']['direction_id']))
+
+    # Remove duplicates
+    current_statuses = list(set(current_statuses))
+    direction_ids = list(set(direction_ids))
+
+    with open('vehicles-current_statuses.csv', 'a') as fs:
+        fs.write('current_statuses')
+        for current_status in current_statuses:
+            fs.write('\n' + current_status)
+
+    with open('vehicles-direction_ids.csv', 'a') as fs:
+        fs.write('direction_ids')
+        for direction_id in direction_ids:
+            fs.write('\n' + direction_id)
 
 
 def generate_routes_csv():
+    headers = ['id', 'color', 'description', 'fare_class', 'long_name', 'short_name', 'text_color']
+    direction_destinations = []
+    direction_names = []
+
     routes = r.get(routes_url).json()
 
-    for route in routes['data']:
-        with open('routes.csv', 'a') as fs:
-            fs.write(route['id'] + '\n')
+    with open('routes.csv', 'a') as fs:
+        fs.write(','.join(headers))
+
+        for route in routes['data']:
+            fs.write('\n' + ','.join(
+                [route[header] if header in route else route['attributes'][header] for header in headers]))
+
+            for direction_destination in route['attributes']['direction_destinations']:
+                direction_destinations.append(direction_destination)
+
+            for direction_name in route['attributes']['direction_names']:
+                direction_names.append(direction_name)
+
+    # Remove duplicates
+    direction_destinations = list(set(direction_destinations))
+    direction_names = list(set(direction_names))
+
+    with open('routes-direction_destinations.csv', 'a') as fs:
+        fs.write('direction_destinations')
+        for direction_destination in direction_destinations:
+            fs.write('\n' + direction_destination)
+
+    with open('routes-direction_names.csv', 'a') as fs:
+        fs.write('direction_names')
+        for direction_name in direction_names:
+            fs.write('\n' + direction_name)
 
 
 def generate_stops_csv():
     stops = r.get(stops_url).json()
+    headers = ['id', 'address', 'at_street', 'description', 'latitude', 'longitude', 'municipality', 'name',
+               'on_street']
 
-    for stop in stops['data']:
-        with open('stops.csv', 'a') as fs:
-            fs.write(stop['id'] + '\n')
+    with open('stops.csv', 'a') as fs:
+        fs.write(','.join(headers))
+
+        for stop in stops['data']:
+            fs.write('\n')
+            line = [stop[header] if header in stop else stop['attributes'][header] for header in headers]
+            line = [str(l) if l is not None else '' for l in line]
+            fs.write(','.join(line))
 
 
 def generate_lines_csv():
+    headers = ['id', 'color', 'long_name', 'short_name', 'text_color']
+
     lines = r.get(lines_url).json()
 
-    for line in lines['data']:
-        with open('lines.csv', 'a') as fs:
-            fs.write(line['id'] + '\n')
+    with open('lines.csv', 'a') as fs:
+        fs.write(','.join(headers))
+
+        for line in lines['data']:
+            fs.write('\n' + ','.join(
+                [line[header] if header in line else line['attributes'][header] for header in headers]))
 
 
 if __name__ == '__main__':
