@@ -1,0 +1,28 @@
+REM
+REM DROP TABLES
+REM
+DROP TABLE Rental;
+DROP TABLE MoviePersonRole;
+DROP TABLE RentalQueue;
+REM
+REM CREATE TABLES
+REM
+
+CREATE TABLE MoviePersonRole(
+PersonId		NUMBER(12)	NOT NULL,
+RoleId			NUMBER(2)	NOT NULL,
+DVDId			NUMBER(16)	NOT NULL,
+CONSTRAINT MoviePersonRole_PK PRIMARY KEY (PersonId,DVDId,RoleId),
+CONSTRAINT MoviePersonRole_PersonId_FK FOREIGN KEY (PersonId) REFERENCES MoviePerson(PersonId),
+CONSTRAINT MoviePersonRole_DVDId_FK FOREIGN KEY (DVDId) REFERENCES DVD(DVDId),
+CONSTRAINT MoviePersonRole_RoleId_FK FOREIGN KEY (RoleId) REFERENCES Role(RoleId)
+);
+
+CREATE TABLE MoviePerson(
+PersonId		NUMBER(12)	NOT NULL,
+PersonFirstName		VARCHAR2(32)	NOT NULL,
+PersonLastName		VARCHAR2(32)	NOT NULL,
+PersonInitial		VARCHAR(32),
+PersonDateOfBirth	DATE,
+CONSTRAINT MoviePerson_PersonId_PK PRIMARY KEY (PersonId)
+);
