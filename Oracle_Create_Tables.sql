@@ -1,16 +1,16 @@
 REM
 REM DROP TABLES
 REM
+DROP TABLE VEHICLES;
 DROP TABLE STATUSES;
-DROP TABLE STREETS;
+DROP TABLE ROUTES;
 DROP TABLE DIRECTIONS;
 DROP TABLE DESTINATIONS;
-DROP TABLE MUNICIPALITIES;
-DROP TABLE COLORS;
 DROP TABLE LINES;
-DROP TABLE ROUTES;
+DROP TABLE COLORS;
 DROP TABLE STOPS;
-DROP TABLE VEHICLES;
+DROP TABLE STREETS;
+DROP TABLE MUNICIPALITIES;
 REM
 REM CREATE TABLES
 REM
@@ -58,8 +58,8 @@ CREATE TABLE LINES(
 	color NUMBER(5),
 	text_color NUMBER(5),
 	CONSTRAINT lines_pk PRIMARY KEY (line_id),
-	CONSTRAINT lines(color) FOREIGN KEY (color) REFERNECES colors(color_id),
-	CONSTRAINT lines(text_color) FOREIGN KEY (text_color) REFERNECES colors(color_id)
+	CONSTRAINT lines_color_fk FOREIGN KEY (color) REFERENCES colors(color_id),
+	CONSTRAINT lines_text_color_fk FOREIGN KEY (text_color) REFERENCES colors(color_id)
 );
 
 CREATE TABLE STOPS(
@@ -73,9 +73,9 @@ CREATE TABLE STOPS(
 	at_street NUMBER(5),
 	on_street NUMBER(5),
 	CONSTRAINT stops_pk PRIMARY KEY (stop_id),
-	CONSTRAINT stops_municipality FOREIGN KEY (municipality_id) REFERNECES municipalities(municipality_id),
-	CONSTRAINT stops_at_street FOREIGN KEY (at_street) REFERNECES streets(street_id),
-	CONSTRAINT stops_on_street FOREIGN KEY (stops_on_street) REFERNECES municipalities(street_id)
+	CONSTRAINT stops_municipality_fk FOREIGN KEY (municipality_id) REFERENCES municipalities(municipality_id),
+	CONSTRAINT stops_at_street_fk FOREIGN KEY (at_street) REFERENCES streets(street_id),
+	CONSTRAINT stops_on_street_fk FOREIGN KEY (on_street) REFERENCES streets(street_id)
 );
 
 CREATE TABLE ROUTES(
@@ -90,11 +90,11 @@ CREATE TABLE ROUTES(
 	color NUMBER(5),
 	text_color NUMBER(5),
 	CONSTRAINT routes_pk PRIMARY KEY (route_id),
-	CONSTRAINT routes_direction_id_fk FOREIGN KEY (direction_id) REFERNECES directions(direction_id),
-	CONSTRAINT routes_destination_id_fk FOREIGN KEY (destination_id) REFERNECES destinations(destination_id),
-	CONSTRAINT routes_line_id_fk FOREIGN KEY (line_id) REFERNECES lines(line_id),
-	CONSTRAINT routes_color_fk FOREIGN KEY (color) REFERNECES colors(color_id),
-	CONSTRAINT routes_text_color_fk FOREIGN KEY (text_color) REFERNECES colors(color_id)
+	CONSTRAINT routes_direction_id_fk FOREIGN KEY (direction_id) REFERENCES directions(direction_id),
+	CONSTRAINT routes_destination_id_fk FOREIGN KEY (destination_id) REFERENCES destinations(destination_id),
+	CONSTRAINT routes_line_id_fk FOREIGN KEY (line_id) REFERENCES lines(line_id),
+	CONSTRAINT routes_color_fk FOREIGN KEY (color) REFERENCES colors(color_id),
+	CONSTRAINT routes_text_color_fk FOREIGN KEY (text_color) REFERENCES colors(color_id)
 );
 
 CREATE TABLE VEHICLES(
@@ -106,8 +106,8 @@ CREATE TABLE VEHICLES(
 	longitude FLOAT(63)	NOT NULL,
 	speed NUMBER(5),
 	updated_at TIMESTAMP WITH TIME ZONE NOT NULL,
-	direction_id NUMBER(2),
-	route_id VARCHAR2(32),
+	direction_id NUMBER(5),
+	route_id NUMBER(5),
 	current_status VARCHAR2(32),
 	stop_id NUMBER(5),
 	CONSTRAINT vehicles_pk PRIMARY KEY (vehicle_id),
