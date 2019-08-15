@@ -204,13 +204,64 @@ def load_colors():
     conn.commit()
 
 
+def load_direction_names_routes_bridge():
+    sql = "SELECT direction_name_id FROM direction_names"
+    c.execute(sql)
+    direction_name_ids = c.fetchall()
+
+    sql = "SELECT route_id FROM routes"
+    c.execute(sql)
+    route_ids = c.fetchall()
+
+    for route_id in route_ids:
+        for direction_name_id in direction_name_ids:
+            sql = "SELECT route_id, direction_name_id FROM direction_names_routes_bridge " \
+                  "WHERE route_id='%s' AND direction_name_id='%s'" % (route_id[0], direction_name_id[0])
+            c.execute(sql)
+            exists = c.fetchone()
+
+            if not exists:
+                sql = "INSERT INTO direction_names_routes_bridge (route_id, direction_name_id) " \
+                      "VALUES ('%s', '%s')" % (route_id[0], direction_name_id[0])
+                c.execute(sql)
+
+    conn.commit()
+
+
+def load_destinations_routes_bridge():
+    sql = "SELECT destination_id FROM destinations"
+    c.execute(sql)
+    destination_ids = c.fetchall()
+
+    sql = "SELECT route_id FROM routes"
+    c.execute(sql)
+    route_ids = c.fetchall()
+
+    for route_id in route_ids:
+        for destination_id in destination_ids:
+            sql = "SELECT route_id, destination_id FROM destinations_routes_bridge " \
+                  "WHERE route_id='%s' AND destination_id='%s'" % (route_id[0], destination_id[0])
+            c.execute(sql)
+            exists = c.fetchone()
+
+            if not exists:
+                sql = "INSERT INTO destinations_routes_bridge (route_id, destination_id) " \
+                      "VALUES ('%s', '%s')" % (route_id[0], destination_id[0])
+                c.execute(sql)
+
+    conn.commit()
+
+
 if __name__ == '__main__':
-    load_directions_ids()
-    load_destinations()
-    load_colors()
-    load_lines()
-    load_routes_direction_names()
-    load_routes()
+    # load_directions_ids()
+    # load_destinations()
+    # load_colors()
+    # load_lines()
+    # load_routes_direction_names()
+    # load_routes()
+
+    # load_direction_names_routes_bridge()
+    # load_destinations_routes_bridge()
 
     c.execute('select * from colors')
     for row in c:
