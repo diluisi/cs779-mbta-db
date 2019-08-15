@@ -6,7 +6,10 @@ DROP TABLE VEHICLES_DATA;
 DROP TABLE VEHICLES;
 -- DROP TABLE VEHICLES_HISTORY;
 DROP TABLE STATUSES;
+DROP TABLE DESTINATIONS_ROUTES_BRIDGE;
+DROP TABLE DIRECTION_NAMES_ROUTES_BRIDGE;
 DROP TABLE ROUTES;
+DROP TABLE DIRECTION_NAMES;
 DROP TABLE DIRECTIONS;
 DROP TABLE DESTINATIONS;
 DROP TABLE LINES;
@@ -40,6 +43,12 @@ CREATE TABLE DIRECTIONS(
 	direction_id NUMBER GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1) NOT NULL,
 	direction VARCHAR2(32) UNIQUE NOT NULL,
 	CONSTRAINT directions_pk PRIMARY KEY (direction_id)
+);
+
+CREATE TABLE DIRECTION_NAMES(
+	direction_name_id NUMBER GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1) NOT NULL,
+	direction_name VARCHAR2(32) UNIQUE NOT NULL,
+	CONSTRAINT direction_names_pk PRIMARY KEY (direction_name_id)
 );
 
 CREATE TABLE MUNICIPALITIES(
@@ -88,10 +97,10 @@ CREATE TABLE STOPS(
 );
 
 CREATE TABLE ROUTES(
-	route_id NUMBER GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1) NOT NULL,
+	route_id VARCHAR2(32) NOT NULL,
 	description VARCHAR2(32),
 	fare_class VARCHAR2(32),
-	long_name VARCHAR2(32),
+	long_name VARCHAR2(128),
 	short_name VARCHAR2(32),
 	direction_id NUMBER,
 	destination_id NUMBER,
@@ -116,11 +125,23 @@ CREATE TABLE VEHICLES_DATA(
 	speed NUMBER(5),
 	updated_at TIMESTAMP WITH TIME ZONE NOT NULL,
 	direction_id NUMBER,
-	route_id NUMBER,
+	route_id VARCHAR(32),
 	current_status NUMBER,
 	stop_id NUMBER,
 	CONSTRAINT vehicles_data_pk PRIMARY KEY (vehicle_data_id),
 	CONSTRAINT vehicles_data_direction_id_fk FOREIGN KEY (direction_id) REFERENCES directions(direction_id),
 	CONSTRAINT vehicles_data_route_id_fk FOREIGN KEY (route_id) REFERENCES routes(route_id),
 	CONSTRAINT vehicles_data_current_status_fk FOREIGN KEY (current_status) REFERENCES statuses(status_id)
+);
+
+CREATE TABLE DESTINATIONS_ROUTES_BRIDGE(
+	route_id VARCHAR2(32) NOT NULL,
+	destination_id VARCHAR2(32) NOT NULL,
+	CONSTRAINT destinations_routes_bridge_pk PRIMARY KEY (route_id, destination_id)
+);
+
+CREATE TABLE DIRECTION_NAMES_ROUTES_BRIDGE(
+	route_id VARCHAR2(32) NOT NULL,
+	direction_name_id VARCHAR2(32) NOT NULL,
+	CONSTRAINT destinations_names_bridge_pk PRIMARY KEY (route_id, direction_name_id)
 );

@@ -16,7 +16,8 @@ def generate_vehicle_csv():
 
         for vehicle in vehicles['data']:
             fs.write('\n' + ','.join(
-                ['"%s"' % vehicle[header] if header in vehicle else '"%s"' % vehicle['attributes'][header] for header in headers]))
+                ['"%s"' % vehicle[header] if header in vehicle else '"%s"' % vehicle['attributes'][header] for header in
+                 headers]))
 
             current_statuses.append(vehicle['attributes']['current_status'])
             direction_ids.append(str(vehicle['attributes']['direction_id']))
@@ -37,18 +38,28 @@ def generate_vehicle_csv():
 
 
 def generate_routes_csv():
-    headers = ['id', 'color', 'description', 'fare_class', 'long_name', 'short_name', 'text_color']
+    headers = ['id', 'color', 'description', 'fare_class', 'long_name', 'short_name', 'text_color', 'direction_names',
+               'direction_destinations']
+    rels = ['line_id']
     direction_destinations = []
     direction_names = []
 
     routes = r.get(routes_url).json()
 
     with open('routes.csv', 'a') as fs:
-        fs.write(','.join(headers))
+        fs.write(','.join(headers + rels))
 
         for route in routes['data']:
             fs.write('\n' + ','.join(
-                ['"%s"' % route[header] if header in route else '"%s"' % route['attributes'][header] for header in headers]))
+                ['"%s"' % route[header] if header in route else '"%s"' % route['attributes'][header] for header in
+                 headers]))
+
+            try:
+                line_id = route['relationships']['line']['data']['id']
+            except Exception:
+                line_id = ''
+
+            fs.write(',"%s"' % line_id)
 
             for direction_destination in route['attributes']['direction_destinations']:
                 direction_destinations.append(direction_destination)
@@ -96,7 +107,8 @@ def generate_lines_csv():
 
         for line in lines['data']:
             fs.write('\n' + ','.join(
-                ['"%s"' % line[header] if header in line else '"%s"' % line['attributes'][header] for header in headers]))
+                ['"%s"' % line[header] if header in line else '"%s"' % line['attributes'][header] for header in
+                 headers]))
 
 
 if __name__ == '__main__':
