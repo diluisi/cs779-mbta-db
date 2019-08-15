@@ -44,11 +44,42 @@ def load_vehicles():
 
 
 def load_stops():
-    reader = csv.reader(open('vehicles.csv'))
+    reader = csv.reader(open('stops.csv'), quotechar='"', delimiter=',', quoting=csv.QUOTE_ALL)
     next(reader)  # Skip header
     for l in reader:
-        sql = "INSERT INTO VEHICLES (vehicle_id, label) VALUES ('%s', '%s')" % (l[0], l[1])
+        print(l[0])
+        sql = "SELECT stop_id FROM stops WHERE stop_id='%s'" % (l[0])
         c.execute(sql)
+        exists = c.fetchone()
+
+        if not exists:
+            sql = "SELECT municipality_id FROM municipalities WHERE municipality='%s'" % (l[6])
+            c.execute(sql)
+            print(l[6])
+            municipality_id = c.fetchone()[0]
+
+            sql = "SELECT street_id FROM streets WHERE street='%s'" % (l[6])
+            c.execute(sql)
+            at_street = c.fetchone()
+
+            sql = "SELECT street_id FROM streets WHERE street='%s'" % (l[8])
+            c.execute(sql)
+            on_street = c.fetchone()
+
+            if at_street and on_street:
+                sql = """INSERT INTO STOPS (STOP_ID, ADDRESS, AT_STREET, DESCRIPTION, LATITUDE, LONGITUDE, MUNICIPALITY_ID, NAME, ON_STREET) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')""" % (
+                    l[0], l[1], at_street[0], l[3], l[4], l[5], municipality_id, l[7], on_street[0])
+                c.execute(sql)
+            if not at_street and on_street:
+                sql = """INSERT INTO STOPS (STOP_ID, ADDRESS, DESCRIPTION, LATITUDE, LONGITUDE, MUNICIPALITY_ID, NAME, ON_STREET) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')""" % (
+                    l[0], l[1], l[3], l[4], l[5], municipality_id, l[7], on_street[0])
+                print(sql)
+                c.execute(sql)
+            if at_street and not on_street:
+                sql = """INSERT INTO STOPS (STOP_ID, ADDRESS, DESCRIPTION, LATITUDE, LONGITUDE, MUNICIPALITY_ID, NAME) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s')""" % (
+                l[0], l[1], l[3], l[4], l[5], municipality_id, l[7])
+                c.execute(sql)
+    conn.commit()
 
 
 def load_routes_direction_names():
@@ -252,6 +283,48 @@ def load_destinations_routes_bridge():
     conn.commit()
 
 
+def load_municipalities():
+    reader = csv.reader(open('stops.csv'), quotechar='"', delimiter=',', quoting=csv.QUOTE_ALL)
+    next(reader)  # Skip header
+
+    for l in reader:
+        sql = "SELECT municipality_id FROM municipalities WHERE municipality='%s'" % (l[6])
+        c.execute(sql)
+        exists = c.fetchone()
+
+        if not exists:
+            sql = "INSERT INTO MUNICIPALITIES (municipality) VALUES ('%s')" % l[6]
+            c.execute(sql)
+    conn.commit()
+
+
+def load_streets():
+    reader = csv.reader(open('stops.csv'), quotechar='"', delimiter=',', quoting=csv.QUOTE_ALL)
+    next(reader)  # Skip header
+
+    for l in reader:
+        # At Street
+        street = l[2].replace("'", "''"),
+        sql = "SELECT street FROM streets WHERE street='%s'" % street
+        c.execute(sql)
+        exists = c.fetchone()
+
+        if not exists and l[2] != '':
+            sql = "INSERT INTO streets (street) VALUES ('%s')" % street
+            c.execute(sql)
+
+        # On Street
+        street = l[8].replace("'", "''"),
+        sql = "SELECT street FROM streets WHERE street='%s'" % street
+        c.execute(sql)
+        exists = c.fetchone()
+
+        if not exists and l[8] != '':
+            sql = "INSERT INTO streets (street) VALUES ('%s')" % street
+            c.execute(sql)
+    conn.commit()
+
+
 if __name__ == '__main__':
     # load_directions_ids()
     # load_destinations()
@@ -262,6 +335,9 @@ if __name__ == '__main__':
 
     # load_direction_names_routes_bridge()
     # load_destinations_routes_bridge()
+    # load_municipalities()
+    # load_streets()
+    load_stops()
 
     c.execute('select * from colors')
     for row in c:

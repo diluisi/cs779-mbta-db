@@ -35,7 +35,7 @@ CREATE TABLE STATUSES(
 
 CREATE TABLE STREETS(
 	street_id NUMBER GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1) NOT NULL,
-	STREET VARCHAR2(32) UNIQUE NOT NULL,
+	STREET VARCHAR2(128) UNIQUE NOT NULL,
 	CONSTRAINT streets_pk PRIMARY KEY (street_id)
 );
 
@@ -81,7 +81,7 @@ CREATE TABLE LINES(
 );
 
 CREATE TABLE STOPS(
-	stop_id NUMBER GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1) NOT NULL,
+	stop_id VARCHAR(128) NOT NULL,
 	name VARCHAR2(32),
 	address VARCHAR2(32),
 	description VARCHAR2(32),
@@ -127,7 +127,7 @@ CREATE TABLE VEHICLES_DATA(
 	direction_id NUMBER,
 	route_id VARCHAR(32),
 	current_status NUMBER,
-	stop_id NUMBER,
+	stop_id VARCHAR(128),
 	CONSTRAINT vehicles_data_pk PRIMARY KEY (vehicle_data_id),
 	CONSTRAINT vehicles_data_direction_id_fk FOREIGN KEY (direction_id) REFERENCES directions(direction_id),
 	CONSTRAINT vehicles_data_route_id_fk FOREIGN KEY (route_id) REFERENCES routes(route_id),
