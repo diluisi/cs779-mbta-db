@@ -47,38 +47,34 @@ def load_stops():
     reader = csv.reader(open('stops.csv'), quotechar='"', delimiter=',', quoting=csv.QUOTE_ALL)
     next(reader)  # Skip header
     for l in reader:
-        print(l[0])
         sql = "SELECT stop_id FROM stops WHERE stop_id='%s'" % (l[0])
         c.execute(sql)
         exists = c.fetchone()
 
         if not exists:
+            print('------------------')
+            print('PARSING %s' % l)
             sql = "SELECT municipality_id FROM municipalities WHERE municipality='%s'" % (l[6])
             c.execute(sql)
-            print(l[6])
             municipality_id = c.fetchone()[0]
 
-            sql = "SELECT street_id FROM streets WHERE street='%s'" % (l[6])
+            sql = "SELECT street_id FROM streets WHERE street='%s'" % (l[2].replace("'", "''"))
             c.execute(sql)
             at_street = c.fetchone()
 
-            sql = "SELECT street_id FROM streets WHERE street='%s'" % (l[8])
+            sql = "SELECT street_id FROM streets WHERE street='%s'" % (l[8].replace("'", "''"))
             c.execute(sql)
             on_street = c.fetchone()
 
-            if at_street and on_street:
-                sql = """INSERT INTO STOPS (STOP_ID, ADDRESS, AT_STREET, DESCRIPTION, LATITUDE, LONGITUDE, MUNICIPALITY_ID, NAME, ON_STREET) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')""" % (
-                    l[0], l[1], at_street[0], l[3], l[4], l[5], municipality_id, l[7], on_street[0])
-                c.execute(sql)
             if not at_street and on_street:
                 sql = """INSERT INTO STOPS (STOP_ID, ADDRESS, DESCRIPTION, LATITUDE, LONGITUDE, MUNICIPALITY_ID, NAME, ON_STREET) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')""" % (
-                    l[0], l[1], l[3], l[4], l[5], municipality_id, l[7], on_street[0])
-                print(sql)
+                    l[0], l[1], l[3], l[4], l[5], municipality_id, l[7].replace("'", "''"), on_street[0])
                 c.execute(sql)
-            if at_street and not on_street:
-                sql = """INSERT INTO STOPS (STOP_ID, ADDRESS, DESCRIPTION, LATITUDE, LONGITUDE, MUNICIPALITY_ID, NAME) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s')""" % (
-                l[0], l[1], l[3], l[4], l[5], municipality_id, l[7])
-                c.execute(sql)
+            if not on_street and at_street:
+                if not at_street:
+                    sql = """INSERT INTO STOPS (STOP_ID, ADDRESS, AT_STREET, DESCRIPTION, LATITUDE, LONGITUDE, MUNICIPALITY_ID, NAME) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')""" % (
+                        l[0], l[1], at_street, l[3], l[4], l[5], municipality_id, l[7].replace("'", "''"))
+                    c.execute(sql)
     conn.commit()
 
 

@@ -82,9 +82,9 @@ CREATE TABLE LINES(
 
 CREATE TABLE STOPS(
 	stop_id VARCHAR(128) NOT NULL,
-	name VARCHAR2(32),
-	address VARCHAR2(32),
-	description VARCHAR2(32),
+	name VARCHAR2(256),
+	address VARCHAR2(256),
+	description VARCHAR2(256),
 	latitude FLOAT(63)	NOT NULL,
 	longitude FLOAT(63)	NOT NULL,
 	municipality_id NUMBER,
