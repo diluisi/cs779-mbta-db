@@ -1,8 +1,10 @@
 REM
 REM DROP TABLES
 REM
+
+DROP TABLE VEHICLES_DATA;
 DROP TABLE VEHICLES;
-DROP TABLE VEHICLES_HISTORY;
+-- DROP TABLE VEHICLES_HISTORY;
 DROP TABLE STATUSES;
 DROP TABLE ROUTES;
 DROP TABLE DIRECTIONS;
@@ -16,46 +18,52 @@ REM
 REM CREATE TABLES
 REM
 
+CREATE TABLE VEHICLES(
+	vehicle_id VARCHAR2(32) NOT NULL,
+	label VARCHAR2(32) UNIQUE,
+	CONSTRAINT vehicles_pk PRIMARY KEY (vehicle_id)
+);
+
 CREATE TABLE STATUSES(
 	status_id NUMBER GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1) NOT NULL,
-	status VARCHAR2(32) NOT NULL,
+	status VARCHAR2(32) UNIQUE NOT NULL,
 	CONSTRAINT statuses_pk PRIMARY KEY (status_id)
 );
 
 CREATE TABLE STREETS(
 	street_id NUMBER GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1) NOT NULL,
-	STREET VARCHAR2(32) NOT NULL,
+	STREET VARCHAR2(32) UNIQUE NOT NULL,
 	CONSTRAINT streets_pk PRIMARY KEY (street_id)
 );
 
 CREATE TABLE DIRECTIONS(
 	direction_id NUMBER GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1) NOT NULL,
-	direction VARCHAR2(32) NOT NULL,
+	direction VARCHAR2(32) UNIQUE NOT NULL,
 	CONSTRAINT directions_pk PRIMARY KEY (direction_id)
 );
 
 CREATE TABLE MUNICIPALITIES(
 	municipality_id NUMBER GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1) NOT NULL,
-	municipality VARCHAR2(32) NOT NULL,
+	municipality VARCHAR2(32) UNIQUE NOT NULL,
 	CONSTRAINT municiplity_pk PRIMARY KEY (municipality_id)
 );
 
 CREATE TABLE DESTINATIONS(
 	destination_id NUMBER GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1) NOT NULL,
-	destination VARCHAR2(32) NOT NULL,
+	destination VARCHAR2(32) UNIQUE NOT NULL,
 	CONSTRAINT destinations_pk PRIMARY KEY (destination_id)
 );
 
 CREATE TABLE COLORS(
 	color_id NUMBER GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1) NOT NULL,
-	color VARCHAR2(32) NOT NULL,
+	color VARCHAR2(32) UNIQUE NOT NULL,
 	CONSTRAINT colors_pk PRIMARY KEY (color_id)
 );
 
 CREATE TABLE LINES(
-	line_id NUMBER GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1) NOT NULL,
-	long_name VARCHAR2(32),
-	short_name VARCHAR2(32),
+	line_id VARCHAR(128) NOT NULL,
+	long_name VARCHAR2(128),
+	short_name VARCHAR2(128),
 	color NUMBER,
 	text_color NUMBER,
 	CONSTRAINT lines_pk PRIMARY KEY (line_id),
@@ -87,7 +95,7 @@ CREATE TABLE ROUTES(
 	short_name VARCHAR2(32),
 	direction_id NUMBER,
 	destination_id NUMBER,
-	line_id NUMBER,
+	line_id VARCHAR(128),
 	color NUMBER,
 	text_color NUMBER,
 	CONSTRAINT routes_pk PRIMARY KEY (route_id),
@@ -98,9 +106,9 @@ CREATE TABLE ROUTES(
 	CONSTRAINT routes_text_color_fk FOREIGN KEY (text_color) REFERENCES colors(color_id)
 );
 
-CREATE TABLE VEHICLES(
-	vehicle_id NUMBER GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1) NOT NULL,
-	label VARCHAR2(32),
+CREATE TABLE VEHICLES_DATA(
+	vehicle_data_id NUMBER GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1) NOT NULL,
+    vehicle_id NUMBER NOT NULL,
 	bearing	NUMBER(5),
 	current_stop_sequence NUMBER(5),
 	latitude FLOAT(63)	NOT NULL,
@@ -111,27 +119,8 @@ CREATE TABLE VEHICLES(
 	route_id NUMBER,
 	current_status NUMBER,
 	stop_id NUMBER,
-	CONSTRAINT vehicles_pk PRIMARY KEY (vehicle_id),
-	CONSTRAINT vehicles_direction_id_fk FOREIGN KEY (direction_id) REFERENCES directions(direction_id),
-	CONSTRAINT vehicles_route_id_fk FOREIGN KEY (route_id) REFERENCES routes(route_id),
-	CONSTRAINT vehicles_current_status_fk FOREIGN KEY (current_status) REFERENCES statuses(status_id)
-);
-
-CREATE TABLE VEHICLES_HISTORY(
-	vehicle_id NUMBER GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1) NOT NULL,
-	label VARCHAR2(32),
-	bearing	NUMBER(5),
-	current_stop_sequence NUMBER(5),
-	latitude FLOAT(63)	NOT NULL,
-	longitude FLOAT(63)	NOT NULL,
-	speed NUMBER(5),
-	updated_at TIMESTAMP WITH TIME ZONE NOT NULL,
-	direction_id NUMBER,
-	route_id NUMBER,
-	current_status NUMBER,
-	stop_id NUMBER,
-	CONSTRAINT vehicles_history_pk PRIMARY KEY (vehicle_id),
-	CONSTRAINT vehicles_history_direction_id_fk FOREIGN KEY (direction_id) REFERENCES directions(direction_id),
-	CONSTRAINT vehicles_history_route_id_fk FOREIGN KEY (route_id) REFERENCES routes(route_id),
-	CONSTRAINT vehicles_history_current_status_fk FOREIGN KEY (current_status) REFERENCES statuses(status_id)
+	CONSTRAINT vehicles_data_pk PRIMARY KEY (vehicle_data_id),
+	CONSTRAINT vehicles_data_direction_id_fk FOREIGN KEY (direction_id) REFERENCES directions(direction_id),
+	CONSTRAINT vehicles_data_route_id_fk FOREIGN KEY (route_id) REFERENCES routes(route_id),
+	CONSTRAINT vehicles_data_current_status_fk FOREIGN KEY (current_status) REFERENCES statuses(status_id)
 );

@@ -1,197 +1,197 @@
 id,color,description,fare_class,long_name,short_name,text_color
-Red,DA291C,Rapid Transit,Rapid Transit,Red Line,,FFFFFF
-Mattapan,DA291C,Rapid Transit,Rapid Transit,Mattapan Trolley,,FFFFFF
-Orange,ED8B00,Rapid Transit,Rapid Transit,Orange Line,,FFFFFF
-Green-B,00843D,Rapid Transit,Rapid Transit,Green Line B,B,FFFFFF
-Green-C,00843D,Rapid Transit,Rapid Transit,Green Line C,C,FFFFFF
-Green-D,00843D,Rapid Transit,Rapid Transit,Green Line D,D,FFFFFF
-Green-E,00843D,Rapid Transit,Rapid Transit,Green Line E,E,FFFFFF
-Blue,003DA5,Rapid Transit,Rapid Transit,Blue Line,,FFFFFF
-741,7C878E,Key Bus,Rapid Transit,Logan Airport - South Station,SL1,FFFFFF
-742,7C878E,Key Bus,Rapid Transit,Design Center - South Station,SL2,FFFFFF
-743,7C878E,Key Bus,Rapid Transit,Chelsea - South Station,SL3,FFFFFF
-751,7C878E,Key Bus,Local Bus,Dudley - South Station,SL4,FFFFFF
-749,7C878E,Key Bus,Local Bus,Dudley - Downtown Crossing,SL5,FFFFFF
-CR-Fairmount,80276C,Commuter Rail,Commuter Rail,Fairmount Line,,FFFFFF
-CR-Fitchburg,80276C,Commuter Rail,Commuter Rail,Fitchburg Line,,FFFFFF
-CR-Worcester,80276C,Commuter Rail,Commuter Rail,Framingham/Worcester Line,,FFFFFF
-CR-Franklin,80276C,Commuter Rail,Commuter Rail,Franklin Line,,FFFFFF
-CR-Greenbush,80276C,Commuter Rail,Commuter Rail,Greenbush Line,,FFFFFF
-CR-Haverhill,80276C,Commuter Rail,Commuter Rail,Haverhill Line,,FFFFFF
-CR-Kingston,80276C,Commuter Rail,Commuter Rail,Kingston/Plymouth Line,,FFFFFF
-CR-Lowell,80276C,Commuter Rail,Commuter Rail,Lowell Line,,FFFFFF
-CR-Middleborough,80276C,Commuter Rail,Commuter Rail,Middleborough/Lakeville Line,,FFFFFF
-CR-Needham,80276C,Commuter Rail,Commuter Rail,Needham Line,,FFFFFF
-CR-Newburyport,80276C,Commuter Rail,Commuter Rail,Newburyport/Rockport Line,,FFFFFF
-CR-Providence,80276C,Commuter Rail,Commuter Rail,Providence/Stoughton Line,,FFFFFF
-CR-Foxboro,80276C,Commuter Rail,Special,Foxboro (Special Events),,FFFFFF
-Boat-F4,008EAA,Ferry,Ferry,Charlestown Ferry,,FFFFFF
-Boat-F1,008EAA,Ferry,Ferry,Hingham/Hull Ferry,,FFFFFF
-701,FFC72C,Local Bus,Local Bus,Central Square, Cambridge - Boston Medical Center,CT1,000000
-747,FFC72C,Local Bus,Local Bus,Sullivan - Ruggles,CT2,000000
-708,FFC72C,Local Bus,Local Bus,Beth Israel Deaconess or Boston Medical Center - Andrew,CT3,000000
-1,FFC72C,Key Bus,Local Bus,Harvard - Dudley via Massachusetts Avenue,1,000000
-4,FFC72C,Commuter Bus,Local Bus,North Station - Tide Street,4,000000
-5,FFC72C,Community Bus,Local Bus,City Point - McCormack Housing,5,000000
-7,FFC72C,Local Bus,Local Bus,City Point - Downtown Boston,7,000000
-8,FFC72C,Local Bus,Local Bus,Harbor Point/UMass - Kenmore,8,000000
-9,FFC72C,Local Bus,Local Bus,City Point - Copley via Broadway Station,9,000000
-10,FFC72C,Local Bus,Local Bus,City Point - Copley via Boston Medical Center,10,000000
-11,FFC72C,Local Bus,Local Bus,City Point - Downtown Boston,11,000000
-14,FFC72C,Local Bus,Local Bus,Roslindale Square - Heath Street,14,000000
-15,FFC72C,Key Bus,Local Bus,Kane Square - Ruggles,15,000000
-16,FFC72C,Local Bus,Local Bus,Forest Hills - Andrew or UMass,16,000000
-17,FFC72C,Local Bus,Local Bus,Fields Corner - Andrew via Uphams Corner,17,000000
-18,FFC72C,Local Bus,Local Bus,Ashmont - Andrew,18,000000
-19,FFC72C,Local Bus,Local Bus,Fields Corner - Kenmore or Ruggles,19,000000
-21,FFC72C,Local Bus,Local Bus,Ashmont - Forest Hills,21,000000
-22,FFC72C,Key Bus,Local Bus,Ashmont - Ruggles via Jackson Square,22,000000
-23,FFC72C,Key Bus,Local Bus,Ashmont - Ruggles via Washington Street,23,000000
-24,FFC72C,Local Bus,Local Bus,Wakefield Avenue & Truman Parkway - Mattapan or Ashmont,24,000000
-26,FFC72C,Local Bus,Local Bus,Ashmont - Gallivan Boulevard,26,000000
-27,FFC72C,Local Bus,Local Bus,Mattapan - Ashmont,27,000000
-28,FFC72C,Key Bus,Local Bus,Mattapan - Ruggles,28,000000
-29,FFC72C,Local Bus,Local Bus,Mattapan - Jackson Square,29,000000
-30,FFC72C,Local Bus,Local Bus,Mattapan - Forest Hills via Roslindale Square,30,000000
-31,FFC72C,Local Bus,Local Bus,Mattapan - Forest Hills via Morton Street,31,000000
-32,FFC72C,Key Bus,Local Bus,Wolcott Square - Forest Hills,32,000000
-33,FFC72C,Local Bus,Local Bus,River Street & Milton Street, Dedham - Mattapan,33,000000
-34,FFC72C,Local Bus,Local Bus,Dedham Line - Forest Hills,34,000000
-34E,FFC72C,Local Bus,Local Bus,Walpole - Forest Hills,34E,000000
-35,FFC72C,Local Bus,Local Bus,Dedham Mall - Forest Hills,35,000000
-36,FFC72C,Local Bus,Local Bus,Charles River Loop - Forest Hills,36,000000
-37,FFC72C,Local Bus,Local Bus,Baker Street & Vermont Street - Forest Hills,37,000000
-38,FFC72C,Local Bus,Local Bus,Wren Street - Forest Hills,38,000000
-39,FFC72C,Key Bus,Local Bus,Forest Hills - Back Bay Station,39,000000
-40,FFC72C,Local Bus,Local Bus,Georgetowne - Forest Hills,40,000000
-41,FFC72C,Local Bus,Local Bus,Centre Street & Eliot Street - JFK/UMass Station,41,000000
-42,FFC72C,Local Bus,Local Bus,Forest Hills - Dudley,42,000000
-43,FFC72C,Local Bus,Local Bus,Ruggles - Downtown Boston,43,000000
-44,FFC72C,Local Bus,Local Bus,Jackson Square - Ruggles,44,000000
-45,FFC72C,Local Bus,Local Bus,Franklin Park - Ruggles,45,000000
-47,FFC72C,Local Bus,Local Bus,Central Square, Cambridge - Broadway Station,47,000000
-50,FFC72C,Local Bus,Local Bus,Cleary Square - Forest Hills,50,000000
-51,FFC72C,Local Bus,Local Bus,Reservoir - Forest Hills,51,000000
-52,FFC72C,Local Bus,Local Bus,Dedham Mall - Watertown Yard,52,000000
-55,FFC72C,Local Bus,Local Bus,Jersey Street & Queensberry Street - Downtown Boston,55,000000
-57,FFC72C,Key Bus,Local Bus,Watertown Yard - Kenmore,57,000000
-57A,FFC72C,Local Bus,Local Bus,Oak Square - Kenmore,57A,000000
-59,FFC72C,Local Bus,Local Bus,Needham Junction - Watertown Square,59,000000
-60,FFC72C,Local Bus,Local Bus,Chestnut Hill - Kenmore,60,000000
-62,FFC72C,Local Bus,Local Bus,Bedford VA Hospital - Alewife,62,000000
-64,FFC72C,Local Bus,Local Bus,Oak Square - University Park or Kendall/MIT,64,000000
-65,FFC72C,Local Bus,Local Bus,Brighton - Kenmore,65,000000
-66,FFC72C,Key Bus,Local Bus,Harvard - Dudley via Allston,66,000000
-67,FFC72C,Local Bus,Local Bus,Turkey Hill - Alewife,67,000000
-68,FFC72C,Local Bus,Local Bus,Harvard - Kendall/MIT,68,000000
-69,FFC72C,Local Bus,Local Bus,Harvard - Lechmere,69,000000
-70,FFC72C,Local Bus,Local Bus,Cedarwood - Central Square, Cambridge,70,000000
-70A,FFC72C,Local Bus,Local Bus,North Waltham - Central Square, Cambridge,70A,000000
-71,FFC72C,Key Bus,Local Bus,Watertown Square - Harvard,71,000000
-72,FFC72C,Local Bus,Local Bus,Huron Avenue - Harvard,72,000000
-73,FFC72C,Key Bus,Local Bus,Waverley Square - Harvard,73,000000
-74,FFC72C,Local Bus,Local Bus,Belmont Center - Harvard via Concord Avenue,74,000000
-75,FFC72C,Local Bus,Local Bus,Belmont Center - Harvard via Fresh Pond Parkway,75,000000
-76,FFC72C,Local Bus,Local Bus,Lincoln Lab/Hanscom Air Force Base - Alewife,76,000000
-77,FFC72C,Key Bus,Local Bus,Arlington Heights - Harvard,77,000000
-78,FFC72C,Local Bus,Local Bus,Arlmont Village - Harvard,78,000000
-79,FFC72C,Local Bus,Local Bus,Arlington Heights - Alewife,79,000000
-80,FFC72C,Local Bus,Local Bus,Arlington Center - Lechmere,80,000000
-83,FFC72C,Local Bus,Local Bus,Rindge Avenue - Central Square, Cambridge,83,000000
-84,FFC72C,Commuter Bus,Local Bus,Arlmont Village - Alewife,84,000000
-85,FFC72C,Local Bus,Local Bus,Spring Hill - Kendall/MIT,85,000000
-86,FFC72C,Local Bus,Local Bus,Sullivan - Reservoir,86,000000
-87,FFC72C,Local Bus,Local Bus,Clarendon Hill or Arlington Center - Lechmere via Somerville Avenue,87,000000
-88,FFC72C,Local Bus,Local Bus,Clarendon Hill - Lechmere via Highland Avenue,88,000000
-89,FFC72C,Local Bus,Local Bus,Clarendon Hill or Davis - Sullivan,89,000000
-90,FFC72C,Local Bus,Local Bus,Davis - Wellington,90,000000
-91,FFC72C,Local Bus,Local Bus,Sullivan - Central Square, Cambridge,91,000000
-92,FFC72C,Local Bus,Local Bus,Assembly - Downtown Boston,92,000000
-93,FFC72C,Local Bus,Local Bus,Sullivan - Downtown Boston,93,000000
-94,FFC72C,Local Bus,Local Bus,Medford Square - Davis,94,000000
-95,FFC72C,Local Bus,Local Bus,West Medford - Sullivan via Mystic Avenue,95,000000
-96,FFC72C,Local Bus,Local Bus,Medford Square - Harvard,96,000000
-97,FFC72C,Local Bus,Local Bus,Malden Center - Wellington,97,000000
-99,FFC72C,Local Bus,Local Bus,Woodland Road, Stoneham - Wellington,99,000000
-100,FFC72C,Local Bus,Local Bus,Elm Street - Wellington,100,000000
-101,FFC72C,Local Bus,Local Bus,Malden Center - Sullivan via Winter Hill,101,000000
-104,FFC72C,Local Bus,Local Bus,Malden Center - Sullivan via Ferry Street,104,000000
-105,FFC72C,Local Bus,Local Bus,Malden Center - Sullivan via Newland Street Housing,105,000000
-106,FFC72C,Local Bus,Local Bus,Lebanon Street, Malden - Wellington,106,000000
-108,FFC72C,Local Bus,Local Bus,Linden Square - Wellington,108,000000
-109,FFC72C,Local Bus,Local Bus,Linden Square - Sullivan,109,000000
-110,FFC72C,Local Bus,Local Bus,Wonderland - Wellington,110,000000
-111,FFC72C,Key Bus,Local Bus,Everett, Revere, or Chelsea - Haymarket,111,000000
-112,FFC72C,Local Bus,Local Bus,Wellington - Wood Island,112,000000
-114,FFC72C,Community Bus,Local Bus,Chelsea - Maverick,114,000000
-116,FFC72C,Key Bus,Local Bus,Wonderland - Maverick via Revere Street,116,000000
-117,FFC72C,Key Bus,Local Bus,Wonderland - Maverick via Beach Street,117,000000
-119,FFC72C,Local Bus,Local Bus,Northgate Shopping Center - Beachmont,119,000000
-120,FFC72C,Local Bus,Local Bus,Orient Heights - Maverick,120,000000
-121,FFC72C,Commuter Bus,Local Bus,Wood Island - Maverick,121,000000
-131,FFC72C,Commuter Bus,Local Bus,Melrose Highlands - Oak Grove,131,000000
-132,FFC72C,Local Bus,Local Bus,Redstone Shopping Center - Malden Center,132,000000
-134,FFC72C,Local Bus,Local Bus,North Woburn - Wellington,134,000000
-136,FFC72C,Local Bus,Local Bus,Reading Depot - Malden Center via Lowell Street,136,000000
-137,FFC72C,Local Bus,Local Bus,Reading Depot - Malden Center via North Avenue,137,000000
-170,FFC72C,Commuter Bus,Inner Express,Waltham - Dudley,170,000000
-171,FFC72C,Supplemental Bus,Local Bus,Logan Airport - Dudley,171,000000
-195,FFC72C,Supplemental Bus,Local Bus,Shattuck Hospital - Downtown Boston,195,000000
-201,FFC72C,Local Bus,Local Bus,Fields Corner Loop via Neponset Ave,201,000000
-202,FFC72C,Local Bus,Local Bus,Fields Corner Loop via Adams Street,202,000000
-210,FFC72C,Local Bus,Local Bus,Quincy Center - Fields Corner,210,000000
-211,FFC72C,Local Bus,Local Bus,Quincy Center - Squantum,211,000000
-212,FFC72C,Commuter Bus,Local Bus,Quincy Center - North Quincy,212,000000
-214,FFC72C,Local Bus,Local Bus,Germantown - Quincy Center,214,000000
-215,FFC72C,Local Bus,Local Bus,Quincy Center - Ashmont via West Quincy,215,000000
-216,FFC72C,Local Bus,Local Bus,Houghs Neck - Quincy Center,216,000000
-217,FFC72C,Commuter Bus,Local Bus,Quincy Center - Ashmont via Wollaston,217,000000
-220,FFC72C,Local Bus,Local Bus,Hingham Depot - Quincy Center,220,000000
-221,FFC72C,Commuter Bus,Local Bus,Fort Point - Quincy Center,221,000000
-222,FFC72C,Local Bus,Local Bus,East Weymouth - Quincy Center,222,000000
-225,FFC72C,Local Bus,Local Bus,Weymouth Landing or Columbian Square - Quincy Center,225,000000
-230,FFC72C,Local Bus,Local Bus,Montello Commuter Rail Station - Quincy Center,230,000000
-236,FFC72C,Local Bus,Local Bus,South Shore Plaza - Quincy Center,236,000000
-238,FFC72C,Local Bus,Local Bus,Holbrook/Randolph Commuter Rail Station - Quincy Center,238,000000
-240,FFC72C,Local Bus,Local Bus,Avon Square - Ashmont,240,000000
-245,FFC72C,Local Bus,Local Bus,Quincy Center - Mattapan via Quarry Street & Edge Hill Road,245,000000
-325,FFC72C,Commuter Bus,Inner Express,Elm Street - Haymarket,325,000000
-326,FFC72C,Commuter Bus,Inner Express,West Medford - Haymarket,326,000000
-350,FFC72C,Local Bus,Local Bus,North Burlington - Alewife,350,000000
-351,FFC72C,Commuter Bus,Inner Express,Oak Park/Bedford Woods - Alewife,351,000000
-352,FFC72C,Commuter Bus,Outer Express,North Burlington - Downtown Boston,352,000000
-354,FFC72C,Commuter Bus,Outer Express,Burlington - Downtown Boston,354,000000
-411,FFC72C,Local Bus,Local Bus,Jack Satter House, Revere - Malden Center,411,000000
-424,FFC72C,Commuter Bus,Inner Express,Eastern Avenue & Essex Street - Haymarket or Wonderland,424,000000
-426,FFC72C,Local Bus,Inner Express,Central Square, Lynn - Haymarket or Wonderland via Cliftondale Square,426,000000
-428,FFC72C,Commuter Bus,Inner Express,Oaklandvale - Haymarket,428,000000
-429,FFC72C,Local Bus,Local Bus,Northgate Shopping Center - Central Square, Lynn,429,000000
-430,FFC72C,Local Bus,Local Bus,Saugus Center - Malden Center,430,000000
-434,FFC72C,Commuter Bus,Inner Express,Main Street, Peabody - Haymarket via Goodwin Circle,434,000000
-435,FFC72C,Local Bus,Local Bus,Liberty Tree Mall - Central Square, Lynn or Neptune Towers via Peabody Square,435,000000
-436,FFC72C,Local Bus,Local Bus,Liberty Tree Mall - Central Square, Lynn via Goodwin Circle,436,000000
-439,FFC72C,Commuter Bus,Local Bus,Bass Point, Nahant - Central Square, Lynn,439,000000
-441,FFC72C,Local Bus,Local Bus,Marblehead - Wonderland via Paradise Road,441,000000
-442,FFC72C,Local Bus,Local Bus,Marblehead - Wonderland via Humphrey Street,442,000000
-448,FFC72C,Commuter Bus,Inner Express,Marblehead - Downtown Crossing via Paradise Road,448,000000
-449,FFC72C,Commuter Bus,Inner Express,Marblehead - Downtown Crossing via Humphrey Street,449,000000
-450,FFC72C,Local Bus,Inner Express,Salem Depot - Haymarket or Wonderland,450,000000
-451,FFC72C,Commuter Bus,Local Bus,North Beverly - Salem Depot,451,000000
-455,FFC72C,Local Bus,Local Bus,Salem Depot - Wonderland,455,000000
-456,FFC72C,Local Bus,Local Bus,Salem Depot - Central Square, Lynn,456,000000
-459,FFC72C,Commuter Bus,Inner Express,Salem Depot - Downtown Crossing,459,000000
-465,FFC72C,Local Bus,Local Bus,Danvers Square - Salem Depot,465,000000
-501,FFC72C,Commuter Bus,Inner Express,Brighton - Downtown Boston,501,000000
-502,FFC72C,Commuter Bus,Inner Express,Watertown Yard - Copley,502,000000
-503,FFC72C,Commuter Bus,Inner Express,Brighton - Copley,503,000000
-504,FFC72C,Commuter Bus,Inner Express,Watertown Yard - Downtown Boston,504,000000
-505,FFC72C,Commuter Bus,Outer Express,Waltham Center - Downtown Boston,505,000000
-553,FFC72C,Local Bus,Inner Express,Roberts - Downtown Boston,553,000000
-554,FFC72C,Local Bus,Inner Express,Waverley Square - Downtown Boston,554,000000
-556,FFC72C,Commuter Bus,Inner Express,Waltham Highlands - Downtown Boston,556,000000
-558,FFC72C,Commuter Bus,Inner Express,Riverside - Downtown Boston,558,000000
-710,FFC72C,Local Bus,Local Bus,North Medford - Medford Square, Meadow Glen Mall, or Wellington,710,000000
-712,FFC72C,Local Bus,Local Bus,Point Shirley, Winthrop - Orient Heights via Revere Street,712,000000
-713,FFC72C,Local Bus,Local Bus,Point Shirley, Winthrop - Orient Heights via Winthrop Center,713,000000
-714,FFC72C,Local Bus,Local Bus,Pemberton Point, Hull - Hingham,714,000000
-716,FFC72C,Local Bus,Local Bus,Cobbs Corner - Mattapan,716,000000
+"Red","DA291C","Rapid Transit","Rapid Transit","Red Line","","FFFFFF"
+"Mattapan","DA291C","Rapid Transit","Rapid Transit","Mattapan Trolley","","FFFFFF"
+"Orange","ED8B00","Rapid Transit","Rapid Transit","Orange Line","","FFFFFF"
+"Green-B","00843D","Rapid Transit","Rapid Transit","Green Line B","B","FFFFFF"
+"Green-C","00843D","Rapid Transit","Rapid Transit","Green Line C","C","FFFFFF"
+"Green-D","00843D","Rapid Transit","Rapid Transit","Green Line D","D","FFFFFF"
+"Green-E","00843D","Rapid Transit","Rapid Transit","Green Line E","E","FFFFFF"
+"Blue","003DA5","Rapid Transit","Rapid Transit","Blue Line","","FFFFFF"
+"741","7C878E","Key Bus","Rapid Transit","Logan Airport - South Station","SL1","FFFFFF"
+"742","7C878E","Key Bus","Rapid Transit","Design Center - South Station","SL2","FFFFFF"
+"743","7C878E","Key Bus","Rapid Transit","Chelsea - South Station","SL3","FFFFFF"
+"751","7C878E","Key Bus","Local Bus","Dudley - South Station","SL4","FFFFFF"
+"749","7C878E","Key Bus","Local Bus","Dudley - Downtown Crossing","SL5","FFFFFF"
+"CR-Fairmount","80276C","Commuter Rail","Commuter Rail","Fairmount Line","","FFFFFF"
+"CR-Fitchburg","80276C","Commuter Rail","Commuter Rail","Fitchburg Line","","FFFFFF"
+"CR-Worcester","80276C","Commuter Rail","Commuter Rail","Framingham/Worcester Line","","FFFFFF"
+"CR-Franklin","80276C","Commuter Rail","Commuter Rail","Franklin Line","","FFFFFF"
+"CR-Greenbush","80276C","Commuter Rail","Commuter Rail","Greenbush Line","","FFFFFF"
+"CR-Haverhill","80276C","Commuter Rail","Commuter Rail","Haverhill Line","","FFFFFF"
+"CR-Kingston","80276C","Commuter Rail","Commuter Rail","Kingston/Plymouth Line","","FFFFFF"
+"CR-Lowell","80276C","Commuter Rail","Commuter Rail","Lowell Line","","FFFFFF"
+"CR-Middleborough","80276C","Commuter Rail","Commuter Rail","Middleborough/Lakeville Line","","FFFFFF"
+"CR-Needham","80276C","Commuter Rail","Commuter Rail","Needham Line","","FFFFFF"
+"CR-Newburyport","80276C","Commuter Rail","Commuter Rail","Newburyport/Rockport Line","","FFFFFF"
+"CR-Providence","80276C","Commuter Rail","Commuter Rail","Providence/Stoughton Line","","FFFFFF"
+"CR-Foxboro","80276C","Commuter Rail","Commuter Rail","Foxboro Line","","FFFFFF"
+"Boat-F4","008EAA","Ferry","Ferry","Charlestown Ferry","","FFFFFF"
+"Boat-F1","008EAA","Ferry","Ferry","Hingham/Hull Ferry","","FFFFFF"
+"701","FFC72C","Local Bus","Local Bus","Central Square, Cambridge - Boston Medical Center","CT1","000000"
+"747","FFC72C","Local Bus","Local Bus","Sullivan - Ruggles","CT2","000000"
+"708","FFC72C","Local Bus","Local Bus","Beth Israel Deaconess or Boston Medical Center - Andrew","CT3","000000"
+"1","FFC72C","Key Bus","Local Bus","Harvard - Dudley via Massachusetts Avenue","1","000000"
+"4","FFC72C","Commuter Bus","Local Bus","North Station - Tide Street","4","000000"
+"5","FFC72C","Community Bus","Local Bus","City Point - McCormack Housing","5","000000"
+"7","FFC72C","Local Bus","Local Bus","City Point - Downtown Boston","7","000000"
+"8","FFC72C","Local Bus","Local Bus","Harbor Point/UMass - Kenmore","8","000000"
+"9","FFC72C","Local Bus","Local Bus","City Point - Copley via Broadway Station","9","000000"
+"10","FFC72C","Local Bus","Local Bus","City Point - Copley via Boston Medical Center","10","000000"
+"11","FFC72C","Local Bus","Local Bus","City Point - Downtown Boston","11","000000"
+"14","FFC72C","Local Bus","Local Bus","Roslindale Square - Heath Street","14","000000"
+"15","FFC72C","Key Bus","Local Bus","Kane Square - Ruggles","15","000000"
+"16","FFC72C","Local Bus","Local Bus","Forest Hills - Andrew or UMass","16","000000"
+"17","FFC72C","Local Bus","Local Bus","Fields Corner - Andrew via Uphams Corner","17","000000"
+"18","FFC72C","Local Bus","Local Bus","Ashmont - Andrew","18","000000"
+"19","FFC72C","Local Bus","Local Bus","Fields Corner - Kenmore or Ruggles","19","000000"
+"21","FFC72C","Local Bus","Local Bus","Ashmont - Forest Hills","21","000000"
+"22","FFC72C","Key Bus","Local Bus","Ashmont - Ruggles via Jackson Square","22","000000"
+"23","FFC72C","Key Bus","Local Bus","Ashmont - Ruggles via Washington Street","23","000000"
+"24","FFC72C","Local Bus","Local Bus","Wakefield Avenue & Truman Parkway - Mattapan or Ashmont","24","000000"
+"26","FFC72C","Local Bus","Local Bus","Ashmont - Gallivan Boulevard","26","000000"
+"27","FFC72C","Local Bus","Local Bus","Mattapan - Ashmont","27","000000"
+"28","FFC72C","Key Bus","Local Bus","Mattapan - Ruggles","28","000000"
+"29","FFC72C","Local Bus","Local Bus","Mattapan - Jackson Square","29","000000"
+"30","FFC72C","Local Bus","Local Bus","Mattapan - Forest Hills via Roslindale Square","30","000000"
+"31","FFC72C","Local Bus","Local Bus","Mattapan - Forest Hills via Morton Street","31","000000"
+"32","FFC72C","Key Bus","Local Bus","Wolcott Square - Forest Hills","32","000000"
+"33","FFC72C","Local Bus","Local Bus","River Street & Milton Street, Dedham - Mattapan","33","000000"
+"34","FFC72C","Local Bus","Local Bus","Dedham Line - Forest Hills","34","000000"
+"34E","FFC72C","Local Bus","Local Bus","Walpole - Forest Hills","34E","000000"
+"35","FFC72C","Local Bus","Local Bus","Dedham Mall - Forest Hills","35","000000"
+"36","FFC72C","Local Bus","Local Bus","Charles River Loop - Forest Hills","36","000000"
+"37","FFC72C","Local Bus","Local Bus","Baker Street & Vermont Street - Forest Hills","37","000000"
+"38","FFC72C","Local Bus","Local Bus","Wren Street - Forest Hills","38","000000"
+"39","FFC72C","Key Bus","Local Bus","Forest Hills - Back Bay Station","39","000000"
+"40","FFC72C","Local Bus","Local Bus","Georgetowne - Forest Hills","40","000000"
+"41","FFC72C","Local Bus","Local Bus","Centre Street & Eliot Street - JFK/UMass Station","41","000000"
+"42","FFC72C","Local Bus","Local Bus","Forest Hills - Dudley","42","000000"
+"43","FFC72C","Local Bus","Local Bus","Ruggles - Downtown Boston","43","000000"
+"44","FFC72C","Local Bus","Local Bus","Jackson Square - Ruggles","44","000000"
+"45","FFC72C","Local Bus","Local Bus","Franklin Park - Ruggles","45","000000"
+"47","FFC72C","Local Bus","Local Bus","Central Square, Cambridge - Broadway Station","47","000000"
+"50","FFC72C","Local Bus","Local Bus","Cleary Square - Forest Hills","50","000000"
+"51","FFC72C","Local Bus","Local Bus","Reservoir - Forest Hills","51","000000"
+"52","FFC72C","Local Bus","Local Bus","Dedham Mall - Watertown Yard","52","000000"
+"55","FFC72C","Local Bus","Local Bus","Jersey Street & Queensberry Street - Downtown Boston","55","000000"
+"57","FFC72C","Key Bus","Local Bus","Watertown Yard - Kenmore","57","000000"
+"57A","FFC72C","Local Bus","Local Bus","Oak Square - Kenmore","57A","000000"
+"59","FFC72C","Local Bus","Local Bus","Needham Junction - Watertown Square","59","000000"
+"60","FFC72C","Local Bus","Local Bus","Chestnut Hill - Kenmore","60","000000"
+"62","FFC72C","Local Bus","Local Bus","Bedford VA Hospital - Alewife","62","000000"
+"64","FFC72C","Local Bus","Local Bus","Oak Square - University Park or Kendall/MIT","64","000000"
+"65","FFC72C","Local Bus","Local Bus","Brighton - Kenmore","65","000000"
+"66","FFC72C","Key Bus","Local Bus","Harvard - Dudley via Allston","66","000000"
+"67","FFC72C","Local Bus","Local Bus","Turkey Hill - Alewife","67","000000"
+"68","FFC72C","Local Bus","Local Bus","Harvard - Kendall/MIT","68","000000"
+"69","FFC72C","Local Bus","Local Bus","Harvard - Lechmere","69","000000"
+"70","FFC72C","Local Bus","Local Bus","Cedarwood - Central Square, Cambridge","70","000000"
+"70A","FFC72C","Local Bus","Local Bus","North Waltham - Central Square, Cambridge","70A","000000"
+"71","FFC72C","Key Bus","Local Bus","Watertown Square - Harvard","71","000000"
+"72","FFC72C","Local Bus","Local Bus","Huron Avenue - Harvard","72","000000"
+"73","FFC72C","Key Bus","Local Bus","Waverley Square - Harvard","73","000000"
+"74","FFC72C","Local Bus","Local Bus","Belmont Center - Harvard via Concord Avenue","74","000000"
+"75","FFC72C","Local Bus","Local Bus","Belmont Center - Harvard via Fresh Pond Parkway","75","000000"
+"76","FFC72C","Local Bus","Local Bus","Lincoln Lab/Hanscom Air Force Base - Alewife","76","000000"
+"77","FFC72C","Key Bus","Local Bus","Arlington Heights - Harvard","77","000000"
+"78","FFC72C","Local Bus","Local Bus","Arlmont Village - Harvard","78","000000"
+"79","FFC72C","Local Bus","Local Bus","Arlington Heights - Alewife","79","000000"
+"80","FFC72C","Local Bus","Local Bus","Arlington Center - Lechmere","80","000000"
+"83","FFC72C","Local Bus","Local Bus","Rindge Avenue - Central Square, Cambridge","83","000000"
+"84","FFC72C","Commuter Bus","Local Bus","Arlmont Village - Alewife","84","000000"
+"85","FFC72C","Local Bus","Local Bus","Spring Hill - Kendall/MIT","85","000000"
+"86","FFC72C","Local Bus","Local Bus","Sullivan - Reservoir","86","000000"
+"87","FFC72C","Local Bus","Local Bus","Clarendon Hill or Arlington Center - Lechmere via Somerville Avenue","87","000000"
+"88","FFC72C","Local Bus","Local Bus","Clarendon Hill - Lechmere via Highland Avenue","88","000000"
+"89","FFC72C","Local Bus","Local Bus","Clarendon Hill or Davis - Sullivan","89","000000"
+"90","FFC72C","Local Bus","Local Bus","Davis - Wellington","90","000000"
+"91","FFC72C","Local Bus","Local Bus","Sullivan - Central Square, Cambridge","91","000000"
+"92","FFC72C","Local Bus","Local Bus","Assembly - Downtown Boston","92","000000"
+"93","FFC72C","Local Bus","Local Bus","Sullivan - Downtown Boston","93","000000"
+"94","FFC72C","Local Bus","Local Bus","Medford Square - Davis","94","000000"
+"95","FFC72C","Local Bus","Local Bus","West Medford - Sullivan via Mystic Avenue","95","000000"
+"96","FFC72C","Local Bus","Local Bus","Medford Square - Harvard","96","000000"
+"97","FFC72C","Local Bus","Local Bus","Malden Center - Wellington","97","000000"
+"99","FFC72C","Local Bus","Local Bus","Woodland Road, Stoneham - Wellington","99","000000"
+"100","FFC72C","Local Bus","Local Bus","Elm Street - Wellington","100","000000"
+"101","FFC72C","Local Bus","Local Bus","Malden Center - Sullivan via Winter Hill","101","000000"
+"104","FFC72C","Local Bus","Local Bus","Malden Center - Sullivan via Ferry Street","104","000000"
+"105","FFC72C","Local Bus","Local Bus","Malden Center - Sullivan via Newland Street Housing","105","000000"
+"106","FFC72C","Local Bus","Local Bus","Lebanon Street, Malden - Wellington","106","000000"
+"108","FFC72C","Local Bus","Local Bus","Linden Square - Wellington","108","000000"
+"109","FFC72C","Local Bus","Local Bus","Linden Square - Sullivan","109","000000"
+"110","FFC72C","Local Bus","Local Bus","Wonderland - Wellington","110","000000"
+"111","FFC72C","Key Bus","Local Bus","Everett, Revere, or Chelsea - Haymarket","111","000000"
+"112","FFC72C","Local Bus","Local Bus","Wellington - Wood Island","112","000000"
+"114","FFC72C","Community Bus","Local Bus","Chelsea - Maverick","114","000000"
+"116","FFC72C","Key Bus","Local Bus","Wonderland - Maverick via Revere Street","116","000000"
+"117","FFC72C","Key Bus","Local Bus","Wonderland - Maverick via Beach Street","117","000000"
+"119","FFC72C","Local Bus","Local Bus","Northgate Shopping Center - Beachmont","119","000000"
+"120","FFC72C","Local Bus","Local Bus","Orient Heights - Maverick","120","000000"
+"121","FFC72C","Commuter Bus","Local Bus","Wood Island - Maverick","121","000000"
+"131","FFC72C","Commuter Bus","Local Bus","Melrose Highlands - Oak Grove","131","000000"
+"132","FFC72C","Local Bus","Local Bus","Redstone Shopping Center - Malden Center","132","000000"
+"134","FFC72C","Local Bus","Local Bus","North Woburn - Wellington","134","000000"
+"136","FFC72C","Local Bus","Local Bus","Reading Depot - Malden Center via Lowell Street","136","000000"
+"137","FFC72C","Local Bus","Local Bus","Reading Depot - Malden Center via North Avenue","137","000000"
+"170","FFC72C","Commuter Bus","Inner Express","Waltham - Dudley","170","000000"
+"171","FFC72C","Supplemental Bus","Local Bus","Logan Airport - Dudley","171","000000"
+"195","FFC72C","Supplemental Bus","Local Bus","Shattuck Hospital - Downtown Boston","195","000000"
+"201","FFC72C","Local Bus","Local Bus","Fields Corner Loop via Neponset Ave","201","000000"
+"202","FFC72C","Local Bus","Local Bus","Fields Corner Loop via Adams Street","202","000000"
+"210","FFC72C","Local Bus","Local Bus","Quincy Center - Fields Corner","210","000000"
+"211","FFC72C","Local Bus","Local Bus","Quincy Center - Squantum","211","000000"
+"212","FFC72C","Commuter Bus","Local Bus","Quincy Center - North Quincy","212","000000"
+"214","FFC72C","Local Bus","Local Bus","Germantown - Quincy Center","214","000000"
+"215","FFC72C","Local Bus","Local Bus","Quincy Center - Ashmont via West Quincy","215","000000"
+"216","FFC72C","Local Bus","Local Bus","Houghs Neck - Quincy Center","216","000000"
+"217","FFC72C","Commuter Bus","Local Bus","Quincy Center - Ashmont via Wollaston","217","000000"
+"220","FFC72C","Local Bus","Local Bus","Hingham Depot - Quincy Center","220","000000"
+"221","FFC72C","Commuter Bus","Local Bus","Fort Point - Quincy Center","221","000000"
+"222","FFC72C","Local Bus","Local Bus","East Weymouth - Quincy Center","222","000000"
+"225","FFC72C","Local Bus","Local Bus","Weymouth Landing or Columbian Square - Quincy Center","225","000000"
+"230","FFC72C","Local Bus","Local Bus","Montello Commuter Rail Station - Quincy Center","230","000000"
+"236","FFC72C","Local Bus","Local Bus","South Shore Plaza - Quincy Center","236","000000"
+"238","FFC72C","Local Bus","Local Bus","Holbrook/Randolph Commuter Rail Station - Quincy Center","238","000000"
+"240","FFC72C","Local Bus","Local Bus","Avon Square - Ashmont","240","000000"
+"245","FFC72C","Local Bus","Local Bus","Quincy Center - Mattapan via Quarry Street & Edge Hill Road","245","000000"
+"325","FFC72C","Commuter Bus","Inner Express","Elm Street - Haymarket","325","000000"
+"326","FFC72C","Commuter Bus","Inner Express","West Medford - Haymarket","326","000000"
+"350","FFC72C","Local Bus","Local Bus","North Burlington - Alewife","350","000000"
+"351","FFC72C","Commuter Bus","Inner Express","Oak Park/Bedford Woods - Alewife","351","000000"
+"352","FFC72C","Commuter Bus","Outer Express","North Burlington - Downtown Boston","352","000000"
+"354","FFC72C","Commuter Bus","Outer Express","Burlington - Downtown Boston","354","000000"
+"411","FFC72C","Local Bus","Local Bus","Jack Satter House, Revere - Malden Center","411","000000"
+"424","FFC72C","Commuter Bus","Inner Express","Eastern Avenue & Essex Street - Haymarket or Wonderland","424","000000"
+"426","FFC72C","Local Bus","Inner Express","Central Square, Lynn - Haymarket or Wonderland via Cliftondale Square","426","000000"
+"428","FFC72C","Commuter Bus","Inner Express","Oaklandvale - Haymarket","428","000000"
+"429","FFC72C","Local Bus","Local Bus","Northgate Shopping Center - Central Square, Lynn","429","000000"
+"430","FFC72C","Local Bus","Local Bus","Saugus Center - Malden Center","430","000000"
+"434","FFC72C","Commuter Bus","Inner Express","Main Street, Peabody - Haymarket via Goodwin Circle","434","000000"
+"435","FFC72C","Local Bus","Local Bus","Liberty Tree Mall - Central Square, Lynn or Neptune Towers via Peabody Square","435","000000"
+"436","FFC72C","Local Bus","Local Bus","Liberty Tree Mall - Central Square, Lynn via Goodwin Circle","436","000000"
+"439","FFC72C","Commuter Bus","Local Bus","Bass Point, Nahant - Central Square, Lynn","439","000000"
+"441","FFC72C","Local Bus","Local Bus","Marblehead - Wonderland via Paradise Road","441","000000"
+"442","FFC72C","Local Bus","Local Bus","Marblehead - Wonderland via Humphrey Street","442","000000"
+"448","FFC72C","Commuter Bus","Inner Express","Marblehead - Downtown Crossing via Paradise Road","448","000000"
+"449","FFC72C","Commuter Bus","Inner Express","Marblehead - Downtown Crossing via Humphrey Street","449","000000"
+"450","FFC72C","Local Bus","Inner Express","Salem Depot - Haymarket or Wonderland","450","000000"
+"451","FFC72C","Commuter Bus","Local Bus","North Beverly - Salem Depot","451","000000"
+"455","FFC72C","Local Bus","Local Bus","Salem Depot - Wonderland","455","000000"
+"456","FFC72C","Local Bus","Local Bus","Salem Depot - Central Square, Lynn","456","000000"
+"459","FFC72C","Commuter Bus","Inner Express","Salem Depot - Downtown Crossing","459","000000"
+"465","FFC72C","Local Bus","Local Bus","Danvers Square - Salem Depot","465","000000"
+"501","FFC72C","Commuter Bus","Inner Express","Brighton - Downtown Boston","501","000000"
+"502","FFC72C","Commuter Bus","Inner Express","Watertown Yard - Copley","502","000000"
+"503","FFC72C","Commuter Bus","Inner Express","Brighton - Copley","503","000000"
+"504","FFC72C","Commuter Bus","Inner Express","Watertown Yard - Downtown Boston","504","000000"
+"505","FFC72C","Commuter Bus","Outer Express","Waltham Center - Downtown Boston","505","000000"
+"553","FFC72C","Local Bus","Inner Express","Roberts - Downtown Boston","553","000000"
+"554","FFC72C","Local Bus","Inner Express","Waverley Square - Downtown Boston","554","000000"
+"556","FFC72C","Commuter Bus","Inner Express","Waltham Highlands - Downtown Boston","556","000000"
+"558","FFC72C","Commuter Bus","Inner Express","Riverside - Downtown Boston","558","000000"
+"710","FFC72C","Local Bus","Local Bus","North Medford - Medford Square, Meadow Glen Mall, or Wellington","710","000000"
+"712","FFC72C","Local Bus","Local Bus","Point Shirley, Winthrop - Orient Heights via Revere Street","712","000000"
+"713","FFC72C","Local Bus","Local Bus","Point Shirley, Winthrop - Orient Heights via Winthrop Center","713","000000"
+"714","FFC72C","Local Bus","Local Bus","Pemberton Point, Hull - Hingham","714","000000"
+"716","FFC72C","Local Bus","Local Bus","Cobbs Corner - Mattapan","716","000000"

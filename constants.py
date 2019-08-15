@@ -16,7 +16,7 @@ def generate_vehicle_csv():
 
         for vehicle in vehicles['data']:
             fs.write('\n' + ','.join(
-                [vehicle[header] if header in vehicle else vehicle['attributes'][header] for header in headers]))
+                ['"%s"' % vehicle[header] if header in vehicle else '"%s"' % vehicle['attributes'][header] for header in headers]))
 
             current_statuses.append(vehicle['attributes']['current_status'])
             direction_ids.append(str(vehicle['attributes']['direction_id']))
@@ -28,12 +28,12 @@ def generate_vehicle_csv():
     with open('vehicles-current_statuses.csv', 'a') as fs:
         fs.write('current_statuses')
         for current_status in current_statuses:
-            fs.write('\n' + current_status)
+            fs.write('\n' + '"%s"' % current_status)
 
     with open('vehicles-direction_ids.csv', 'a') as fs:
         fs.write('direction_ids')
         for direction_id in direction_ids:
-            fs.write('\n' + direction_id)
+            fs.write('\n' + '"%s"' % direction_id)
 
 
 def generate_routes_csv():
@@ -48,7 +48,7 @@ def generate_routes_csv():
 
         for route in routes['data']:
             fs.write('\n' + ','.join(
-                [route[header] if header in route else route['attributes'][header] for header in headers]))
+                ['"%s"' % route[header] if header in route else '"%s"' % route['attributes'][header] for header in headers]))
 
             for direction_destination in route['attributes']['direction_destinations']:
                 direction_destinations.append(direction_destination)
@@ -63,12 +63,12 @@ def generate_routes_csv():
     with open('routes-direction_destinations.csv', 'a') as fs:
         fs.write('direction_destinations')
         for direction_destination in direction_destinations:
-            fs.write('\n' + direction_destination)
+            fs.write('\n' + '"%s"' % direction_destination)
 
     with open('routes-direction_names.csv', 'a') as fs:
         fs.write('direction_names')
         for direction_name in direction_names:
-            fs.write('\n' + direction_name)
+            fs.write('\n' + '"%s"' % direction_name)
 
 
 def generate_stops_csv():
@@ -82,7 +82,7 @@ def generate_stops_csv():
         for stop in stops['data']:
             fs.write('\n')
             line = [stop[header] if header in stop else stop['attributes'][header] for header in headers]
-            line = [str(l) if l is not None else '' for l in line]
+            line = ['"%s"' % str(l) if l is not None else '' for l in line]
             fs.write(','.join(line))
 
 
@@ -96,7 +96,7 @@ def generate_lines_csv():
 
         for line in lines['data']:
             fs.write('\n' + ','.join(
-                [line[header] if header in line else line['attributes'][header] for header in headers]))
+                ['"%s"' % line[header] if header in line else '"%s"' % line['attributes'][header] for header in headers]))
 
 
 if __name__ == '__main__':
