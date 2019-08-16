@@ -3,8 +3,7 @@ REM DROP TABLES
 REM
 
 DROP TABLE VEHICLES_DATA;
-DROP TABLE VEHICLES;
--- DROP TABLE VEHICLES_HISTORY;
+DROP TABLE VEHICLES_DATA_HISTORY;
 DROP TABLE STATUSES;
 DROP TABLE DESTINATIONS_ROUTES_BRIDGE;
 DROP TABLE DIRECTION_NAMES_ROUTES_BRIDGE;
@@ -20,12 +19,6 @@ DROP TABLE MUNICIPALITIES;
 REM
 REM CREATE TABLES
 REM
-
-CREATE TABLE VEHICLES(
-	vehicle_id VARCHAR2(32) NOT NULL,
-	label VARCHAR2(32) UNIQUE,
-	CONSTRAINT vehicles_pk PRIMARY KEY (vehicle_id)
-);
 
 CREATE TABLE STATUSES(
 	status_id NUMBER GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1) NOT NULL,
@@ -115,7 +108,6 @@ CREATE TABLE ROUTES(
 	CONSTRAINT routes_text_color_fk FOREIGN KEY (text_color) REFERENCES colors(color_id)
 );
 
-DROP TABLE VEHICLES_DATA;
 CREATE TABLE VEHICLES_DATA(
 	vehicle_data_id NUMBER GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1) NOT NULL,
     vehicle_id VARCHAR(128) NOT NULL,
@@ -134,6 +126,27 @@ CREATE TABLE VEHICLES_DATA(
 	CONSTRAINT vehicles_data_direction_id_fk FOREIGN KEY (direction_id) REFERENCES directions(direction_id),
 	CONSTRAINT vehicles_data_route_id_fk FOREIGN KEY (route_id) REFERENCES routes(route_id),
 	CONSTRAINT vehicles_data_current_status_fk FOREIGN KEY (current_status) REFERENCES statuses(status_id)
+);
+
+CREATE TABLE VEHICLES_DATA_HISTORY(
+	vehicle_data_history_id NUMBER GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1) NOT NULL,
+    vehicle_id VARCHAR(128) NOT NULL,
+    vehicle_data_id NUMBER UNIQUE,
+	bearing	NUMBER,
+	current_stop_sequence NUMBER,
+	latitude FLOAT(63)	NOT NULL,
+	longitude FLOAT(63)	NOT NULL,
+	speed FLOAT(63),
+	updated_at TIMESTAMP NOT NULL,
+	direction_id NUMBER,
+	route_id VARCHAR(32),
+	label VARCHAR(128),
+	current_status NUMBER,
+	stop_id VARCHAR(128),
+	CONSTRAINT vehicles_data_history_pk PRIMARY KEY (vehicle_data_history_id),
+	CONSTRAINT vehicles_data_history_direction_id_fk FOREIGN KEY (direction_id) REFERENCES directions(direction_id),
+	CONSTRAINT vehicles_data_history_route_id_fk FOREIGN KEY (route_id) REFERENCES routes(route_id),
+	CONSTRAINT vehicles_data_history_current_status_fk FOREIGN KEY (current_status) REFERENCES statuses(status_id)
 );
 
 CREATE TABLE DESTINATIONS_ROUTES_BRIDGE(

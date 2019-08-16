@@ -331,21 +331,27 @@ def load_vehicles_data():
     next(reader)  # Skip header
 
     for l in reader:
-        sql = "SELECT vehicle_id, updated_at FROM vehicles_data WHERE vehicle_id='%s' and updated_at='%s'" % (
-            l[0], l[8])
+        utc_delta = datetime.datetime.utcnow() - datetime.datetime.now()
+        updated_at = parser.parse(l[8]) + utc_delta
+        updated_at = updated_at.strftime('%Y-%m-%d %H:%M:%S')
+
+        sql = "SELECT vehicle_id, updated_at FROM vehicles_data WHERE vehicle_id='%s' and updated_at=TO_DATE('%s','yyyy-mm-DD HH:MI:SS')" % (
+            l[0], updated_at)
         c.execute(sql)
         exists = c.fetchone()
 
         if not exists:
-            print('--')
-            print(l)
             sql = "SELECT direction_id FROM directions WHERE direction='%s'" % (l[4])
             c.execute(sql)
             direction_id = c.fetchone()[0]
 
-            sql = "SELECT route_id FROM routes WHERE route_id='%s'" % (l[10])
-            c.execute(sql)
-            route_id = c.fetchone()[0]
+            try:
+                sql = "SELECT route_id FROM routes WHERE route_id='%s'" % (l[10])
+                c.execute(sql)
+                route_id = c.fetchone()[0]
+            except TypeError:
+                print 'ROUTE_ID "%s" does not exist in ROUTES table - ignoring' % l[10]
+                continue
 
             sql = "SELECT stop_id FROM stops WHERE stop_id='%s'" % (l[11])
             c.execute(sql)
@@ -363,42 +369,36 @@ def load_vehicles_data():
             if current_stop_sequence == 'None' or not current_stop_sequence:
                 current_stop_sequence = ''
 
-            utc_delta = datetime.datetime.utcnow() - datetime.datetime.now()
-            updated_at = parser.parse(l[8]) + utc_delta
-            updated_at = updated_at.strftime('%Y-%m-%d %H:%M:%S')
+            bearing = l[2]
+            if bearing == 'None' or not bearing:
+                bearing = ''
 
             if not stop_id:
                 sql = "INSERT INTO vehicles_data (vehicle_id, label, bearing, current_stop_sequence, longitude, latitude, speed, updated_at, direction_id, route_id, current_status) " \
                       "VALUES ('%s','%s','%s','%s','%s','%s','%s',TO_DATE('%s','yyyy-mm-DD HH:MI:SS'),'%s','%s','%s')" % (
-                          l[0], l[1], l[2], current_stop_sequence, l[5], l[6], speed, updated_at, direction_id, route_id, status_id)
-                print(sql)
+                          l[0], l[1], bearing, current_stop_sequence, l[5], l[6], speed, updated_at, direction_id,
+                          route_id, status_id)
                 c.execute(sql)
             else:
                 sql = "INSERT INTO vehicles_data (vehicle_id, label, bearing, current_stop_sequence, longitude, latitude, speed, updated_at, direction_id, route_id, current_status, stop_id) " \
                       "VALUES ('%s','%s','%s','%s','%s','%s','%s', TO_DATE('%s','yyyy-mm-DD HH:MI:SS'),'%s','%s','%s','%s')" % (
-                          l[0], l[1], l[2], current_stop_sequence, l[5], l[6], speed, updated_at, direction_id, route_id, status_id, stop_id[0])
-                print(sql)
+                          l[0], l[1], bearing, current_stop_sequence, l[5], l[6], speed, updated_at, direction_id,
+                          route_id, status_id, stop_id[0])
                 c.execute(sql)
+        conn.commit()
 
 
 if __name__ == '__main__':
-    # load_directions_ids()
-    # load_destinations()
-    # load_colors()
-    # load_lines()
-    # load_routes_direction_names()
-    # load_routes()
-
-    # load_direction_names_routes_bridge()
-    # load_destinations_routes_bridge()
-    # load_municipalities()
-    # load_streets()
-    # load_stops()
-    # load_statuses()
-
+    load_directions_ids()
+    load_destinations()
+    load_colors()
+    load_lines()
+    load_routes_direction_names()
+    load_routes()
+    load_direction_names_routes_bridge()
+    load_destinations_routes_bridge()
+    load_municipalities()
+    load_streets()
+    load_stops()
+    load_statuses()
     load_vehicles_data()
-
-    c.execute('select * from colors')
-    for row in c:
-        print(row)
-    conn.close()
