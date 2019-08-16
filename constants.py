@@ -1,23 +1,39 @@
 # Fetch ids and store as csv files
 
 import requests as r
+import os
 from mbta import *
 
 
 def generate_vehicle_csv():
-    headers = ['id', 'label']
+    headers = ['id', 'label', 'bearing', 'current_stop_sequence', 'direction_id', 'longitude', 'latitude', 'speed',
+               'updated_at', 'current_status']
+    rels = ['route_id', 'stop_id']
     direction_ids = []
     current_statuses = []
 
     vehicles = r.get(vehicles_url).json()
 
     with open('vehicles.csv', 'a') as fs:
-        fs.write(','.join(headers))
+        fs.write(','.join(headers + rels))
 
         for vehicle in vehicles['data']:
             fs.write('\n' + ','.join(
                 ['"%s"' % vehicle[header] if header in vehicle else '"%s"' % vehicle['attributes'][header] for header in
                  headers]))
+
+            try:
+                route_id = vehicle['relationships']['route']['data']['id']
+            except Exception:
+                route_id = ''
+
+            try:
+                stop_id = vehicle['relationships']['stop']['data']['id']
+            except Exception:
+                stop_id = ''
+
+            fs.write(',"%s"' % route_id)
+            fs.write(',"%s"' % stop_id)
 
             current_statuses.append(vehicle['attributes']['current_status'])
             direction_ids.append(str(vehicle['attributes']['direction_id']))
@@ -112,6 +128,10 @@ def generate_lines_csv():
 
 
 if __name__ == '__main__':
+    for item in os.listdir('.'):
+        if item.endswith(".csv"):
+            os.remove(os.path.join('.', item))
+
     generate_routes_csv()
     generate_lines_csv()
     generate_stops_csv()

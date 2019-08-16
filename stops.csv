@@ -1,4 +1,6 @@
 id,address,at_street,description,latitude,longitude,municipality,name,on_street
+"node-428-lobby",,,"Maverick - Bottom of escalator from lobby to Lewis Mall",,,"Boston","Maverick",
+"4373",,"Westvale Road",,"42.254584","-71.049864","Milton","Edge Hill Rd opp Westvale Rd","Edgehill Road"
 "17354",,,,"42.489729","-70.968996","Lynn","Lynnfield St @ St Marys Cemetery","Lynnfield Street"
 "1339",,"Saint Richard Street",,"42.323534","-71.084009","Boston","Walnut Ave @ St Richard St","Walnut Avenue"
 "82851",,"Page Road",,"42.353395","-71.208103","Newton","Walnut St @ Page Rd","Walnut Street"
@@ -33,6 +35,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "608",,"West Roxbury Parkway",,"42.275418","-71.140573","Boston","Washington St @ W Roxbury Pkwy","Washington Street"
 "5300",,"Dexter Street",,"42.398961","-71.102197","Medford","Main St @ Dexter St","Main Street"
 "8467",,"Hancock Street",,"42.49331","-71.278346","Bedford","Springs Rd @ Hancock St","Springs Road"
+"9070130",,,"Harvard Avenue - Green Line Eastbound Shuttle","42.350191","-71.131085","Boston","Harvard Avenue",
 "2797",,"Hilburn Street",,"42.277378","-71.127103","Boston","Metropolitan Ave @ Hilburn St","Metropolitan Avenue"
 "5644",,"Francis Street",,"42.402773","-71.043325","Everett","Chelsea St opp Frances St","Chelsea Street"
 "node-427-platform",,,"Fields Corner - Top of escalator to Alewife platform",,,"Boston","Fields Corner",
@@ -53,7 +56,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "3708",,,,"42.242995","-70.948461","Weymouth","Sea St @ Bridge St","Sea Street"
 "3116",,"Elliot Avenue",,"42.266943","-71.03587","Quincy","Harvard St @ Elliot Ave","Harvard Street"
 "place-cedgr","Fellsway St and Milton St, Dorchester, MA 02124",,,"42.279682","-71.060432","Boston","Cedar Grove",
-"49739",,,,"42.487309","-71.199543","Burlington","S Bedford St opp Kimball Ave","South Bedford Street"
+"49739",,"Kimball Avenue",,"42.486346","-71.197685","Burlington","S Bedford St opp Kimball Ave","South Bedford Street"
 "4089",,"Purgatory Road",,"42.22958","-71.030926","Quincy","Willard St @ Thistle Rd","Willard Street"
 "84881",,"Nahanton Street",,"42.298933","-71.201934","Newton","677 Winchester St","Winchester Street"
 "1168",,"Townsend Street",,"42.319958","-71.094067","Boston","Washington St @ Townsend St","Washington Street"
@@ -75,7 +78,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "2050",,"Parker Street",,"42.367937","-71.178736","Watertown","Mt Auburn St @ Parker St","Mount Auburn Street"
 "2286",,"Highland Avenue",,"42.417833","-71.164714","Arlington","905 Massachusetts Ave","Massachusetts Avenue"
 "24610",,"Yerxa Road",,"42.39295","-71.128818","Cambridge","Rindge Ave @ Hollis St","Rindge Avenue"
-"78632",,"Waverley Oaks Road",,"42.383073","-71.208507","Waltham","opp. 135 Beaver St.","Beaver Street"
+"78632",,"Waverley Oaks Road",,"42.383073","-71.208507","Waltham","opp 135 Beaver St","Beaver Street"
 "954",,"University Road",,"42.350453","-71.108831","Boston","Commonwealth Ave @ University Rd","Commonwealth Avenue"
 "9161",,,,"42.4098","-71.085081","Medford","Riverside Ave @ Fellsway","Riverside Avenue"
 "2405",,,,"42.401721","-71.116808","Somerville","College Ave @ Warner St","College Avenue"
@@ -121,7 +124,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "1406",,"Norfolk Street",,"42.373088","-71.096361","Cambridge","Cambridge St @ Norfolk St","Cambridge Street"
 "3673",,"Academy Avenue",,"42.222384","-70.939056","Weymouth","Middle St @ Academy Ave","Middle Street"
 "6637",,"Summer Street",,"42.424888","-70.916003","Nahant","Nahant Rd @ Summer St","Nahant Road"
-"8595",,"Marrett Road",,"42.43613","-71.212359","Lexington","Massachusetts Ave @ Marrett Rd","Massachusetts Avenue"
+"8595",,"Marrett Road",,"42.436391","-71.212514","Lexington","Massachusetts Ave opp Marrett Rd","Massachusetts Avenue"
 "14836",,"Green Street",,"42.506258","-70.851977","Marblehead","Elm St @ Mugford St","Elm Street"
 "1850",,"Ravenna Road",,"42.293107","-71.143325","Boston","Weld St @ Ravenna Rd","Weld Street"
 "3199",,"Alleyne Street",,"42.255884","-71.008922","Quincy","Adams St opp Alleyne St","Adams Street"
@@ -149,8 +152,6 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "4574",,"Technology Drive",,"42.521622","-70.966488","Peabody","5 Centennial Dr","Centennial Drive"
 "7961",,"Heard Road",,"42.43183","-71.17617","Arlington","Forest St @ Heard Rd","Forest Street"
 "3210",,"Beach Street",,"42.276116","-71.013813","Quincy","Billings Rd @ Beach St","Billings Road"
-"node-428-lobby",,,"Maverick - Bottom of escalator from lobby to Lewis Mall",,,"Boston","Maverick",
-"4373",,"Westvale Road",,"42.254584","-71.049864","Milton","Edge Hill Rd opp Westvale Rd","Edgehill Road"
 "5725",,"Crescent Avenue",,"42.395377","-71.029581","Chelsea","Broadway @ Crescent Ave","Broadway"
 "78988",,"Westview Street",,"42.475275","-71.253381","Lexington","Hartwell Ave opp Westview St","Hartwell Avenue"
 "74624","Silver Line Way and Starboard Way, Boston, MA 02210",,"Silver Line Way after Manulife Building - Silver Line - Airport/Design Center/Chelsea","42.347056","-71.038814","Boston","Silver Line Way after Manulife Building","Silver Line Way"
@@ -169,6 +170,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-tumnl-trenbstairs-lobby",,,"Tufts Medical Center - Top of stairs for Oak Grove, Tremont Street",,,"Boston","Tufts Medical Center",
 "4440",,"Center Street",,"42.217611","-70.938869","Weymouth","Broad St @ Center St","Broad Street"
 "4523",,"Walden Street",,"42.460699","-70.967777","Lynn","Western Ave @ Walden St","Western Avenue"
+"1160",,"Moraine Street",,"42.319618","-71.111729","Boston","S Huntington Ave @ Moraine St","South Huntington Avenue"
 "1578",,"Winthrop Street",,"42.323491","-71.076306","Boston","Blue Hill Ave @ Winthrop St","Blue Hill Avenue"
 "5733",,"Eutaw Street",,"42.378716","-71.039287","Boston","Meridian St @ Eutaw St","Meridian Street"
 "3984",,"Emery Street",,"42.125597","-71.011692","Holbrook","S Franklin St @ Upland St","South Franklin Street"
@@ -225,7 +227,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "5251",,"Hewlett Street",,"42.292235","-71.138693","Boston","1467 Centre St opp Hewlett St","Centre Street"
 "19573",,"Frances Street",,"42.449291","-71.07053","Melrose","Pleasant St opp Frances St","Pleasant Street"
 "5297",,"Marion Street",,"42.403599","-71.107303","Medford","Main St @ Marion St","Main Street"
-"South Acton",,,"South Acton - Commuter Rail","42.460574","-71.457804","Acton","South Acton",
+"South Acton",,,"South Acton - Commuter Rail","42.460375","-71.457744","Acton","South Acton",
 "7617",,"James Street",,"42.357175","-71.238613","Newton","River St @ James St","River Street"
 "3622",,"Evans Street",,"42.24261","-70.959234","Weymouth","Bridge St opp Evans St","Bridge Street"
 "door-asmnl-rdexits",,,"Ashmont - Buses","42.284449","-71.063865","Boston","Ashmont - Buses",
@@ -297,7 +299,6 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-436-platform",,,"Arlington - Bottom of westbound escalator",,,"Boston","Arlington",
 "36844",,,,"42.215201","-70.921603","Weymouth","High St @ Commercial St","High Street"
 "80619",,"Waldo Way",,"42.222342","-71.18739","Westwood","Washington St @ Waldo Way","Washington Street"
-"1160",,"Moraine Street",,"42.319618","-71.111729","Boston","S Huntington Ave @ Moraine St","South Huntington Avenue"
 "70265",,,"Butler - Mattapan Trolley - Mattapan","42.272343","-71.062585","Boston","Butler",
 "5045",,,,"42.39621","-71.041468","Chelsea","Market Basket",
 "4770",,,,"42.480571","-70.903739","Swampscott","383 Paradise Rd","Paradise Road"
@@ -306,6 +307,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "3235",,"Greene Street",,"42.267835","-71.014098","Quincy","Elm Ave opp Greene St","Elm Avenue"
 "262",,"H Street",,"42.331302","-71.041552","Boston","E 8th St @ H St","East Eighth Street"
 "115",,"Court House Way",,"42.353418","-71.046815","Boston","Northern Ave @ Federal Courthouse","Northern Avenue"
+"109914",,"Tafts Avenue",,"42.36011","-70.971369","Winthrop","Shirley St @ Tafts Ave","Shirley Street"
 "4189",,"Warren Street",,"42.165748","-71.043483","Randolph","N Main St @ Warren St","North Main Street"
 "4604",,"Liberty Hill Avenue",,"42.529897","-70.906375","Salem","North St @ Liberty Hill Ave","North Street"
 "49902",,"Cedar Street",,"42.49486","-71.124292","Woburn","295 Washington St","Washington Street"
@@ -346,7 +348,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "9211",,"Leonard Street",,"42.434984","-71.067819","Malden","Main St @ Winter St","Main Street"
 "36841",,"Cedar Street",,"42.214864","-70.920606","Weymouth","High St @ Cedar St","High Street"
 "4285",,"Liberty Street",,"42.174703","-71.048328","Randolph","N Main St @ Liberty St","North Main Street"
-"13403",,,,"42.248427","-71.020566","Quincy","Opp. 254 Quarry St","Quarry Street"
+"13403",,,,"42.248427","-71.020566","Quincy","Opp 254 Quarry St","Quarry Street"
 "2623",,"Cedar Street",,"42.387873","-71.1153","Somerville","Elm St @ Cedar St","Elm Street"
 "4526",,,,"42.409969","-71.001815","Revere","American Legion Hwy @ Bell Circle","American Legion Highway"
 "2079",,"Huron Avenue",,"42.378329","-71.14705","Cambridge","Aberdeen Ave @ Huron Ave","Aberdeen Avenue"
@@ -403,6 +405,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "6134",,,,"42.475718","-70.926554","Lynn","13 Essex St","Essex Street"
 "node-810-platform",,,"Quincy Center - Bottom of Elevator 810",,,"Quincy","Quincy Center",
 "9095",,"Argyle Street",,"42.454163","-71.05506","Melrose","Grove St opp Argyle St","Grove Street"
+"1001",,,,"42.307661","-71.169522","Brookline","Newton St @ Arlington Rd","Newton Street"
 "5881",,"Busway",,"42.387061","-71.00575","Boston","Bennington St @ Antrim St","Bennington Street"
 "8479",,"Van Roosen Road",,"42.290073","-71.189827","Newton","Sawmill Brook Pkwy @ Van Roosen Rd","Sawmill Brook Parkway"
 "node-947-lobby",,,"Savin Hill - Top of elevator between Sydney Street and lobby",,,"Boston","Savin Hill",
@@ -421,7 +424,6 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "6284",,"Springdale Street",,"42.434374","-71.030502","Malden","Beach St @ Clapp St","Beach Street"
 "5628",,"Garfield Avenue",,"42.405285","-71.029993","Chelsea","Sagamore Ave @ Garfield Ave","Sagamore Avenue"
 "2897",,"Moreland Street",,"42.399733","-71.095532","Somerville","Mystic Ave @ Moreland St","Mystic Avenue"
-"109914",,"Tafts Avenue",,"42.36011","-70.971369","Winthrop","Shirley St @ Tafts Ave","Shirley Street"
 "26495",,"Ashmore Road",,"42.293049","-71.117796","Boston","265 Hyde Park Ave opp Eldridge Rd","Hyde Park Avenue"
 "3345",,"California Avenue",,"42.245524","-71.031757","Quincy","Willard St @ Copeland St","Willard Street"
 "7523",,"Davis Court",,"42.458528","-71.019272","Saugus","Vine St @ Beech St","Vine Street"
@@ -467,6 +469,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "3036",,"Greenleaf Street",,"42.255009","-71.006352","Quincy","Hancock St opp Greenleaf St","Hancock Street"
 "9070224",,,"Summit Avenue - Green Line Eastbound Shuttle","42.340622","-71.126198","Brookline","Summit Avenue",
 "5650",,"Ramp - Arlington St To Rt 1 Southbound",,"42.394716","-71.036276","Chelsea","Arlington St @ Fifth St","Arlington Street"
+"21599",,"Thompson Place",,"42.35257","-71.047578","Boston","Seaport Blvd @ Sleeper St","Seaport Boulevard"
 "82",,"Huntington Avenue",,"42.342478","-71.084701","Boston","Massachusetts Ave @ Huntington Ave","Massachusetts Avenue"
 "7646",,"Walker Street",,"42.350931","-71.212832","Newton","Washington St @ Walker St","Washington Street"
 "7212",,"Chase Road",,"42.484102","-70.947152","Lynn","Euclid Ave opp Chase Rd","Euclid Avenue"
@@ -519,6 +522,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-931-platform",,,"Airport - Bottom of Elevator 931",,,"Boston","Airport",
 "7181",,"Balch Street",,"42.562489","-70.88403","Beverly","Cabot St opp Balch St","Cabot Street"
 "4905",,"Shelton Road",,"42.468813","-70.898517","Swampscott","Humphrey St opp Shelton Rd","Humphrey Street"
+"9070129",,,"Griggs Street - Green Line Westbound Shuttle","42.348901","-71.134118","Boston","Griggs Street",
 "2754",,,,"42.38255","-71.090245","Somerville","Cross St @ Chester Ave","Cross Street"
 "16434",,"American Legion Highway",,"42.278578","-71.11613","Boston","Cummins Hwy @ American Legion Hwy","Cummins Highway"
 "1814",,"Tudor Street",,"42.36077","-71.104325","Cambridge","Brookline St @ Tudor St","Brookline Street"
@@ -565,14 +569,14 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "41111",,,,"42.319029","-71.045472","Boston","250 Mt Vernon St @ Geiger Gibson Health Center","Mount Vernon Street"
 "Melrose Highlands",,,"Melrose Highlands - Commuter Rail","42.469464","-71.068297","Melrose","Melrose Highlands",
 "3174",,"Evans Street",,"42.268582","-71.037395","Quincy","W Squantum St @ Evans St","West Squantum Street"
-"6822",,"Huss Court",,"42.462719","-70.960195","Lynn","S Common St @ Huss Ct","South Common Street"
+"6822",,,,"42.462644","-70.961091","Lynn","S Common St @ Caggiano Plaza","South Common Street"
 "11972",,"Life Street",,"42.357109","-71.145623","Boston","Guest St @ Life St","Guest Street"
 "6131",,"Boulder Way",,"42.479565","-70.91647","Swampscott","262 Essex St","Essex Street"
 "3712",,"Commercial Street",,"42.22076","-70.969189","Braintree","Quincy Ave @ Commercial St","Quincy Avenue"
 "2714",,"Alford A Lombardi Way",,"42.386049","-71.078666","Somerville","Broadway @ Mt Vernon St","Broadway"
 "4825",,"Ocean Avenue",,"42.474775","-70.89366","Swampscott","Humphrey St @ Ocean Ave","Humphrey Street"
 "node-fldcr-ashstair-lobby",,,"Fields Corner - Bottom of stairs for Ashmont platform",,,"Boston","Fields Corner",
-"West Medford",,,"West Medford - Commuter Rail","42.421184","-71.132468","Medford","West Medford",
+"West Medford",,,"West Medford - Commuter Rail","42.421776","-71.133342","Medford","West Medford",
 "54618",,"Lenox Street",,"42.182031","-71.203276","Norwood","Washington St @ Lenox St","Washington Street"
 "3718",,"Cotton Avenue",,"42.229223","-70.970924","Braintree","Quincy Ave opp Cotton Ave","Quincy Avenue"
 "place-bcnwa","Beacon St and Washington St, Brookline, MA",,,"42.339394","-71.13533","Brookline","Washington Square",
@@ -583,6 +587,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "6431",,"Sherwood Street",,"42.282976","-71.124104","Boston","93 Cummins Hwy opp Sherwood St","Cummins Highway"
 "8864",,,,"42.496928","-71.156036","Woburn","Main St @ Middlesex Canal Pk","Main Street"
 "13407",,"Access Road",,"42.246089","-71.006084","Quincy","125 Granite St","Granite Street"
+"door-prmnl-huntington",,,"Prudential - Huntington Ave","42.345791","-71.081609","Boston","Prudential - Huntington Ave",
 "42819",,"Wolcott Square",,"42.237363","-71.132128","Boston","Hyde Park Ave @ Wolcott Square","Hyde Park Avenue"
 "2924",,"Seaver Street",,"42.304183","-71.082124","Boston","Columbia Rd @ Seaver St","Columbia Road"
 "70204",,,"Haymarket - Green Line - Copley & West","42.363021","-71.05829","Boston","Haymarket",
@@ -596,7 +601,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "16177",,"Leavitt Street",,"42.514458","-70.892459","Salem","Lafayette @ Leavitt St","Lafayette Street"
 "node-wondl-fareunpaid",,,"Wonderland - Unpaid side of fare gates",,,"Revere","Wonderland",
 "place-clmnl","Beacon St and Chestnut Hill Ave, Brighton, MA",,,"42.336142","-71.149326","Boston","Cleveland Circle",
-"18251",,,,"42.487232","-71.199617","Burlington","S Bedford St @ Kimball Ave","South Bedford Street"
+"18251",,"Kimball Avenue",,"42.486394","-71.198056","Burlington","S Bedford St @ Kimball Ave","South Bedford Street"
 "49908",,"Dale Street",,"42.486636","-71.128757","Woburn","Pine St @ Dale St","Pine Street"
 "3375",,"Hutchinson Street",,"42.280149","-71.064874","Boston","Gallivan Blvd @ Hutchinson St","Gallivan Boulevard"
 "6128",,"Ryan Place",,"42.483039","-70.911405","Swampscott","Essex St opp Ryan Pl","Essex Street"
@@ -667,7 +672,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "8955",,"River Street",,"42.246401","-71.136357","Boston","Turtle Pond Pkwy @ River St","Turtle Pond Parkway"
 "Newburyport",,,"Newburyport - Commuter Rail","42.797837","-70.87797","Newburyport","Newburyport",
 "node-cntsq-861-platform",,,"Central - Bottom of Elevator 861 for Massachusetts Ave",,,"Cambridge","Central",
-"6767",,"Western Avenue",,"42.469635","-70.956778","Lynn","Washington St @ Western Ave","Washington Street"
+"6767",,"Western Avenue",,"42.469833","-70.957108","Lynn","Washington St @ Western Ave","Washington Street"
 "55011",,,,"42.391021","-71.070228","Boston","Alford St @ MWRA Pump Station","Alford Street"
 "node-427-lobby",,,"Fields Corner - Bottom to escalator to Alewife platform",,,"Boston","Fields Corner",
 "5245",,"Allandale Street",,"42.300839","-71.127376","Boston","Centre St @ Faulkner Hospital","Centre Street"
@@ -681,7 +686,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-702-lobby",,,"Wonderland - Lobby level of garage elevator",,,"Revere","Wonderland",
 "89610",,,,"42.39705","-71.257227","Waltham","Totten Pond Rd @ Third Ave","Totten Pond Road"
 "node-wimnl-ibunpaidstairs-street",,,"Wood Island - Bottom of stairs for all trains, buses, Bennington Street",,,"Boston","Wood Island",
-"2726",,"Langmaid Avenue",,"42.393129","-71.094182","Somerville","Broadway @ Langmaid Ave","Broadway"
+"2726",,"Winter Hill Circle",,"42.393489","-71.094823","Somerville","Broadway @ Winter Hill Plaza","Broadway"
 "6168",,"Jefferson Avenue",,"42.499932","-70.895754","Salem","Loring Ave opp Jefferson Ave","Loring Avenue"
 "3812",,"Franklin Street",,"42.215025","-70.967982","Weymouth","Front St @ Sterling St","Front Street"
 "1688",,,,"42.481169","-71.186437","Burlington","Cambridge St @ Ray Ave","Cambridge Street"
@@ -735,7 +740,6 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "15241",,"Louders Lane",,"42.305857","-71.124464","Boston","Centre St @ Louders Ln","Centre Street"
 "14056",,"Plain Street",,"42.164869","-71.039538","Randolph","88 North St","North Street"
 "5350",,"Coolidge Street",,"42.419133","-71.053036","Everett","Ferry St @ Bennett St","Ferry Street"
-"door-prmnl-huntington",,,"Prudential - Huntington Ave","42.345791","-71.081609","Boston","Prudential - Huntington Ave",
 "27618",,"Guild Street",,"42.191284","-71.202528","Norwood","Washington St @ Guild St","Washington Street"
 "node-bbsta-olestairs-lobby",,,"Back Bay - Top of Orange Line platform west stairs",,,"Boston","Back Bay",
 "3813",,"Front Street",,"42.214137","-70.96755","Weymouth","Summer St @ Walnut Ave","Summer Street"
@@ -745,12 +749,13 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "1418",,"Fifth Street",,"42.371497","-71.083319","Cambridge","Cambridge St @ Fifth St","Cambridge Street"
 "1695",,"Bedford Street",,"42.504893","-71.195784","Burlington","Cambridge St @ Bedford St","Cambridge Street"
 "1087",,"Atwood Road",,"42.343049","-71.153613","Boston","Chestnut Hill Ave @ Wiltshire Rd","Chestnut Hill Avenue"
-"Blue Hill Avenue",,,"Blue Hill Avenue - Commuter Rail","42.271412","-71.096419","Boston","Blue Hill Avenue",
+"Blue Hill Avenue",,,"Blue Hill Avenue - Commuter Rail","42.271466","-71.095782","Boston","Blue Hill Avenue",
 "1130",,"Grovenor Road",,"42.314197","-71.114036","Boston","Centre St @ Saint John St","Centre Street"
 "6124",,"Intervale Road",,"42.488758","-70.898141","Salem","Loring Ave @ Intervale Rd","Loring Avenue"
 "9270099",,,,"42.266671","-71.017924","Quincy","Beale St @ Wollaston Branch Library",
 "1345",,"Munroe Street",,"42.31808","-71.086321","Boston","Humboldt Ave @ Munroe St","Humboldt Avenue"
 "14423",,,,"42.233689","-70.98012","Braintree","Shaw St @ Quintree Mall","Howard Street"
+"9133",,"Fisher Terrace",,"42.497441","-71.155907","Woburn","Main St @ Fisher Terr","Main Street"
 "154",,,,"42.339188","-71.051503","Boston","W Broadway @ D St","West Broadway"
 "node-514-lobby",,,"Harvard - Bottom of escalator from lobby to Harvard Square mezzanine",,,"Cambridge","Harvard",
 "9202",,"West Foster Street",,"42.45487","-71.065486","Melrose","Main St @ W Foster St - Melrose Sq","Main Street"
@@ -769,7 +774,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-398-sl",,,"South Station - Top of Escalator 398",,,"Boston","South Station",
 "91618",,"High Plain Street",,"42.145808","-71.229966","Walpole","624 Washington St opp Bird Middle School","Washington Street"
 "7834",,"Auburndale Avenue",,"42.349651","-71.247197","Newton","Lexington St @ Auburndale Ave","Lexington Street"
-"place-DB-2265","1070 Massachusetts Ave, Boston, MA 02118",,,"42.326701","-71.066314","Boston","Newmarket",
+"place-DB-2265","1070 Massachusetts Ave, Boston, MA 02118",,,"42.327415","-71.065674","Boston","Newmarket",
 "place-NEC-2040","1 Crocker St, Mansfield, MA 02048",,,"42.032787","-71.219917","Mansfield","Mansfield",
 "7812",,"Newton Street",,"42.373465","-71.228258","Waltham","River St @ Newton St","River Street"
 "6763",,"Waverly Street",,"42.468537","-70.961491","Lynn","Boston St @ Strawberry Ave","Boston Street"
@@ -815,7 +820,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "75618",,,,"42.157438","-71.219774","Walpole","Washington St @ Washington Green","Washington Street"
 "7521",,"Pleasant Avenue",,"42.455289","-71.020375","Saugus","209 Essex St opp Pleasant Ave","Essex Street"
 "node-wtcst-ibstairs-lobby",,,"World Trade Center - Top of inbound platform stairs",,,"Boston","World Trade Center",
-"10642",,"Washington Street","Forest Hills - Upper Busway","42.300749","-71.114314","Boston","Forest Hills","Busway"
+"10642",,"Washington Street","Forest Hills - Upper Busway","42.299936","-71.114324","Boston","Forest Hills","Busway"
 "2853",,"Robert Lowney Way",,"42.375894","-71.056288","Boston","Bunker Hill St @ Lowney Way","Bunker Hill Street"
 "2324",,"Wachusett Avenue",,"42.413561","-71.182156","Arlington","Park Ave @ Wachusett Ave","Park Avenue"
 "4301",,"Ballard Street",,"42.198859","-71.061504","Randolph","N Main St @ Ballard St","North Main Street"
@@ -858,7 +863,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "2821",,"Bunker Hill Street",,"42.383307","-71.071852","Boston","Main St @ Bunker Hill St","Main Street"
 "259",,"Old Harbor Street",,"42.331193","-71.047219","Boston","E 8th St @ Old Harbor St","East Eighth Street"
 "door-state-cityhall",,,"State - City Hall","42.359435","-71.057615","Boston","State - City Hall",
-"2597",,"Stone Avenue",,"42.379488","-71.095387","Somerville","Somerville Ave @ Prospect St","Somerville Avenue"
+"2597",,"Prospect Street",,"42.379248","-71.094819","Somerville","Somerville Ave @ Prospect St","Somerville Avenue"
 "82130",,"Parkland Road",,"42.308155","-71.235052","Needham","Central Ave @ Parkland Rd","Central Avenue"
 "door-jfk-columbia",,,"JFK/UMass - Columbia Rd","42.321358","-71.052583","Boston","JFK/UMass - Columbia Rd",
 "7977",,"Ritchfield Road",,"42.419446","-71.158779","Arlington","Summer St @ Richfield St","Summer Street"
@@ -891,7 +896,6 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-wondl-ibplazastairs-bridge",,,"Wonderland - Bridge level of stairs from garage to Revere Beach Plaza",,,"Revere","Wonderland",
 "1574",,"Moreland Street",,"42.322776","-71.076673","Boston","Blue Hill Ave @ Moreland St","Blue Hill Avenue"
 "491",,"Stockton Street",,"42.283173","-71.071479","Boston","Washington St @ Stockton St","Washington Street"
-"9133",,"Fisher Terrace",,"42.497441","-71.155907","Woburn","Main St @ Fisher Terr","Main Street"
 "6689",,"Cottage Street",,"42.464086","-70.973941","Lynn","Boston St opp Cottage St","Boston Street"
 "node-bomnl-pstair-platform",,,"Bowdoin - Bottom of stairs between ramp and lobby",,,"Boston","Bowdoin",
 "7270",,,,"42.552271","-70.938449","Danvers","Liberty Tree Mall @ Best Buy",
@@ -1032,7 +1036,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "883",,"Richmond Street",,"42.273982","-71.067662","Boston","Dorchester Ave @ Richmond St","Dorchester Avenue"
 "96735",,"Edison Street",,"42.475514","-70.997329","Saugus","Walnut St opp Edison St","Walnut Street"
 "6718",,"Great Woods Road",,"42.485157","-71.013163","Saugus","Walnut St @ Great Woods Rd","Walnut Street"
-"place-DB-2258","691 Dudley St, Dorchester, MA 02125",,,"42.31867","-71.069072","Boston","Uphams Corner",
+"place-DB-2258","691 Dudley St, Dorchester, MA 02125",,,"42.319125","-71.068627","Boston","Uphams Corner",
 "8952",,,,"42.25338","-71.139224","Boston","Turtle Pond Pkwy @ Alwin St","Turtle Pond Parkway"
 "1965",,,,"42.323161","-71.166186","Newton","Boylston St @ Star Market - Service Rd",
 "6157",,"Vinnin Street",,"42.485719","-70.901666","Salem","Loring Ave @ Vinnin St","Loring Avenue"
@@ -1057,6 +1061,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "2801",,"Kittredge Street",,"42.280149","-71.131686","Boston","Metropolitan Ave @ Kittredge St","Metropolitan Avenue"
 "4177",,"Francis Drive",,"42.183699","-71.054027","Randolph","800 N Main St","North Main Street"
 "82047",,"Charlemont Street",,"42.309278","-71.214802","Newton","Needham St @ Charlemont St","Needham Street"
+"node-433-lobby",,,"Maverick - Bottom of escalator from lobby to Maverick Square",,,"Boston","Maverick",
 "15",,"Middle Street",,"42.330711","-71.054541","Boston","Dorchester St @ Vinton St","Dorchester Street"
 "11413",,"Walnut Avenue",,"42.313283","-71.095326","Boston","Columbus Ave @ Walnut Ave","Columbus Avenue"
 "45414",,"Green Street",,"42.418173","-71.070712","Malden","Medford St @ Green St","Medford Street"
@@ -1175,7 +1180,6 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "door-cntsq-pearl",,,"Central - Pearl St","42.364831","-71.102989","Cambridge","Central - Pearl St",
 "2441",,"Broadway",,"42.369406","-71.10101","Cambridge","Prospect St @ Broadway","Prospect Street"
 "9251",,"Water Street",,"42.502471","-71.069633","Wakefield","Main St @ Water St","Main Street"
-"node-433-lobby",,,"Maverick - Bottom of escalator from lobby to Maverick Square",,,"Boston","Maverick",
 "4238",,"Frederickson Drive",,"42.141999","-71.040663","Randolph","S Main St @ Frederickson Dr","South Main Street"
 "6399",,"Highland Street",,"42.252568","-71.113466","Boston","Milton Ave @ Highland St","Milton Avenue"
 "7252",,"Chestnut Street",,"42.477064","-70.94896","Lynn","Western Ave @ Chestnut St","Western Avenue"
@@ -1275,6 +1279,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-rcmnl-stairs-platform",,,"Roxbury Crossing - Bottom of stairs",,,"Boston","Roxbury Crossing",
 "8850",,"Weston Street",,"42.373043","-71.263594","Waltham","Tavern Rd @ Weston St","Tavern Road"
 "node-prmnl-wbstair-platform",,,"Prudential - Bottom of Heath Street stairs",,,"Boston","Prudential",
+"18595",,"Marrett Road",,"42.436614","-71.212864","Lexington","Massachusetts Ave @ Marrett Rd","Massachusetts Avenue"
 "493",,"Coolidge Road",,"42.281319","-71.071048","Boston","Washington St @ Ogden St","Washington Street"
 "node-aport-bremen-fareunpaid",,,"Airport - Unpaid side of fare gates",,,"Boston","Airport",
 "2026",,"Traill Street",,"42.375072","-71.136647","Cambridge","Mt Auburn St @ Traill St","Mount Auburn Street"
@@ -1284,7 +1289,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "5383",,"Newland Street",,"42.424517","-71.046735","Malden","Bowdoin St @ Newland St","Bowdoin Street"
 "1389",,"Gloucester Street",,"42.348358","-71.083593","Boston","Boylston St opp Gloucester St","Boylston Street"
 "6793",,"Ontario Street",,"42.474105","-70.966852","Lynn","Tapley St @ Ontario St","Tapley Street"
-"10427",,"Ramp - American Legion Highway To Rt 203",,"42.293255","-71.094593","Boston","American Legion Hwy @ Canterbury St","American Legion Highway"
+"10427",,"Ramp - American Legion Highway To Rt 203",,"42.293255","-71.094593","Boston","American Legion Hwy opp Kingbird Rd","American Legion Highway"
 "place-NB-0072","35 Colbert St, West Roxbury, MA 02132",,,"42.286588","-71.145557","Boston","Bellevue",
 "6119",,"Pickman Road",,"42.495628","-70.895175","Salem","Loring Ave @ Pickman Rd","Loring Avenue"
 "393",,"Woodbine Street",,"42.319956","-71.08138","Boston","Warren St @ Woodbine St","Warren Street"
@@ -1332,7 +1337,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "3817",,"Summer Street",,"42.206968","-70.96496","Weymouth","Federal St @ Summer St","Federal Street"
 "3216",,"Felton Street",,"42.274369","-71.023884","Quincy","Billings Rd @ Felton St","Billings Road"
 "5495",,"Church Street",,"42.407971","-71.054733","Everett","Broadway @ Church St","Broadway"
-"place-FB-0118","125 Allied Dr, Dedham, MA 02026",,,"42.225896","-71.173806","Dedham","Dedham Corp Center",
+"place-FB-0118","125 Allied Dr, Dedham, MA 02026",,,"42.227079","-71.174254","Dedham","Dedham Corp Center",
 "12654",,,,"42.407284","-71.134563","Arlington","Broadway opp Sunnyside Ave","Broadway"
 "7228",,"Trinity Avenue",,"42.470463","-70.93322","Lynn","Timson St @ Chatham St","Timson Street"
 "371",,"Centre Street",,"42.29017","-71.070633","Boston","Talbot Ave @ Centre St","Talbot Avenue"
@@ -1346,6 +1351,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "71618",,"Sumner Street",,"42.256336","-71.162993","Dedham","38 Washington St opp Sumner St","Washington Street"
 "door-welln-busway",,,"Wellington - Buses, Parking Lot","42.402446","-71.076576","Medford","Wellington - Buses, Parking Lot",
 "5058",,"Wyllis Avenue",,"42.415327","-71.064299","Malden","Belmont St @ Main St","Belmont Street"
+"31258","88 Black Falcon Ave, Boston, MA 02210",,"88 Black Falcon - Silver Line - SL2 South Station","42.343753","-71.026335","Boston","88 Black Falcon",
 "82033",,"Needham Street",,"42.307745","-71.217212","Newton","156 Oak St","Oak Street"
 "node-wimnl-obunpaidstairs-street",,,"Wood Island - Bottom of stairs for Lovell Street",,,"Boston","Wood Island",
 "373",,"Spencer Street",,"42.291229","-71.075287","Boston","Talbot Ave @ Spencer St","Talbot Avenue"
@@ -1491,12 +1497,11 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "814",,"Brother Joseph A Heeran Way",,"42.276852","-71.165423","Boston","Spring St @ Gardner St","Spring Street"
 "15050",,"Boatswain's Way",,"42.388937","-71.046742","Chelsea","5 Admirals Way","Admiral's Way"
 "13828",,"Burton Terrace",,"42.176258","-70.95355","Weymouth","Opp 85 Columbian St","Columbian Street"
-"2148",,"Blanchard Road",,"42.390758","-71.156875","Cambridge","Concord Ave opp Sancta Maria Hospital","Concord Avenue"
+"2148",,"Blanchard Road",,"42.390758","-71.156875","Cambridge","Concord Ave @ Blanchard Rd","Concord Avenue"
 "16000",,"Garland Street",,"42.454749","-71.07873","Melrose","Wyoming Ave @ Ravine Rd","West Wyoming Avenue"
 "7204",,"Pickering Terrace",,"42.487835","-70.959743","Lynn","Broadway @ Pickering Terr","Broadway"
 "node-grnst-131-platform",,,"Green Street - Bottom of Escalator 131",,,"Boston","Green Street",
 "4747",,"Blossom Street",,"42.456905","-70.950888","Lynn","Lynnway @ Blossom St","Lynnway"
-"31258","88 Black Falcon Ave, Boston, MA 02210",,"88 Black Falcon - Silver Line - SL2 South Station","42.343753","-71.026335","Boston","88 Black Falcon",
 "5746",,"White Street",,"42.380445","-71.039186","Boston","Meridian St @ White St","Meridian Street"
 "Ruggles-02",,,"Ruggles - Commuter Rail - Track 2","42.337204","-71.088307","Boston","Ruggles",
 "6944",,"Richardson Street",,"42.470881","-71.150117","Woburn","Main St @ Richardson St","Main Street"
@@ -1521,7 +1526,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "18144",,"Frank Street",,"42.303917","-71.235576","Needham","Webster St opp Elder Rd","Webster Street"
 "3808",,"Washington Street",,"42.219298","-70.968027","Weymouth","Front St @ Commercial St","Front Street"
 "7957",,"Mohwawk Road",,"42.432473","-71.171648","Arlington","Washington St @ Mohawk Rd","Washington Street"
-"place-WML-0214","417 Waverly St, Framingham, MA 01702",,,"42.276719","-71.416792","Framingham","Framingham",
+"place-WML-0214","417 Waverly St, Framingham, MA 01702",,,"42.276108","-71.420055","Framingham","Framingham",
 "node-masta-unpramp-exit",,,"Massachusetts Avenue - Top of ramp from main entrance",,,"Boston","Massachusetts Avenue",
 "node-grnst-stairs-platform",,,"Green Street - Bottom of stairs",,,"Boston","Green Street",
 "4894",,"Nahant Street",,"42.463542","-70.938786","Lynn","Broad St opp Nahant St","Broad Street"
@@ -1531,7 +1536,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-davis-holland-entrance",,,"Davis - Top of stairs for Holland Street",,,"Somerville","Davis",
 "799",,"Penfield Street",,"42.286334","-71.135109","Boston","Belgrade Ave opp Penfield St","Belgrade Avenue"
 "3969",,"Adams Street",,"42.150382","-71.0084","Holbrook","S Franklin St @ Adams St","South Franklin Street"
-"Newmarket",,,"Newmarket - Commuter Rail","42.326701","-71.066314","Boston","Newmarket",
+"Newmarket",,,"Newmarket - Commuter Rail","42.327415","-71.065674","Boston","Newmarket",
 "6575",,"Huntington Avenue",,"42.33187","-71.111965","Boston","S Huntington Ave @ Huntington Ave","South Huntington Avenue"
 "374",,"Westcott Street",,"42.292015","-71.077978","Boston","Talbot Ave @ Talbot Station","Talbot Avenue"
 "8542",,"Arnold Road",,"42.302802","-71.191288","Newton","Dedham St opp Arnold Rd","Dedham Street"
@@ -1564,6 +1569,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "4525",,"Elm Street",,"42.462541","-70.964333","Lynn","S Common St @ Elm St","Market Square"
 "1353",,"Hutchings Street",,"42.311237","-71.091087","Boston","Humboldt Ave @ Hutchings St","Humboldt Avenue"
 "10015",,"East Newton Street",,"42.337402","-71.072162","Boston","Harrison Ave @ E Newton St","Harrison Avenue"
+"52818",,"Milton Street",,"42.238478","-71.132891","Boston","Hyde Park Ave @ Railroad Station","Hyde Park Avenue"
 "7850",,"Bright Street",,"42.371442","-71.224599","Waltham","River St @ Bright St","River Street"
 "2473",,"Hillside Avenue",,"42.414781","-71.182949","Arlington","Wachusett Ave @ Hillside Ave","Wachusett Avenue"
 "2076",,,"Harvard - Lower Busway","42.373362","-71.118956","Cambridge","Harvard",
@@ -1590,12 +1596,12 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-andrw-nobstairs-platform",,,"Andrew - Bottom of north outbound stairs",,,"Boston","Andrew",
 "17009",,"Fox Road",,"42.383159","-71.265459","Waltham","211 Bear Hill Rd","Bear Hill Road"
 "4722",,"Curtis Street",,"42.38624","-71.019421","Boston","McClellan Highway opp Addison St","McClellan Highway"
-"6707",,"Sherman Street",,"42.471415","-70.993258","Lynn","Garfield Rd @ Catalina Rd","Garfield Avenue"
+"6707",,,,"42.471661","-70.993486","Saugus","Garfield Ave @ Catalina Rd","Garfield Avenue"
 "8830",,"Massasoit Street",,"42.377832","-71.220963","Waltham","Main St @ Rose Hill Way","Main Street"
 "109822",,"Cutler Street",,"42.374284","-70.972804","Winthrop","Veterans Rd @ Cutler St","Veterans Road"
 "2334",,"Cross Street",,"42.40108","-71.163536","Belmont","Brighton St @ Cross St","Brighton Street"
 "3480",,"Churchills Lane",,"42.264653","-71.064212","Milton","Adams St @ Churchills Ln","Adams Street"
-"214",,"Seaport Lane",,"42.349922","-71.041347","Boston","Seaport Blvd @ World Trade Center Opp. Seaport Htl","Seaport Boulevard"
+"214",,"Seaport Lane",,"42.349922","-71.041347","Boston","Seaport Blvd @ World Trade Center opp Seaport Htl","Seaport Boulevard"
 "Hyannis",,,,"41.660225","-70.276583","Barnstable","Hyannis",
 "1569",,"Quincy Street",,"42.314494","-71.078817","Boston","Blue Hill Ave @ Quincy St","Blue Hill Avenue"
 "6151",,"Boulder Way",,"42.479482","-70.916394","Swampscott","253 Essex St","Essex Street"
@@ -1630,7 +1636,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "2594",,,,"42.381975","-71.102178","Somerville","Somerville Ave opp School St","Somerville Avenue"
 "place-bvmnl","31 Station Street, Brookline, MA 02445",,,"42.332774","-71.116296","Brookline","Brookline Village",
 "6529",,"River Street",,"42.252264","-71.131076","Boston","Reservation Rd @ River St","Reservation Road"
-"2679",,"Tower Street",,"42.390534","-71.10885","Somerville","Highland Ave @ Tower St.","Highland Avenue"
+"2679",,"Tower Street",,"42.390534","-71.10885","Somerville","Highland Ave @ Tower St","Highland Avenue"
 "16535",,"Summer Street",,"42.354243","-71.058557","Boston","Otis St @ Summer St","Otis Street"
 "8247",,"Revere Road",,"42.470722","-71.180326","Woburn","Cambridge Rd @ Revere Rd","Cambridge Street"
 "place-FR-0098","75 Carter St, Waltham, MA 02453",,,"42.374269","-71.235598","Waltham","Waltham",
@@ -1646,7 +1652,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "851",,"Carroll Street",,"42.286387","-71.167015","Boston","Vermont St @ Carroll St","Vermont Street"
 "2822",,"Baldwin Street",,"42.381149","-71.070908","Boston","Main St @ Baldwin St","Main Street"
 "1628",,,,"42.239764","-71.006355","Quincy","Liberty St @ Penn St","Liberty Street"
-"5500",,"Chemical Lane",,"42.395007","-71.06673","Everett","Broadway @ Horizon Way","Broadway"
+"5500",,"Dexter Street",,"42.394405","-71.067368","Everett","Broadway @ Horizon Way","Broadway"
 "3526",,"Beacon Street",,"42.247846","-70.981808","Quincy","Washington St @ Beacon St","Washington Street"
 "902",,"Boyd Street",,"42.360008","-71.185448","Watertown","Galen St @ Boyd St","Galen Street"
 "8806",,,,"42.290354","-71.048593","Boston","248 Neponset Ave","Neponset Avenue"
@@ -1789,7 +1795,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "17347",,"Dartmouth Street",,"42.502339","-70.9795","Lynn","Lynnfield St @ Union Hospital","Lynnfield Street"
 "1138",,"Estrella Street",,"42.322886","-71.102796","Boston","Centre St @ Estrella St","Centre Street"
 "5925",,"Lincoln Street",,"42.458368","-71.052898","Melrose","Upham St @ Lincoln St","Upham Street"
-"6679",,"Western Avenue",,"42.4685","-70.958241","Lynn","Franklin St. @ Western Ave","Franklin Street"
+"6679",,"Western Avenue",,"42.4685","-70.958241","Lynn","Franklin St @ Western Ave","Franklin Street"
 "7275",,"Burroughs Street",,"42.561938","-70.944662","Danvers","Holten St @ Burroughs St","Holten Street"
 "8243",,"Ray Avenue",,"42.481307","-71.186901","Burlington","Cambridge St opp Ray Ave","Cambridge Street"
 "553",,"Holiday Street",,"42.302292","-71.069671","Boston","Geneva Ave @ Holiday St","Geneva Avenue"
@@ -1824,6 +1830,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "Hastings",,,"Hastings - Commuter Rail","42.385755","-71.289203","Weston","Hastings",
 "5093","Washington St and Union Park St, Boston, MA","Union Park Street","Washington St @ Union Pk - Silver Line - South Station/Downtown Crossing","42.341308","-71.069417","Boston","Washington St @ Union Pk","Washington Street"
 "51317",,"Ruggles Street",,"42.337612","-71.095267","Boston","Huntington Ave @ Ruggles St","Huntington Avenue"
+"14753",,"Phillips Avenue",,"42.466322","-70.928107","Lynn","Lewis St @ Norcross Ter","Lewis Street"
 "9154",,"Pembroke Street",,"42.413441","-71.098314","Medford","Riverside Ave @ Maverick St","Riverside Avenue"
 "7837",,,,"42.355732","-71.241216","Newton","Lexington St @ Roberta Rd","Lexington Street"
 "node-aqucl-nstatestairs-landing",,,"Aquarium - Landing for stairs for State Stree north",,,"Boston","Aquarium",
@@ -1897,8 +1904,9 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "15048",,"Admiral's Way",,"42.390859","-71.045684","Chelsea","150 Captains Row","Captain's Row"
 "495",,"Codman Hill Avenue",,"42.27998","-71.070289","Boston","Washington St @ Codman Hill Ave","Washington Street"
 "30251",,,,"42.344706","-71.028419","Boston","27 Drydock Ave","Drydock Avenue"
-"78623",,"Harrington Road",,"42.396641","-71.217187","Waltham","Forest St opp Harrington Rd","Forest Street"
+"78623",,"Harrington Road",,"42.396641","-71.217187","Waltham","Forest St @ Gann Academy","Forest Street"
 "2731",,"Glenwood Road",,"42.3963","-71.101014","Somerville","Broadway opp Glenwood Rd","Broadway"
+"42820",,,,"42.243524","-71.131891","Boston","Neponset Valley Pkwy @ Westinghouse Plaza","Westinghouse Plaza"
 "node-905-platform",,,"Haymarket - Top of elevator between Forest Hills platform and Green Line, busway passageway",,,"Boston","Haymarket",
 "8941",,"Adams Street",,"42.252994","-71.130155","Boston","River St @ Winslow St","River Street"
 "295",,"East Fifth Street",,"42.334111","-71.027196","Boston","P St @ E 5th St","P Street"
@@ -2066,7 +2074,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "3339",,"Centre Street",,"42.243279","-71.022767","Quincy","165 Copeland St","Copeland Street"
 "14031",,"Fayette Street",,"42.373839","-71.102211","Cambridge","Cambridge St @ Fayette St","Cambridge Street"
 "15990",,,,"42.491698","-71.100605","Stoneham","159 Main St opp Collincote St","Main Street"
-"8591",,,,"42.431932","-71.208","Lexington","Massachusetts Ave @ Independence Ave","Massachusetts Avenue"
+"8591",,"Curve Street",,"42.431702","-71.207923","Lexington","Massachusetts Ave opp Independence Ave","Massachusetts Avenue"
 "111791",,"Draper Street",,"42.172526","-71.139085","Canton","Washington St - Pleasant St to Chapman St (FLAG)","Washington Street"
 "door-sstat-summer",,,"South Station - Summer St","42.351787","-71.054402","Boston","South Station - Summer St",
 "30752",,,,"42.277973","-71.034979","Quincy","Newport Ave @ Heritage Dr","Newport Avenue Extension"
@@ -2203,6 +2211,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "86500",,"Franklin Hill Avenue",,"42.295767","-71.092219","Boston","American Legion Hwy @ Franklin Hill Ave","American Legion Highway"
 "70057",,,"Revere Beach - Blue Line - Bowdoin","42.407843","-70.992533","Revere","Revere Beach",
 "1397",,,,"42.341714","-71.07269","Boston","Opp 43 W Dedham St","West Dedham Street"
+"9070135",,,"Packards Corner - Green Line Westbound Shuttle","42.351925","-71.124976","Boston","Packards Corner",
 "Needham Heights",,,"Needham Heights - Commuter Rail","42.293444","-71.236027","Needham","Needham Heights",
 "3731",,"Faxon Park Road",,"42.242141","-70.994245","Quincy","Quincy Ave opp Faxon Park Rd","Quincy Avenue"
 "place-fenwd","Huntington Ave and Fenwood Rd, Boston, MA",,,"42.333706","-71.105728","Boston","Fenwood Road",
@@ -2248,7 +2257,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "6626",,"Emerald Road",,"42.425708","-70.926173","Nahant","Spring Rd @ Emerald Rd","Spring Road"
 "9070213",,,"Hawes Street - Green Line Cleveland Circle Shuttle","42.344981","-71.111707","Brookline","Hawes Street",
 "Chelsea",,,"Chelsea - Commuter Rail","42.395689","-71.034281","Chelsea","Chelsea",
-"4933",,"Button Wood Lane",,"42.536098","-70.932942","Peabody","Andover St @ Buttonwood Ln","Andover Street"
+"4933",,"Button Wood Lane",,"42.536273","-70.933359","Peabody","Andover St @ Buttonwood Ln","Andover Street"
 "door-newto-unions",,,"Newton Centre - Union St (Stairs)","42.329504","-71.19269","Newton","Newton Centre - Union St (Stairs)",
 "14731",,"Adams Street",,"42.308937","-71.064051","Boston","Bowdoin St @ Adams St","Bowdoin Street"
 "1260",,,,"42.328067","-71.09731","Boston","Columbus Ave @ New Cedar St","Columbus Avenue"
@@ -2311,7 +2320,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "61835",,,,"42.314473","-71.142308","Brookline","Clyde St opp Country Rd","Clyde Street"
 "4205",,"Allerton Road",,"42.260129","-71.080649","Milton","324 Central Ave","Central Avenue"
 "place-chhil","Hammond St and Chestnut Hill Rd, Newton, MA 02467",,,"42.326653","-71.165314","Newton","Chestnut Hill",
-"230",,"Hanover Street",,"42.367193","-71.052338","Boston","Commercial St. @ Hanover St.","Commercial Street"
+"230",,"Hanover Street",,"42.367193","-71.052338","Boston","Commercial St @ Hanover St","Commercial Street"
 "node-ccmnl-lobby",,,"Community College - Paid lobby",,,"Boston","Community College",
 "252",,"Joyce Hayes Way",,"42.337229","-71.055505","Boston","W 7th St @ C St","West Seventh Street"
 "node-symcl-wb-fareunpaid",,,"Symphony - Unpaid side of fare gates",,,"Boston","Symphony",
@@ -2654,7 +2663,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "4198",,"Spafford Road",,"42.250861","-71.07344","Milton","Reedsdale Rd @ Meredith Cir","Reedsdale Road"
 "5389",,"Ferry Street",,"42.421808","-71.058688","Malden","Cross St @ Ferry St","Cross Street"
 "2930",,"Hamilton Street",,"42.310128","-71.072044","Boston","Columbia Rd @ Hamilton St","Columbia Road"
-"71187",,"Burnett Street",,"42.304764","-71.10924","Boston","Washington St opp Brookley Rd","Washington Street"
+"71187",,"Burnett Street",,"42.304615","-71.109425","Boston","Washington St @ Burnett St","Washington Street"
 "899",,"Commonwealth Avenue","Kenmore - Busway","42.348927","-71.09583","Boston","Kenmore","Busway"
 "5051",,"Glendale Street",,"42.412923","-71.055102","Everett","Hancock St @ Dean St","Hancock Street"
 "node-867-lobby",,,"Broadway - Top of platform elevator",,,"Boston","Broadway",
@@ -2793,7 +2802,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-141-lobby",,,"Back Bay - Top of Orange Line platform west escalator",,,"Boston","Back Bay",
 "7795",,"Ames Street",,"42.380673","-71.236295","Waltham","130 Lexington St @ Shopping Plaza","Lexington Street"
 "94325",,"Commercial Street",,"42.45905","-70.959437","Lynn","Neptune Blvd @ Commercial St","Neptune Boulevard"
-"635",,"Corinth Street",,"42.285461","-71.129081","Boston","Washington St @ Poplar St.","Washington Street"
+"635",,"Corinth Street",,"42.285461","-71.129081","Boston","Washington St @ Poplar St","Washington Street"
 "24483",,"Columbia Street",,"42.367743","-71.097202","Cambridge","Broadway @ Columbia St","Broadway"
 "place-buest","Commonwealth Ave and Granby St, Boston, MA 02215",,,"42.349735","-71.103889","Boston","Boston University East",
 "5755",,"Webster Avenue",,"42.399557","-71.022394","Chelsea","Broadway @ Webster Ave","Broadway"
@@ -3053,7 +3062,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "place-wlsta","90 Woodbine St, Quincy, MA 02171",,,"42.266514","-71.020337","Quincy","Wollaston",
 "1431",,"Felton Street",,"42.373954","-71.112665","Cambridge","Broadway @ Felton St","Broadway"
 "1643",,"Willard Street",,"42.235942","-71.028228","Quincy","West St @ Willard St","West Street"
-"7253",,"Maple Street",,"42.477972","-70.950601","Lynn","Chestnut St @ Maple St","Chestnut Street"
+"7253",,"Bowler Street",,"42.478089","-70.950953","Lynn","Chestnut St @ Maple St","Chestnut Street"
 "59837",,"Floyd Street",,"42.484261","-71.124426","Woburn","Pine St opp Floyd St","Pine Street"
 "6122",,"Riverview Avenue",,"42.491211","-70.895115","Salem","Loring Ave @ Riverview St","Loring Avenue"
 "3987",,"Howard Avenue",,"42.12099","-71.016427","Holbrook","S Franklin St @ Howard Ave","South Franklin Street"
@@ -3104,7 +3113,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "76051",,"Vernon Street",,"42.374093","-71.249953","Waltham","64 South St","South Street"
 "6610",,"Wilson Road",,"42.436032","-70.937335","Nahant","Nahant Rd opp Wilson Rd","Nahant Road"
 "129",,"Gardner Street",,"42.278959","-71.175667","Boston","Rivermoor St @ Charles Park Rd","Rivermoor Street"
-"place-SB-0156","710 Washington St, Canton, MA 02021",,,"42.15677","-71.145601","Canton","Canton Center",
+"place-SB-0156","710 Washington St, Canton, MA 02021",,,"42.157095","-71.14628","Canton","Canton Center",
 "8942",,"River Street",,"42.25236","-71.131005","Boston","Reservation Rd @ River St","Reservation Road"
 "5431",,"Phillips Street",,"42.425027","-71.06365","Malden","Eastern Ave @ Phillips Ct","Eastern Avenue"
 "86115",,"Holton Road",,"42.451966","-71.260364","Lexington","Wood St @ Holton Rd","Wood Street"
@@ -3119,7 +3128,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "3709",,"Richmond Street",,"42.217427","-70.965149","Weymouth","Washington St @ Richmond St","Washington Street"
 "18975",,"Milton Street",,"42.242361","-71.147704","Dedham","River St @ Milton St","River Street"
 "6606",,"Beach Circle",,"42.458267","-70.935268","Lynn","27 Beach Rd","Beach Road"
-"4914",,,,"42.468389","-70.918439","Swampscott","Humphrey St @ Monument Ave","Humphrey Street"
+"4914",,"Burrill Street",,"42.46834","-70.917452","Swampscott","Humphrey St @ Monument Ave","Humphrey Street"
 "2590",,"Spring Street",,"42.383777","-71.109214","Somerville","594 Somerville Ave","Somerville Avenue"
 "885",,"East First Street",,"42.338215","-71.035547","Boston","Summer St @ E 1st St","Summer Street"
 "14302",,"Ivory Street",,"42.203296","-70.99839","Braintree","Pearl St @ Ivory Plaza","Pearl Street"
@@ -3274,7 +3283,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "3425",,"Sea Street",,"42.255316","-70.996877","Quincy","Coddington St @ Southern Artery","Coddington Street"
 "88341",,"Sharon Street",,"42.369407","-71.248541","Waltham","Hope Ave @ Boston Children's Waltham","Hope Avenue"
 "node-859-lobby",,,"Tufts Medical Center - Top of Elevator 859",,,"Boston","Tufts Medical Center",
-"4755",,"Ocean Circle",,"42.466898","-70.925387","Lynn","Lewis St @ Ocean St","Lewis Street"
+"4755",,"Ocean Terrace",,"42.467275","-70.924709","Lynn","Ocean St @ Ocean Ter","Ocean Street"
 "5857",,"Cottage Street",,"42.367122","-71.035867","Boston","Sumner St @ Cottage St","Sumner Street"
 "place-buwst","Commonwealth Ave and Amory St, Boston, MA 02215",,,"42.350941","-71.113876","Boston","Boston University West",
 "2798",,"Malverna Road",,"42.278964","-71.12918","Boston","154 Metropolitan Ave opp Malverna Rd","Metropolitan Avenue"
@@ -3301,6 +3310,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "3384",,"Hope Avenue",,"42.266357","-71.045251","Milton","Granite Ave opp Hope Ave","Granite Avenue"
 "5566",,"Orange Court",,"42.406029","-71.047212","Everett","Ferry St @ Union St","Ferry Street"
 "North Wilmington",,,"North Wilmington - Commuter Rail","42.569661","-71.159696","Wilmington","North Wilmington",
+"7290",,"Conomo Avenue",,"42.487","-70.960247","Lynn","Broadway @ Conomo Ave","Broadway"
 "node-harsq-lowerramp-lobby",,,"Harvard - Top of ramp between main lobby and Lower Busway",,,"Cambridge","Harvard",
 "941",,"Blandford Street",,"42.34897","-71.099643","Boston","Commonwealth Ave @ Blandford St","Commonwealth Avenue"
 "5653",,"Cross Street",,"42.39055","-71.03815","Chelsea","Broadway opp Cross St","Broadway"
@@ -3475,7 +3485,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "door-eliot-boylws",,,"Eliot - Route 9, Boylston St (Westbound stairs)","42.318488","-71.215831","Newton","Eliot - Route 9, Boylston St (Westbound stairs)",
 "4340",,"Badger Circle",,"42.250854","-71.059876","Milton","Pleasant St @ Badger Cir","Pleasant Street"
 "2746",,"Otis Street",,"42.387146","-71.086847","Somerville","Cross St @ Ellsworth St","Cross Street"
-"785",,"Willow Street",,"42.287461","-71.152321","Boston","Centre St @ Willow St.","Centre Street"
+"785",,"Willow Street",,"42.287461","-71.152321","Boston","Centre St @ Willow St","Centre Street"
 "door-qnctr-busway",,,"Quincy Center - Hancock St","42.251586","-71.005003","Quincy","Quincy Center - Hancock St",
 "node-428-entrance",,,"Maverick - Top of escalator from lobby to Lewis Mall",,,"Boston","Maverick",
 "1042",,"Lothrop Street",,"42.360459","-71.146341","Boston","Market St @ Lothrop St","Birmingham Parkway"
@@ -3515,7 +3525,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "4414",,,,"42.233956","-70.980341","Braintree","Opp 129 Howard St","Howard Street"
 "5910",,"Crescent Place",,"42.453261","-71.063089","Melrose","Grove St @ Linwood Ave","Grove Street"
 "111828",,"Atlantic House Road",,"42.264125","-70.845936","Hull","School St - Nantasket Ave to Atlantic Ave (FLAG)","School Street"
-"4813",,"Blaney Street",,"42.467208","-70.914999","Swampscott","Opp 174 Humphrey St","Humphrey Street"
+"4813",,"Blaney Street",,"42.467487","-70.916052","Swampscott","Opp 174 Humphrey St","Humphrey Street"
 "38487",,"Bower Road",,"42.230495","-70.992337","Braintree","Commercial St @ Bower Rd","Commercial Street"
 "node-prmnl-prustair-street",,,"Prudential - Top of stairs between Prudential Center and lobby",,,"Boston","Prudential",
 "6638",,"Winter Street",,"42.42561","-70.918373","Nahant","Nahant Rd @ Winter St","Nahant Road"
@@ -3641,6 +3651,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "door-symcl-westland",,,"Symphony - Westland Ave, Symphony Hall","42.342941","-71.08536","Boston","Symphony - Westland Ave, Symphony Hall",
 "2327",,"Lamoine Street",,"42.410102","-71.178929","Belmont","East Service Rd @ Lamoine St","Frontage Road"
 "8590",,"Curve Street",,"42.43057","-71.207632","Lexington","Massachusetts Ave @ Curve St","Massachusetts Avenue"
+"17370",,"Memorial Park Avenue",,"42.476049","-70.946021","Lynn","Goodridge St @ Memorial Pk Ave","Goodridge Street"
 "2890",,"Reardon Road",,"42.412283","-71.107897","Medford","Mystic Ave opp Reardon Rd","Mystic Avenue"
 "6714",,"Elm Street",,"42.477163","-71.002004","Saugus","Walnut St @ Elm St","Walnut Street"
 "place-GB-0229","1 Oak St, Beverly, MA 01915",,,"42.561651","-70.811405","Beverly","Beverly Farms",
@@ -3705,7 +3716,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "7451",,"Margin Street",,"42.458268","-70.976191","Lynn","Summer St @ Margin St","Summer Street"
 "node-jfk-bracolstair-lobby",,,"JFK/UMass - Top of stairs from Braintree, Alewife platform and Columbia Road",,,"Boston","JFK/UMass",
 "node-aport-bremen-farepaid",,,"Airport - Paid side of fare gates",,,"Boston","Airport",
-"109853",,,,"42.355744","-70.968137","Boston","Deer Island - MWRA Gate",
+"109853",,,,"42.35569","-70.967704","Boston","Deer Island - MWRA Gate",
 "79618",,"High Plain Street",,"42.145806","-71.230117","Walpole","625 Washington St","Washington Street"
 "3133",,"Atlantic Street",,"42.283874","-71.024522","Quincy","E Squantum St @ Atlantic St","East Squantum Street"
 "door-portr-crtransfer",,,"Porter - Massachusetts Ave (East), Buses","42.388254","-71.119099","Cambridge","Porter - Massachusetts Ave (East), Buses",
@@ -3729,7 +3740,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "2138",,"Common Street",,"42.39504","-71.173204","Belmont","Opp 385 Concord Ave","Concord Avenue"
 "302",,"Columbia Road",,"42.320797","-71.056837","Boston","Dorchester Ave @ Columbia Rd","Dorchester Avenue"
 "node-817-lobby",,,"Davis - Bottom of Elevator 817",,,"Somerville","Davis",
-"Newtonville",,,"Newtonville - Commuter Rail","42.351603","-71.207338","Newton","Newtonville",
+"Newtonville",,,"Newtonville - Commuter Rail","42.351702","-71.205408","Newton","Newtonville",
 "2556",,"Hooker Street",,"42.358742","-71.127014","Boston","N Harvard St @ Hooker St","North Harvard Street"
 "4551",,"Valley Street",,"42.508352","-70.91237","Salem","Highland Ave opp Valley St","Highland Avenue"
 "4233",,"North Main Street",,"42.132787","-71.039789","Avon","E Main St @ E High St","Main Street"
@@ -3917,7 +3928,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "8816",,"Church Hill Street",,"42.367582","-71.187683","Watertown","Main St @ Thaxter St","Main Street"
 "2493",,,,"42.418686","-71.204882","Lexington","Service Road West @ Watertown St","Ramp - Rt 2 Westbound Frontage Rd To Rts 4/225"
 "7422",,"Walnut Street",,"42.440475","-71.015427","Revere","Salem St @ Marshall St N","Salem Street"
-"14030",,"Summer Street",,"42.203274","-71.007924","Braintree","Franklin St opp Summer St.","Franklin Street"
+"14030",,"Summer Street",,"42.203274","-71.007924","Braintree","Franklin St opp Summer St","Franklin Street"
 "5433",,"Sylvan Street",,"42.439494","-71.048291","Malden","Lebanon St @ Sylvan St","Lebanon Street"
 "76593",,"Washington Avenue",,"42.363169","-71.238784","Waltham","Moody St @ Washington Ave","Moody Street"
 "70008",,,"Roxbury Crossing - Orange Line - Forest Hills","42.331397","-71.095451","Boston","Roxbury Crossing",
@@ -3996,6 +4007,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-harsq-lowupstair-lower",,,"Harvard - Bottom of stairs between Upper Busway and Lower Busway",,,"Cambridge","Harvard",
 "node-855-platform",,,"Back Bay - Bottom of Tracks 1-3 elevator",,,"Boston","Back Bay",
 "77242",,"Plympton Street",,"42.381761","-71.246617","Waltham","Hammond St @ Plympton St","Hammond Street"
+"64002",,"Busway",,"42.328842","-71.084633","Boston","Dudley St @ Dudley Station","Dudley Street"
 "2320",,"Dover Street",,"42.394514","-71.126799","Cambridge","Massachusetts Ave @ Dover St","Massachusetts Avenue"
 "2177",,"Walden Street",,"42.383906","-71.134151","Cambridge","Concord Ave @ Walden St","Concord Avenue"
 "2279",,"Linwood Street",,"42.409321","-71.146681","Arlington","Massachusetts Ave @ Foster St","Massachusetts Avenue"
@@ -4111,7 +4123,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "8813",,"Whitridge Street",,"42.279781","-71.049944","Boston","Hilltop St opp Whitridge St","Hill Top Street"
 "2036",,"Dexter Avenue",,"42.370398","-71.160617","Watertown","Mt Auburn St @ Upland Rd","Mount Auburn Street"
 "2707",,"Montgomery Avenue",,"42.390497","-71.090264","Somerville","Broadway @ Montgomery Ave","Broadway"
-"4743",,"Harding Street",,"42.450809","-70.962821","Lynn","Lynnway @ Harding St.","Lynnway"
+"4743",,"Harding Street",,"42.451087","-70.962647","Lynn","Lynnway @ Harding St","Lynnway"
 "6950",,"Clark Street",,"42.45929","-71.140231","Winchester","Main St @ Clark St","Main Street"
 "5541",,"Genesee Street",,"42.412662","-71.022072","Revere","Park Ave @ Genesee St","Park Avenue"
 "1513",,"Olney Street",,"42.305292","-71.068298","Boston","Bowdoin St @ Olney St","Bowdoin Street"
@@ -4193,7 +4205,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "3338",,"Buckley Street",,"42.242812","-71.019401","Quincy","Copeland St @ Buckley St","Copeland Street"
 "7660",,"Robbins Street",,"42.364485","-71.238487","Waltham","Moody St @ Robbins St","Moody Street"
 "6100",,"Congress Street",,"42.514961","-70.889316","Salem","Leavitt St @ Congress St","Leavitt Street"
-"Lincoln",,,"Lincoln - Commuter Rail","42.414229","-71.325344","Lincoln","Lincoln",
+"Lincoln",,,"Lincoln - Commuter Rail","42.41342","-71.325404","Lincoln","Lincoln",
 "9020",,"Broadway",,"42.43427","-71.03866","Malden","Hunting St @ Salem St","Hunting Street"
 "494",,"Washington Street",,"42.278512","-71.070513","Boston","Gallivan Blvd @ Washington St","Gallivan Boulevard"
 "5334",,"Fellsway East",,"42.425102","-71.087282","Malden","Pleasant St @ Fellsway E","Pleasant Street"
@@ -4287,6 +4299,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "17154",,"Washington Square South",,"42.522854","-70.890528","Salem","Hawthorne Blvd @ Washington Sq S","Washington Square"
 "17456",,"Kennedy Drive",,"42.438035","-71.029801","Malden","Central Ave @ Kennedy Dr","Central Avenue"
 "node-413-entrance",,,"Courthouse - Top of escalator from mezzanine to Thomson Place",,,"Boston","Courthouse",
+"9070131",,,"Harvard Avenue - Green Line Westbound Shuttle","42.35049","-71.130739","Boston","Harvard Avenue",
 "6110",,"Laurel Street",,"42.50974","-70.891651","Salem","Lafayette St @ Laurel St","Lafayette Street"
 "2940",,"Rawson Street",,"42.326245","-71.058648","Boston","Boston St @ Rawson St","Boston Street"
 "17003",,,,"42.388352","-71.264614","Waltham","293 Second Ave","Second Avenue"
@@ -4310,7 +4323,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "8854",,"Wheeling Street",,"42.517154","-71.160718","Woburn","1032 Main St opp Wheeling St","Main Street"
 "door-bbsta-clarendon1",,,"Back Bay - Clarendon St (Tracks 1 and 3)","42.347552","-71.072937","Boston","Back Bay - Clarendon St (Tracks 1 and 3)",
 "4310",,"Hallen Avenue",,"42.238452","-71.069448","Milton","Randolph Ave opp Hallen Ave","Randolph Avenue"
-"6102",,"Harbor Street",,"42.5178","-70.889296","Salem","Congress St @ Shetland Park Industrial Park","Congress Street"
+"6102",,"Peabody Street",,"42.518436","-70.889364","Salem","Congress St @ Shetland Park Industrial Park","Congress Street"
 "1845",,"Manthorne Road",,"42.292867","-71.154376","Boston","Weld St @ Manthorne Rd","Weld Street"
 "86252",,,,"42.447365","-71.264687","Lexington","Old Mass Ave @ Marrett Rd - Minuteman Park","Old Massachusetts Avenue"
 "5788",,"School Street",,"42.408978","-71.008839","Revere","Beach St @ School St","Central Avenue"
@@ -4345,7 +4358,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "6396",,,,"42.25389","-71.111082","Boston","Metropolitan Ave @ Highland St","Metropolitan Avenue"
 "node-125-entrance",,,"Bowdoin - Top of escalator from lobby to entrance",,,"Boston","Bowdoin",
 "1204",,"Parsons Street",,"42.358663","-71.157969","Boston","Birmingham Pkwy @ Soldiers Field Rd","North Beacon Street"
-"4920",,"MacArthur Road",,"42.506545","-70.951702","Peabody","Lynn St @ Mcarthur Rd","Lynn Street"
+"4920",,"MacArthur Road",,"42.506545","-70.951702","Peabody","Lynn St @ MacArthur Rd","Lynn Street"
 "5537",,"Foster Street",,"42.410583","-71.014567","Revere","Park Ave @ Busway Entrance","Park Avenue"
 "7760",,"Bedford Street",,"42.44877","-71.229734","Lexington","Massachusetts Ave opp Clarke St","Massachusetts Avenue"
 "4938",,"Blaney Avenue",,"42.520914","-70.935153","Peabody","Washington St opp Blaney St","Washington Street"
@@ -4423,7 +4436,8 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "3020",,"Billings Road",,"42.273451","-71.025558","Quincy","Hancock St @ Billings Rd","Hancock Street"
 "place-state","200 Washington St, Boston, MA",,,"42.358978","-71.057598","Boston","State",
 "Kendal Green",,,"Kendal Green - Commuter Rail","42.37897","-71.282411","Weston","Kendal Green",
-"49619",,,,"42.214482","-71.189693","Westwood","Washington St opp Marshall St","Washington Street"
+"9070134",,,"Packards Corner - Green Line Eastbound Shuttle","42.351947","-71.124667","Boston","Packards Corner",
+"49619",,"Clapboardtree Street",,"42.213976","-71.190035","Westwood","Washington St opp Marshall St","Washington Street"
 "855",,"Albany Street",,"42.33325","-71.073291","Boston","Massachusetts Ave @ Albany St","Massachusetts Avenue"
 "1250",,"Worcester Street",,"42.340187","-71.078787","Boston","Tremont St @ Worcester St","Tremont Street"
 "door-rsmnl-wstairs",,,"Reservoir - Chestnut Hill Ave, Buses (Riverside)","42.335138","-71.148777","Brookline","Reservoir - Chestnut Hill Ave, Buses (Riverside)",
@@ -4473,6 +4487,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "6746",,"Kings Hill Drive",,"42.468169","-70.986071","Lynn","O'Callaghan Way @ Kings Hill Dr","O'Callaghan Way"
 "70098",,,"North Quincy - Red Line - Alewife","42.275275","-71.029583","Quincy","North Quincy",
 "door-wimnl-benning",,,"Wood Island - Bennington St","42.379854","-71.023052","Boston","Wood Island - Bennington St",
+"11599",,"Thompson Place",,"42.352775","-71.047419","Boston","Seaport Blvd @ Sleeper St","Seaport Boulevard"
 "31836",,"Beverly Road",,"42.301154","-71.154068","Brookline","Independence Dr @ Beverly Rd","Independence Drive"
 "614",,"Rockingham Avenue",,"42.263789","-71.154641","Boston","Washington St @ Rockingham Ave","Washington Street"
 "111206",,"Nantasket Road",,"42.279455","-70.869833","Hull","Nantasket Ave from Kenberma St to Bay St (FLAG)","Nantasket Avenue"
@@ -4591,7 +4606,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-symcl-hunwstair-platform",,,"Symphony - Bottom of west stairs for Massachusetts Ave, Huntington Ave",,,"Boston","Symphony",
 "109891",,"Somerset Avenue",,"42.373301","-70.989729","Winthrop","Pleasant St @ Somerset Ave","Pleasant Street"
 "17325",,,,"42.489805","-70.968929","Lynn","Lynnfield St @ St Marys Cemetery","Lynnfield Street"
-"4751",,"Atlantic Street",,"42.464194","-70.934688","Lynn","Broad St @ Lewis St","Broad Street"
+"4751",,"Atlantic Street",,"42.464262","-70.934462","Lynn","Lewis St @ Atlantic St","Lewis Street"
 "5217",,"South Street",,"42.288105","-71.144881","Boston","Centre St @ South St","Centre Street"
 "4320",,"Farrell Street",,"42.251054","-71.016004","Quincy","52 Whitwell St","Whitwell Street"
 "2747",,"Broadway",,"42.388509","-71.085968","Somerville","Cross St @ Broadway","Cross Street"
@@ -4608,16 +4623,18 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "9070",,"Lynn Street",,"42.436065","-71.021736","Malden","Salem St @ Lynn St","Salem Street"
 "place-PB-0212","383 South Ave, Whitman, MA 02382",,,"42.082749","-70.923411","Whitman","Whitman",
 "934",,"Pleasant Street",,"42.35123","-71.118201","Boston","Commonwealth Ave @ Pleasant St","Commonwealth Avenue"
+"9070128",,,"Griggs Street - Green Line Eastbound Shuttle","42.348687","-71.134238","Boston","Griggs Street",
 "10777",,"Springvale Avenue",,"42.27717","-71.164194","Boston","Spring St @ Cass St","Spring Street"
 "1661",,"Beverly Road",,"42.42642","-71.151971","Arlington","Mystic St @ Beverley Rd","Mystic Street"
 "place-brkhl","Tappan St and Cypress St, Brookline, MA 02445",,,"42.331333","-71.126999","Brookline","Brookline Hills",
 "3811",,"Glines Avenue",,"42.216045","-70.968361","Weymouth","Front St @ Glines Ave","Front Street"
 "10820",,,,"42.274823","-71.172103","Boston","Veterans Hospital West Roxbury",
 "3544",,"Green Street",,"42.244321","-70.940195","Weymouth","Bridge St @ Green St","Bridge Street"
-"36618",,"Morse Street",,"42.17152","-71.209497","Norwood","1297 Washington St opp. Morse St.","Washington Street"
+"36618",,"Morse Street",,"42.17152","-71.209497","Norwood","1297 Washington St opp Morse St","Washington Street"
 "13818",,,,"42.205395","-70.953889","Weymouth","587 Washington St","Washington Street"
 "109899",,"Hutchinson Street",,"42.385674","-70.976635","Winthrop","Revere St @ Golden Dr","Revere Street"
 "2356",,"Bellington Street",,"42.410504","-71.177309","Arlington","West Service Rd @ Hillcrest St","Frontage Road"
+"9070120",,,"Washington Street - Green Line Eastbound Shuttle","42.343972","-71.14252","Boston","Washington Street",
 "6468",,"West Street",,"42.261691","-71.121992","Boston","Hyde Park Ave @ West St","Hyde Park Avenue"
 "7374",,"Essex Street",,"42.470415","-70.938013","Lynn","Chestnut St @ Essex St","Chestnut Street"
 "10013",,"East Dedham Street",,"42.337556","-71.067875","Boston","Albany St @ E Dedham St","Albany Street"
@@ -4639,7 +4656,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-714-platform",,,"Orient Heights - Bottom of Elevator 714",,,"Boston","Orient Heights",
 "8513",,"Garden Road",,"42.348788","-71.187627","Newton","Centre St @ George St","Centre Street"
 "node-913-platform",,,"Aquarium - Bottom of elevator between Wonderland platform and State Street",,,"Boston","Aquarium",
-"82618",,"Eastover Road",,"42.147276","-71.242841","Walpole","777 East St opp. Eastover Rd.","East Street"
+"82618",,"Eastover Road",,"42.147276","-71.242841","Walpole","777 East St opp Eastover Rd","East Street"
 "node-symcl-weststair-platform",,,"Symphony - Bottom of stairs for Westland Ave, Symphony Hall",,,"Boston","Symphony",
 "71835",,"Newton Street",,"42.311236","-71.142555","Brookline","Clyde St opp Whitney St","Clyde Street"
 "7485",,,,"42.470848","-71.032522","Saugus","291 Main St","Main Street"
@@ -4724,7 +4741,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-hymnl-ebstairs-lobby",,,"Hynes Convention Center - Top of stairs for Park Street & North",,,"Boston","Hynes Convention Center",
 "3888",,,,"42.172496","-71.010689","Braintree","Washington St @ Olympus Specialty Hospital","Washington Street"
 "2879",,"Temple Road",,"42.395563","-71.088935","Somerville","Mystic Ave @ Temple Rd","Mystic Avenue"
-"48619",,"Clapboardtree Street",,"42.213738","-71.190263","Westwood","20 Washington St - Westwood Line","Washington Street"
+"48619",,,,"42.212765","-71.190263","Norwood","20 Washington St - Westwood Line","Washington Street"
 "2293",,"Park Avenue",,"42.424328","-71.182803","Arlington","Massachusetts Ave @ Park Ave","Massachusetts Avenue"
 "2794",,"Beech Street",,"42.273372","-71.129526","Boston","Poplar St @ Beech St","Poplar Street"
 "3487",,"Governors Road",,"42.260013","-71.046357","Milton","Adams St @ Governors Rd","Adams Street"
@@ -4871,7 +4888,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "16618",,"Richards Street",,"42.243358","-71.177137","Dedham","Washington St @ Richards St","Washington Street"
 "node-sstat-388stair-lobby",,,"South Station - Top of stairs for drop-off only platform",,,"Boston","South Station",
 "2261",,"Avon Place",,"42.41313","-71.149683","Arlington","Massachusetts Ave @ Avon Pl","Massachusetts Avenue"
-"place-NHRML-0055","481 High St, Medford, MA 02155",,,"42.421184","-71.132468","Medford","West Medford",
+"place-NHRML-0055","481 High St, Medford, MA 02155",,,"42.421776","-71.133342","Medford","West Medford",
 "498",,"Arbella Road",,"42.278452","-71.076948","Boston","Gallivan Blvd @ Arbella Rd","Gallivan Boulevard"
 "70016",,,"Tufts Medical Center - Orange Line - Forest Hills","42.349662","-71.063917","Boston","Tufts Medical Center",
 "8459",,"Brooksbie Road",,"42.488271","-71.268309","Bedford","Great Rd @ Brooksbie Rd","The Great Road"
@@ -4902,7 +4919,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "2329",,"Radcliffe Road",,"42.40882","-71.173726","Belmont","East Service Rd @ Radcliffe Rd","Frontage Road"
 "4248",,"Woodlawn Street",,"42.158323","-71.043369","Randolph","S Main St @ Van Beal Rd","South Main Street"
 "78624",,"Doty Street",,"42.400829","-71.214945","Waltham","Forest St @ Doty St","Forest Street"
-"7269",,,,"42.541404","-70.946015","Peabody","Northshore Mall @ Entrance F",
+"7269",,,,"42.540734","-70.945123","Peabody","Northshore Mall @ Entrance F",
 "541",,"Norfolk Street",,"42.281887","-71.087192","Boston","Morton St @ Norfolk St","Morton Street"
 "1924",,"Peterborough Street",,"42.343165","-71.099663","Boston","Kilmarnock St @ Peterborough St","Kilmarnock Street"
 "7335",,"Stocker Avenue",,"42.503646","-70.980323","Lynn","Lynnfield St opp Stocker Ave","Lynnfield Street"
@@ -4935,7 +4952,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "4179",,,,"42.180975","-71.052146","Randolph","Opp 683 N Main St","North Main Street"
 "3626",,"Baker Avenue",,"42.246197","-70.97504","Quincy","Washington St @ Baker Ave","Washington Street"
 "3602",,"Bradley Woods Drive",,"42.249236","-70.912221","Hingham","Lincoln St @ Bradley Woods Dr","Lincoln Street"
-"Brockton",,,"Brockton - Commuter Rail","42.08572","-71.0166","Brockton","Brockton",
+"Brockton",,,"Brockton - Commuter Rail","42.084659","-71.016534","Brockton","Brockton",
 "place-plsgr","Commonwealth Ave and Pleasant St, Boston, MA 02215",,,"42.351521","-71.118889","Boston","Pleasant Street",
 "3461",,"Summit Avenue",,"42.259713","-71.030622","Quincy","385 Beale St opp Summit Ave","Beale Street"
 "door-miltt-adams",,,"Milton - Adams St","42.270248","-71.067694","Milton","Milton - Adams St",
@@ -4990,7 +5007,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "8463",,"Railroad Avenue",,"42.486309","-71.277762","Bedford","South Rd @ Railroad Ave","South Road"
 "node-crtst-wtcexit-fareunpaid",,,"Courthouse - Unpaid side of outbound exit-only gates",,,"Boston","Courthouse",
 "7845",,"Prospect Street",,"42.368536","-71.242263","Waltham","Crescent St @ Maple St","Crescent Street"
-"11522",,"James Shea Circle",,"42.300468","-71.105914","Boston","Morton St @ Circuit Dr","Morton Street"
+"11522",,"Arborway",,"42.300643","-71.106355","Boston","Morton St @ Circuit Dr","Morton Street"
 "1092",,"Beacon Street",,"42.336219","-71.151237","Boston","Chestnut Hill Ave @ Beacon St","Chestnut Hill Avenue"
 "place-GB-0198","180 Essex St, Beverly, MA 01915",,,"42.562171","-70.869254","Beverly","Montserrat",
 "node-367-platform",,,"Broadway - Bottom of platform escalator",,,"Boston","Broadway",
@@ -5056,7 +5073,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "111720",,"Hudson Street",,"42.25629","-71.098789","Milton","Blue Hill Ave - Valentine Rd to Tucker St (FLAG)","Blue Hill Avenue"
 "2266",,"Milton Street",,"42.404033","-71.140245","Arlington","Massachusetts Ave @ Milton St","Massachusetts Avenue"
 "70039",,,"Government Center - Blue Line - Bowdoin","42.359705","-71.059215","Boston","Government Center",
-"2884",,"Mystic Valley Parkway",,"42.406567","-71.102216","Medford","Mystic Ave. opp. Harvard St.","Mystic Avenue"
+"2884",,"Mystic Valley Parkway",,"42.406567","-71.102216","Medford","Mystic Ave opp Harvard St","Mystic Avenue"
 "node-masta-852-lobby",,,"Massachusetts Avenue - Top of Elevator 852",,,"Boston","Massachusetts Avenue",
 "5901",,"Marion Street",,"42.377947","-71.037013","Boston","Lexington St @ Marion St","Lexington Street"
 "4764",,"Franklin Avenue",,"42.476029","-70.913301","Swampscott","Paradise Rd opp Franklin Ave","Paradise Road"
@@ -5081,7 +5098,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "93",,"Newbury Street",,"42.348005","-71.088033","Boston","Massachusetts Ave @ Newbury St","Massachusetts Avenue"
 "113",,"Causeway Street",,"42.364737","-71.062198","Boston","Portland St @ Causeway St","Portland Street"
 "4139",,"Columbine Road",,"42.264527","-71.078289","Milton","Central Ave @ Columbine Rd","Central Avenue"
-"6430",,"Sycamore Street",,"42.284332","-71.125039","Boston","Cummins Hwy. @ Sycamore St.","Cummins Highway"
+"6430",,"Sycamore Street",,"42.284332","-71.125039","Boston","Cummins Hwy @ Sycamore St","Cummins Highway"
 "3659",,"Cliff Street",,"42.255666","-70.928507","Weymouth","River St opp Cliff St","River Street"
 "70093",,,"Ashmont - Red Line - Exit Only","42.284239","-71.063601","Boston","Ashmont",
 "4429",,"Essex Street",,"42.227035","-70.949711","Weymouth","Commercail St opp Essex St","Commercial Street"
@@ -5097,7 +5114,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "1885",,"Maple Street",,"42.291572","-71.157158","Boston","Weld St @ Maple St","Weld Street"
 "3596",,"Grove Avenue",,"42.255196","-70.900896","Hingham","Downer Ave @ Grove Ave","Downer Avenue"
 "2336",,"Eliot Road",,"42.398186","-71.161156","Belmont","Brighton St @ Eliot Rd","Brighton Street"
-"Boat-Hingham","28 Shipyard Drive, Hingham MA 02043",,,"42.252643","-70.919875","Hingham","Hingham",
+"Boat-Hingham","28 Shipyard Drive, Hingham MA 02043",,,"42.253956","-70.919844","Hingham","Hingham",
 "8164",,"Clyde Street",,"42.345783","-71.206015","Newton","Walnut St @ Clyde St","Walnut Street"
 "6139",,"Chatham Street",,"42.471805","-70.934528","Lynn","Essex St @ Chatham St","Essex Street"
 "node-721-lobby",,,"Government Center - Top of elevator between plaza and Green Line",,,"Boston","Government Center",
@@ -5169,7 +5186,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-crtst-wtcmainstair-lobby",,,"Courthouse - Top of stairs for outbound platform",,,"Boston","Courthouse",
 "9181",,"Richardson Street",,"42.500253","-71.069327","Wakefield","Main St @ Galvin Middle School","Main Street"
 "4432",,"Roosevelt Road",,"42.222119","-70.948794","Weymouth","Essex St @ Roosevelt Rd","Essex Street"
-"17231",,"Chestnut Street",,"42.468941","-70.937214","Lynn","Union St @ Chestnut St (Westbound)","Union Street"
+"17231",,"Chestnut Street",,"42.468941","-70.937214","Lynn","Union St @ Chestnut St","Union Street"
 "43618",,"Chestnut Street",,"42.161765","-71.21596","Walpole","Washington St @ Chestnut St","Washington Street"
 "door-chncl-ogelevator",,,"Chinatown - Elevator (Oak Grove)","42.352628","-71.062443","Boston","Chinatown - Elevator (Oak Grove)",
 "17449",,"Raddin Grove Avenue",,"42.459513","-70.978415","Lynn","Summer St opp Raddin Grove Ave","Summer Street"
@@ -5210,7 +5227,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "8435",,"Oak Street",,"42.427552","-71.203657","Lexington","Massachusetts Ave opp Oak St","Massachusetts Avenue"
 "door-bbsta-dartms",,,"Back Bay - Dartmouth St (South)","42.347348","-71.075791","Boston","Back Bay - Dartmouth St (South)",
 "265",,"L Street",,"42.331409","-71.03539","Boston","E 8th St @ L St","East Eighth Street"
-"928",,"Harvard Avenue",,"42.352853","-71.132195","Boston","Brighton Ave @ Harvard Ave","Brighton Avenue"
+"928",,"Harvard Avenue",,"42.352822","-71.131746","Boston","Brighton Ave @ Harvard Ave","Brighton Avenue"
 "39692",,,,"42.210976","-70.994427","Braintree","Union St @ Cleveland Ave","Union Street"
 "5676",,"Lynn Street",,"42.389622","-71.032179","Chelsea","Central Ave @ Lynn St","Central Avenue"
 "7405",,"Salem Street",,"42.443797","-71.013241","Saugus","Salem St @ Clifton St","Lincoln Avenue"
@@ -5243,7 +5260,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "6744",,"Webbacowitt Avenue",,"42.467893","-70.987426","Lynn","Kings Hill Dr @ Newcastle St","Kings Hill Drive"
 "15984",,"Marble Street",,"42.47412","-71.100667","Stoneham","Main St @ Summer St","Main Street"
 "556",,"Tonawanda Street",,"42.299473","-71.064885","Boston","Geneva Ave @ Tonawanda St","Geneva Avenue"
-"place-NEC-2173","50 University Ave, Westwood, MA 02090",,,"42.209884","-71.1471","Westwood","Route 128",
+"place-NEC-2173","50 University Ave, Westwood, MA 02090",,,"42.210308","-71.147134","Westwood","Route 128",
 "node-326-platform",,,"North Quincy - Bottom of escalator from platform to Hancock Street, Newport Avenue lobby",,,"Quincy","North Quincy",
 "5062",,"Pine Street",,"42.431979","-71.081953","Malden","Highland Ave @ Pine St","Highland Avenue"
 "3207",,"Mason Street",,"42.273928","-71.012307","Quincy","W Elm Ave opp Mason St","West Elm Avenue"
@@ -5290,7 +5307,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "70001",,,"Forest Hills - Orange Line","42.300523","-71.113686","Boston","Forest Hills",
 "12940",,"Songin Way",,"42.328037","-71.057845","Boston","Boston St @ Fr Songin Way","Boston Street"
 "12699",,"Broadway",,"42.397092","-71.104294","Somerville","Medford St @ Broadway - Magoun Sq","Medford Street"
-"775",,"Gould Street",,"42.272796","-71.171035","Boston","Spring St @ Gould St","Spring Street"
+"775",,"Gould Street",,"42.272927","-71.170858","Boston","Spring St @ Gould St","Spring Street"
 "95618",,"Diamond Street",,"42.147098","-71.246662","Walpole","East St @ Diamond St","East Street"
 "5265",,"Charles Street",,"42.422386","-71.08655","Malden","1250 Fellsway","Fellsway"
 "2409",,"Fairmount Street",,"42.410543","-71.120102","Medford","372 Boston Ave opp Fairmount St","Boston Avenue"
@@ -5354,7 +5371,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "7623",,"Shaw Street",,"42.347172","-71.230344","Newton","Washington St @ Shaw St","Washington Street"
 "3117",,"Holbrook Road",,"42.267541","-71.03649","Quincy","Harvard St @ Holbrook Rd.","Harvard Street"
 "node-jfk-ashcolfarepaid",,,"JFK/UMass - Paid side of exit-only gates",,,"Boston","JFK/UMass",
-"Dedham Corp Center",,,"Dedham Corp Center - Commuter Rail","42.225896","-71.173806","Dedham","Dedham Corp Center",
+"Dedham Corp Center",,,"Dedham Corp Center - Commuter Rail","42.227079","-71.174254","Dedham","Dedham Corp Center",
 "171",,"Columbus Avenue",,"42.348569","-71.071717","Boston","Berkeley St @ Columbus Ave","Berkeley Street"
 "956",,"Buick Street",,"42.35131","-71.115933","Boston","Commonwealth Ave @ Buick St","Commonwealth Avenue"
 "10101",,"Harrison Avenue",,"42.332066","-71.079147","Boston","Melnea Cass Blvd @ Harrison Ave","Melnea Cass Boulevard"
@@ -5435,7 +5452,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "door-wimnl-lovell",,,"Wood Island - Lovell St","42.379446","-71.023083","Boston","Wood Island - Lovell St",
 "4338",,"Hazel Street",,"42.251004","-71.057536","Milton","Pleasant St @ Hazel St","Pleasant Street"
 "8814",,"Hallet Street",,"42.281011","-71.047954","Boston","Hilltop St @ Hallet St","Hill Top Street"
-"12149",,"Park Avenue",,"42.378874","-71.148476","Cambridge","Huron Ave @ Park Ave","Huron Avenue"
+"12149",,,,"42.378799","-71.148097","Cambridge","Huron Ave @ Park Ave","Huron Avenue"
 "4162",,"Eager Road",,"42.228563","-71.071136","Milton","Randolph Ave opp Eager Rd","Randolph Avenue"
 "3729",,"Circuit Road",,"42.24125","-70.990674","Quincy","Quincy Ave opp President Plaza","Quincy Avenue"
 "place-sstat","700 Atlantic Ave, Boston, MA 02110",,,"42.352271","-71.055242","Boston","South Station",
@@ -5535,7 +5552,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "9280",,"Aborn Avenue",,"42.512689","-71.070006","Wakefield","Pleasant St @ Aborn Ave","Pleasant Street"
 "3","Washington St and Melnea Cass Blvd, Roxbury, MA","Melnea Cass Boulevard","Washington St @ Melnea Cass Blvd - Silver Line - South Station/Downtown Crossing","42.333021","-71.080799","Boston","Washington St @ Melnea Cass Blvd - Silver Line","Washington Street"
 "node-wtcst-wtctstairs-top",,,"World Trade Center - Top of second World Trade Center entrance stairs",,,"Boston","World Trade Center",
-"6783",,"Park Street",,"42.463608","-70.96018","Lynn","N Common St @ Park St","North Common Street"
+"6783",,"Park Street",,"42.463589","-70.960505","Lynn","N Common St @ Park St","North Common Street"
 "5514",,"Lexington Street",,"42.411919","-71.050917","Everett","Broadway @ Lexington St","Broadway"
 "601",,"Firth Road",,"42.288805","-71.125748","Boston","Washington St @ South St","Washington Street"
 "70268",,,"Milton - Mattapan Trolley - Ashmont","42.270275","-71.067666","Milton","Milton",
@@ -5554,7 +5571,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "8683",,"Templeton Street",,"42.290019","-71.056239","Boston","Adams St @ Msgr Lydon Way","Adams Street"
 "599",,"Whipple Avenue",,"42.29162","-71.122671","Boston","Washington St @ Mosgrove Ave","Washington Street"
 "5050",,"Tappan Street",,"42.414272","-71.056985","Everett","Hancock St @ Tappan St","Hancock Street"
-"36961",,"King Oak Terrace",,"42.22574","-70.940651","Weymouth","Commercial St. @ James Rd.","Commercial Street"
+"36961",,"King Oak Terrace",,"42.22574","-70.940651","Weymouth","Commercial St @ James Rd","Commercial Street"
 "9070212",,,"St Marys St - Green Line Kenmore Shuttle","42.345892","-71.107009","Brookline","St Marys St",
 "9109",,"Fairview Terrace",,"42.449223","-71.134098","Winchester","Main St @ Fairview Terr","Main Street"
 "1586",,"Sunderland Street",,"42.310143","-71.082173","Boston","Blue Hill Av @ Stanwood St","Blue Hill Avenue"
@@ -5578,7 +5595,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "5809",,,,"42.400315","-70.996693","Revere","560 Winthrop Ave","Revere Beach Parkway"
 "5685",,"Carter Street",,"42.399382","-71.040726","Chelsea","Everett Ave @ Carter St","Everett Avenue"
 "24791",,"Alewife Station Access Road",,"42.398411","-71.146375","Cambridge","Acorn Park Drive","Acorn Park"
-"67202",,,,"42.488411","-71.019717","Saugus","Saugus Plaza @ Modells",
+"67202",,,,"42.489296","-71.019775","Saugus","Saugus Plaza Shopping Center",
 "node-wtcst-obstairs-lobby",,,"World Trade Center - Top of outbound platform stairs",,,"Boston","World Trade Center",
 "13856",,"Old Stone Way",,"42.199225","-70.925524","Weymouth","Mutton Lane @ Old Stone Way","Mutton Lane"
 "23530",,"Brunswick Road",,"42.406486","-71.162733","Arlington","244 Pleasant St opp Brunswick Rd","Pleasant Street"
@@ -5706,7 +5723,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "81651",,"Washington Park",,"42.349069","-71.20674","Newton","Walnut St @ Washington Pk","Walnut Street"
 "place-eliot","248 Lincoln St, Newton, MA 02461",,,"42.319023","-71.216713","Newton","Eliot",
 "node-404-lobby",,,"World Trade Center - Top of outbound platform escalator",,,"Boston","World Trade Center",
-"1077",,"Richardson Street",,"42.361858","-71.144012","Boston","Western Ave opp Richardson St","Western Avenue"
+"1077",,"Richardson Street",,"42.361858","-71.144012","Boston","495 Western Ave","Western Avenue"
 "node-kencl-fvmstair-lobby",,,"Kenmore - Bottom of stairs a between lobby and fare vending machines",,,"Boston","Kenmore",
 "2527",,"Norfolk Street",,"42.375026","-71.094913","Somerville","Webster Ave @ Columbia St","Webster Avenue"
 "2553",,"Western Avenue",,"42.363657","-71.129248","Boston","N Harvard St @ Western Ave","North Harvard Street"
@@ -5718,7 +5735,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "29006",,,"Sullivan Square - Upper Berth 6","42.383909","-71.076521","Boston","Sullivan Square","Busway"
 "3672",,"Gilbert Road",,"42.223743","-70.939712","Weymouth","Middle St @ Gilbert Rd","Middle Street"
 "89413",,,,"42.244873","-71.135972","Boston","Neponset Valley Pkwy @ River St","Neponset Valley Parkway"
-"Reading",,,"Reading - Commuter Rail","42.52148","-71.10744","Reading","Reading",
+"Reading",,,"Reading - Commuter Rail","42.52221","-71.108294","Reading","Reading",
 "2929",,"Ceylon Street",,"42.309061","-71.073733","Boston","Columbia Rd @ Intervale St","Columbia Road"
 "3232",,"Staunton Street",,"42.270858","-71.013279","Quincy","Elm Ave @ Staunton St","Elm Avenue"
 "85618",,"Main Street",,"42.147068","-71.251994","Walpole","935 East St","East Street"
@@ -5761,6 +5778,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-wtcst-fareunpaid",,,"World Trade Center - Unpaid side of fare gates",,,"Boston","World Trade Center",
 "4803",,"Washington Street",,"42.50461","-70.850217","Marblehead","Pleasant St @ Washington St","Pleasant Street"
 "node-918-lobby",,,"South Station - Lobby level of Elevator 918",,,"Boston","South Station",
+"13321",,"Warren Street",,"42.316456","-71.083459","Boston","Townsend St @ Warren St","Townsend Street"
 "2393",,"Gilman Street",,"42.384258","-71.088979","Somerville","Cross St @ Oliver St","Cross Street"
 "node-fldcr-fareunpaid",,,"Fields Corner - Unpaid side of fare gates",,,"Boston","Fields Corner",
 "2252",,"Hobbs Court",,"42.421782","-71.172697","Arlington","Massachusetts Ave @ Quincy St","Massachusetts Avenue"
@@ -5788,6 +5806,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "door-kencl-beacon",,,"Kenmore - Boston University, Beacon St","42.349273","-71.095549","Boston","Kenmore - Boston University, Beacon St",
 "70106",,,"Boston College - Green Line - Park Street & North","42.340149","-71.167029","Boston","Boston College",
 "35830",,"Raymond Road",,"42.414893","-71.016054","Revere","104 Constitution Ave","Constitution Avenue"
+"34589",,"Greenough Street",,"42.332287","-71.129178","Brookline","Tappan St @ Greenough St","Tappan Street"
 "1489",,"Mount Pleasant Avenue",,"42.328523","-71.079127","Boston","Dudley St @ Dearborn St","Dudley Street"
 "2460",,"White Street",,"42.388534","-71.118917","Cambridge","Somerville Ave @ White St (Porter Sq)","Somerville Avenue"
 "node-andrw-sbusstairs-lobby",,,"Andrew - Bottom of south busway entrance stairs",,,"Boston","Andrew",
@@ -5853,7 +5872,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "Beverly Farms",,,"Beverly Farms - Commuter Rail","42.561651","-70.811405","Beverly","Beverly Farms",
 "node-coecl-bplstair-platform",,,"Copley - Bottom of westbound platform stairs",,,"Boston","Copley",
 "430",,"Dorchester Avenue",,"42.286038","-71.064496","Boston","Talbot Ave @ Dorchester Ave","Talbot Avenue"
-"7299",,"Maple Street",,"42.477865","-70.950569","Lynn","Chestnut St. @ Maple Street","Chestnut Street"
+"7299",,"Maple Street",,"42.477865","-70.950569","Lynn","Chestnut St @ Maple Street","Chestnut Street"
 "70112",,,"Chestnut Hill Avenue - Green Line - Park Street & North","42.33873","-71.152526","Boston","Chestnut Hill Avenue",
 "5915",,"Sixth Street",,"42.454527","-71.052019","Melrose","Grove St @ Swains Pond Ave","Grove Street"
 "7226",,"Brook Street",,"42.47196","-70.930868","Lynn","87 Timson St","Timson Street"
@@ -5870,7 +5889,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-brdwy-platstairs-lobby",,,"Broadway - Top of platform stairs",,,"Boston","Broadway",
 "41618",,"Manison Drive",,"42.162628","-71.215454","Walpole","123 Washington St","Washington Street"
 "70217",,,"Saint Paul Street - Green Line - (C) Cleveland Circle","42.34334","-71.116927","Brookline","Saint Paul Street",
-"547",,"Monsignor Casey Highway",,"42.301072","-71.107136","Boston","500 Arborway","Arborway"
+"547",,"Washington Street",,"42.30165","-71.109381","Boston","500 Arborway","Arborway"
 "18930",,"Rando Lane",,"42.391378","-71.242473","Waltham","Totten Pond Rd @ Rando Ln","Totten Pond Road"
 "109850",,"Townsend Street",,"42.358426","-70.970394","Winthrop","Tafts Ave @ Townsend St","Tafts Avenue"
 "2730",,"Adams Street",,"42.395642","-71.099434","Somerville","Broadway opp Adams St","Broadway"
@@ -5880,6 +5899,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-bbsta-13clarexit-farepaid",,,"Back Bay - Station side of exit-only gate",,,"Boston","Back Bay",
 "Attleboro",,,"Attleboro - Commuter Rail","41.940739","-71.285094","Attleboro","Attleboro",
 "826",,"Glenhaven Road",,"42.270125","-71.16203","Boston","Centre St @ Glenhaven Rd","Centre Street"
+"14889",,"Norcross Terrace",,"42.466442","-70.928199","Lynn","Lewis St @ Phillips Ave","Lewis Street"
 "18335",,"Grant Street",,"42.376319","-71.241643","Waltham","Main St @ Grant St","Main Street"
 "36539",,"Village Court",,"42.345137","-71.069335","Boston","E Berkeley @ Tremont St","East Berkeley Street"
 "6810",,"Ontario Street",,"42.472806","-70.968979","Lynn","Linwood St @ Ontario St","Linwood Street"
@@ -5954,7 +5974,8 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "11891",,"Water Street",,"42.357495","-71.056251","Boston","Pearl St @ Congress St","Post Office Square"
 "4469",,"Ravenna Avenue",,"42.497213","-70.931319","Salem","Highland Ave @ Ravenna Ave","Highland Avenue"
 "14609",,"North Shore Avenue",,"42.542256","-70.919211","Peabody","Margin St @ N Shore Ave","Margin Street"
-"6834",,"Chestnut Street",,"42.468936","-70.936996","Lynn","Union St @ Chestnut St (Eastbound)","Union Street"
+"6834",,"Chestnut Street",,"42.468936","-70.936996","Lynn","Union St @ Chestnut St","Union Street"
+"25089",,,,"42.334406","-71.072308","Boston","Albany St @ Boston Medical Ctr","Albany Street"
 "node-441-platform",,,"Orient Heights - Bottom of Escalator 441",,,"Boston","Orient Heights",
 "8914",,"Nutting Road",,"42.402615","-71.236439","Waltham","Lake St @ Hardy Residences","Lake Street"
 "door-newto-braeland",,,"Newton Centre - Braeland Ave, Langley Rd","42.329349","-71.192296","Newton","Newton Centre - Braeland Ave, Langley Rd",
@@ -5983,7 +6004,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "5036",,"Marston Street",,"42.412955","-71.116533","Medford","George St @ Marston St","George Street"
 "8493",,"Country Club Road",,"42.306772","-71.195235","Newton","Dedham St @ Country Club Rd","Dedham Street"
 "9526",,,,"42.38164","-71.262237","Waltham","Main Shopping Center @ Market Basket",
-"9146",,,,"42.429733","-71.129796","Medford","578 Winthrop St.","Winthrop Street"
+"9146",,,,"42.429733","-71.129796","Medford","578 Winthrop St","Winthrop Street"
 "South Station-10",,,"South Station - Commuter Rail - Track 10","42.351081","-71.054914","Boston","South Station",
 "South Weymouth",,,"South Weymouth - Commuter Rail","42.155025","-70.953302","Weymouth","South Weymouth",
 "8154",,"Bowdoin Street",,"42.321005","-71.210712","Newton","Lincoln St @ Bowdoin St","Lincoln Street"
@@ -6133,7 +6154,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "3788",,"Richard Street",,"42.241448","-70.992068","Quincy","Quincy Ave opp Richard St","Quincy Avenue"
 "93130",,"Newbury Avenue",,"42.276597","-71.02546","Quincy","Hollis @ Newbury","Hollis Avenue"
 "4203",,"Brook Road",,"42.258132","-71.080961","Milton","Reedsdale Rd @ Brook Rd","Reedsdale Road"
-"Framingham",,,"Framingham - Commuter Rail","42.276719","-71.416792","Framingham","Framingham",
+"Framingham",,,"Framingham - Commuter Rail","42.276108","-71.420055","Framingham","Framingham",
 "70082",,,"Broadway - Red Line - Alewife","42.342622","-71.056967","Boston","Broadway",
 "5525",,"Sheafe Street",,"42.427609","-71.041124","Malden","Broadway opp Sheafe St","Broadway"
 "node-wondl-busstairs-busway",,,"Wonderland - Bottom of stairs to busway door to lobby",,,"Revere","Wonderland",
@@ -6141,6 +6162,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "5614",,"Hawthorn Street",,"42.390263","-71.035553","Chelsea","Park St @ Hawthorne St","Park Street"
 "83032",,"Christina Street",,"42.30766","-71.216067","Newton","Needham St @ Oak St","Needham Street"
 "6463",,"Sycamore Street",,"42.284441","-71.125001","Boston","Cummins Hwy @ Sycamore St","Cummins Highway"
+"2349",,"Lake Street",,"42.403357","-71.159784","Belmont","Cross St @ Gilmore Rd","Cross Street"
 "6694",,"Myrtle Street",,"42.468821","-70.976727","Lynn","Holyoke St @ Myrtle St","Holyoke Street"
 "1743",,"Walnut Avenue",,"42.313537","-71.095103","Boston","Columbus Ave @ Walnut Ave","Columbus Avenue"
 "9102",,"Main Street",,"42.435433","-71.132192","Medford","713 Winthrop St opp Robinson Rd","Winthrop Street"
@@ -6212,7 +6234,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "12648",,"Allen Street",,"42.412312","-71.145561","Arlington","Broadway @ Allen St","Broadway"
 "7406",,"Franklin Street",,"42.441567","-71.0148","Revere","Salem St @ Franklin St","Salem Street"
 "6398",,"Milton Avenue",,"42.250886","-71.111651","Boston","Summit St @ Milton Ave","Summit Street"
-"place-WR-0120","35 Lincoln St, Reading, MA 01867",,,"42.52148","-71.10744","Reading","Reading",
+"place-WR-0120","35 Lincoln St, Reading, MA 01867",,,"42.52221","-71.108294","Reading","Reading",
 "70094",,,"Ashmont - Red Line - Alewife","42.284258","-71.063524","Boston","Ashmont",
 "1167",,"Dimock Street",,"42.318899","-71.095139","Boston","Washington St opp Dimock St","Washington Street"
 "2838",,"Walker Street",,"42.378342","-71.067914","Boston","Main St @ Walker St","Main Street"
@@ -6239,7 +6261,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "70237",,,"Cleveland Circle - Green Line - Exit Only","42.336216","-71.149201","Boston","Cleveland Circle",
 "node-jfk-crramp-cr",,,"JFK/UMass - Top of ramp between busway, Commuter Rail, Old Colony Avenue and Red Line","42.321012","-71.052144","Boston","JFK/UMass",
 "1283",,"Harvard Street",,"42.332915","-71.118878","Brookline","Washington St @ Harvard St","Washington Street"
-"4886",,"New Ocean Street",,"42.467758","-70.924434","Lynn","New Ocean St @ Ocean St","Ocean Street"
+"4886",,"Michigan Avenue",,"42.467404","-70.924804","Lynn","Ocean St @ Michigan Ave","Ocean Street"
 "2617",,"Loring Street",,"42.382689","-71.104054","Somerville","Somerville Ave @ Loring St","Somerville Avenue"
 "node-astao-revplatstair-platform",,,"Assembly - Bottom of platform stairs for Revolution Drive",,,"Somerville","Assembly",
 "24940",,"Corwin Street",,"42.516706","-70.959085","Peabody","149 Lynnfield St","Lynnfield Street"
@@ -6263,7 +6285,6 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "4571",,,,"42.516131","-70.974301","Peabody","Opp 259 Lynnfield St","Lynnfield Street"
 "4290",,"Francis Drive",,"42.183624","-71.053703","Randolph","N Main St @ Francis Dr","North Main Street"
 "9106",,"Marshall Road",,"42.443201","-71.134855","Winchester","Main St @ Marshall Rd","Main Street"
-"2349",,"Lake Street",,"42.403357","-71.159784","Belmont","Cross St @ Gilmore Rd","Cross Street"
 "7844",,"Robbins Street",,"42.365177","-71.243624","Waltham","Crescent St @ Robbins St","Crescent Street"
 "North Station-02",,,"North Station - Commuter Rail - Track 2","42.366493","-71.062829","Boston","North Station",
 "4258",,"South Street",,"42.161855","-71.040036","Randolph","Union St @ Howard St","Union Street"
@@ -6300,7 +6321,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "514",,"Coolidge Road",,"42.281176","-71.070857","Boston","Washington St @ Coolidge Rd","Washington Street"
 "4058",,"Union Street",,"42.163067","-71.041089","Randolph","North St @ N Main St","North Street"
 "111796",,"Wildwood Drive",,"42.165614","-71.142813","Canton","Washington St from Chapman St to Lewis St (FLAG)","Washington Street"
-"2453",,"Buckingham Street",,"42.375861","-71.103295","Somerville","45 Beacon St.","Beacon Street"
+"2453",,"Buckingham Street",,"42.375861","-71.103295","Somerville","45 Beacon St","Beacon Street"
 "6836",,"Trinity Avenue",,"42.469101","-70.935401","Lynn","Fayette St @ Trinity Ave","Fayette Street"
 "9225",,"Lynde Street",,"42.451734","-71.067239","Melrose","Main St @ E Wyoming Ave","Main Street"
 "Reading-S",,,"Reading - Commuter Rail Shuttle","42.52148","-71.10744","Reading","Reading",
@@ -6326,7 +6347,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "1772",,"Waverly Street",,"42.355065","-71.110476","Cambridge","Granite St @ Brookline St","Granite Street"
 "5900",,"Brooks Street",,"42.378748","-71.034853","Boston","Lexington St @ Brooks St","Lexington Street"
 "5863",,"Lamson Street",,"42.367228","-71.032181","Boston","Maverick St @ Lawson St","Maverick Street"
-"7245",,"Western Avenue",,"42.469745","-70.956759","Lynn","Washington St @ Western Ave","Washington Street"
+"7245",,,,"42.469963","-70.957094","Lynn","Washington St @ Western Ave","Washington Street"
 "place-GB-0296","290 Essex Ave, Gloucester, MA 01930",,,"42.611933","-70.705417","Gloucester","West Gloucester",
 "16132",,"Burrill Street",,"42.475924","-70.921709","Swampscott","Essex St opp Burrill St","Essex Street"
 "6567",,"Essex Street","Washington St @ Essex St - Silver Line - SL5 Downtown Crossing","42.352461","-71.062552","Boston","Washington St @ Essex St","Washington Street"
@@ -6353,7 +6374,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-821-lobby",,,"Harvard - Bottom of elevator between Harvard Square and lobby",,,"Cambridge","Harvard",
 "7905",,,,"42.461079","-71.239206","Lexington","Bedford St @ Sunny Knoll Ave","Bedford Street"
 "49704",,"Beacon Street",,"42.358108","-71.060394","Boston","Tremont St @ Beacon St","Tremont Street"
-"78600",,"Waverley Oaks Road",,"42.383144","-71.208429","Waltham","135 Beaver St.","Beaver Street"
+"78600",,"Waverley Oaks Road",,"42.383144","-71.208429","Waltham","135 Beaver St","Beaver Street"
 "49846",,,,"42.50372","-71.239692","Bedford","MITRE Corp Inner Rd",
 "2729",,"Main Street",,"42.394765","-71.097355","Somerville","Broadway @ Main St","Broadway"
 "4796",,"Bubier Road",,"42.496116","-70.86266","Marblehead","Pleasant St @ Bubier Rd","Pleasant Street"
@@ -6426,6 +6447,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "place-bbsta","145 Dartmouth St Boston, MA 02116",,,"42.34735","-71.075727","Boston","Back Bay",
 "99",,"Albany Street",,"42.360758","-71.095722","Cambridge","Massachusetts Ave @ Albany St","Massachusetts Avenue"
 "45332",,"Gale Street",,"42.42555","-71.085803","Malden","Pleasant St @ Vista St","Pleasant Street"
+"2140",,"Myrtle Street",,"42.393894","-71.169453","Belmont","Concord Ave @ Myrtle St","Concord Avenue"
 "4577",,,,"42.523353","-70.957076","Peabody","Centennial Dr opp Marriott Dr","Centennial Drive"
 "4026",,"Reed Hill Road",,"42.210171","-71.016334","Braintree","Franklin St opp Reed Hill Rd","Franklin Street"
 "81684",,"North Street",,"42.359771","-71.215344","Newton","Crafts St @ North St","Crafts Street"
@@ -6573,7 +6595,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "1646",,"Saint Moritz Avenue",,"42.232073","-71.029951","Quincy","Willard St opp St Moritz Ave","Willard Street"
 "8455",,"Pine Street",,"42.484176","-71.259671","Bedford","Great Rd @ Shawsheen Rd","The Great Road"
 "70231",,,"Tappan Street - Green Line - (C) Cleveland Circle","42.338498","-71.138731","Brookline","Tappan Street",
-"Brandeis/ Roberts",,,"Brandeis/Roberts - Commuter Rail","42.361728","-71.260854","Waltham","Brandeis/Roberts",
+"Brandeis/ Roberts",,,"Brandeis/Roberts - Commuter Rail","42.361898","-71.260065","Waltham","Brandeis/Roberts",
 "9082",,"Sheffield Road",,"42.461216","-71.04967","Melrose","East St opp Sheffield Rd","East Street"
 "9069",,"Revere Street",,"42.437257","-71.025457","Malden","Salem St @ Revere St","Salem Street"
 "82049",,"Columbia Road",,"42.313962","-71.211439","Newton","Needham St @ Columbia Ave","Needham Street"
@@ -6584,7 +6606,6 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "178",,"Huntington Avenue",,"42.349373","-71.076911","Boston","Saint James Ave @ Dartmouth St","Saint James Avenue"
 "place-WML-0102","Auburn St and Woodland Rd, Newton, MA 02466",,,"42.345725","-71.250826","Newton","Auburndale",
 "15976",,"Cleveland Street",,"42.4537","-71.07485","Melrose","Wyoming Ave @ Cleveland St","West Wyoming Avenue"
-"2140",,"Myrtle Street",,"42.393894","-71.169453","Belmont","Concord Ave @ Myrtle St","Concord Avenue"
 "9033",,"Thacher Street",,"42.420417","-71.079978","Malden","Highland Ave @ Thacher St","Highland Avenue"
 "7272",,"Hyde Street",,"42.555921","-70.946519","Danvers","Pine St @ opp Hyde St","Pine Street"
 "7388",,"Vincent Street",,"42.457712","-70.989777","Saugus","Lincoln Ave @ Vincent St","Lincoln Avenue"
@@ -6669,7 +6690,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "4949",,"Roy Croft Road",,"42.535353","-70.916697","Peabody","Margin St @ Roycroft Rd","Margin Street"
 "door-cenav-ashmont",,,"Central Avenue - Central Ave (South)","42.269991","-71.073299","Milton","Central Avenue - Central Ave (South)",
 "node-andrw-nlobbycenter",,,"Andrew - North lobby center",,,"Boston","Andrew",
-"place-FR-0253","4 Central St, Acton, MA 01720",,,"42.460574","-71.457804","Acton","South Acton",
+"place-FR-0253","4 Central St, Acton, MA 01720",,,"42.460375","-71.457744","Acton","South Acton",
 "4391",,"Farrell Street",,"42.250405","-71.014922","Quincy","Whitwell St @ Farrell St","Whitwell Street"
 "9070218",,,"Saint Paul Street - Green Line Eastbound Shuttle","42.342952","-71.117604","Brookline","Saint Paul Street",
 "1540",,"Hammond Street",,"42.32361","-71.163925","Brookline","Boylston St @ Hammond St","Boylston Street"
@@ -6682,6 +6703,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "1452",,"Irving Street",,"42.364887","-71.179245","Watertown","Arsenal St @ Irving St","Arsenal Street"
 "North Station-10",,,"North Station - Commuter Rail - Track 10","42.366761","-71.062365","Boston","North Station",
 "109810",,"Pleasant Street",,"42.374436","-70.991198","Winthrop","Pauline St @ Pleasant St","Pauline Street"
+"9070127",,,"Allston Street - Green Line Westbound Shuttle","42.348796","-71.138399","Boston","Allston Street",
 "6757",,"Cottage Street",,"42.464015","-70.973827","Lynn","Boston St @ Cottage St","Boston Street"
 "8961",,"West Milton Street",,"42.238279","-71.135767","Boston","Readville St @ W Milton St","Readville Street"
 "5932",,"Apthrop Road",,"42.46886","-71.071846","Melrose","Franklin St @ Apthorp Rd","Franklin Street"
@@ -6758,6 +6780,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "place-portr","1899 Massachusetts Ave, Cambridge, MA 02140",,,"42.3884","-71.119149","Cambridge","Porter",
 "7825",,"Lexington Street",,"42.348007","-71.247396","Newton","Commonwealth Ave @ Lexington St","Commonwealth Avenue"
 "2083",,"Chilton Street",,"42.381198","-71.137926","Cambridge","Huron Ave @ Gurney St","Huron Avenue"
+"2277",,"Winter Street",,"42.406066","-71.142554","Arlington","Massachusetts Ave opp Lake St","Massachusetts Avenue"
 "node-sstat-deweystair-lobby",,,"South Station - Bottom of stairs for Summer Street, Atlantic Avenue",,,"Boston","South Station",
 "9237",,"Bay State Road",,"42.473694","-71.061249","Melrose","Main St @ Bay State Rd","Main Street"
 "1365",,,,"42.33328","-71.109273","Boston","835 Huntington Ave opp Parker Hill Ave","Huntington Avenue"
@@ -6832,6 +6855,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "9055",,"Adams Street",,"42.421622","-71.080077","Malden","Highland Ave @ Adams St","Highland Avenue"
 "12643",,"Allen Street",,"42.412422","-71.145571","Arlington","Broadway @ Allen St","Broadway"
 "6140",,"Fayette Street",,"42.470634","-70.936877","Lynn","Essex St @ Fayette St","Essex Street"
+"11244",,,,"42.326245","-71.062585","Boston","South Bay Mall @ Allstate Rd",
 "1100",,"Brooks Street",,"42.355539","-71.162428","Boston","Hobart St @ Brooks St","Hobart Street"
 "9160",,"Fourth Street",,"42.410984","-71.087957","Medford","Riverside Ave @ Commercial St","Riverside Avenue"
 "1787","Washington St at Worcester Sq, Boston, MA","Worcester Street",,"42.337524","-71.075479","Boston","Washington St @ Worcester St","Washington Street"
@@ -6873,7 +6897,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "283",,"Covington Street",,"42.331295","-71.046082","Boston","E 8th St @ Covington St","East Eighth Street"
 "111222",,,,"42.26487","-70.85755","Hull","Wash Blvd from Rockland House Rd to Med Ctr (FLAG)","George Washington Boulevard"
 "1665",,"Robinson Park",,"42.439301","-71.152499","Winchester","Cambridge St @ Robinson Pk","Cambridge Street"
-"8593",,"Maple Street",,"42.434802","-71.210194","Lexington","Massachusetts Ave @ Maple St","Massachusetts Avenue"
+"8593",,"Maple Street",,"42.435038","-71.210535","Lexington","Massachusetts Ave @ Maple St","Massachusetts Avenue"
 "33241",,"Temple Street",,"42.249637","-71.00278","Quincy","Granite St @ Hancock St","Granite Street"
 "9070235",,,"Englewood Avenue - Green Line Cleveland Circle Shuttle","42.33727","-71.145528","Brookline","Englewood Avenue",
 "26131",,,,"42.380273","-71.096622","Somerville","Bow St @ Warren Ave","Bow Street"
@@ -6914,7 +6938,6 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "place-ER-0115","325 Broad St, Lynn, MA 01901",,,"42.462953","-70.945421","Lynn","Lynn",
 "96500",,"Canterbury Street",,"42.285541","-71.110061","Boston","American Legion Hwy @ Canterbury St","American Legion Highway"
 "5886",,"McClellan Highway",,"42.39341","-71.011238","Boston","Waldemar Ave @ McClellan Hwy","Waldemar Avenue"
-"2277",,"Winter Street",,"42.406066","-71.142554","Arlington","Massachusetts Ave opp Lake St","Massachusetts Avenue"
 "4670",,"Garden Terrace",,"42.530344","-70.907758","Salem","North St @ Cressey Ave","North Street"
 "8307",,"Grant Avenue",,"42.42439","-71.092796","Medford","Fellsway W @ Grant Ave","Fellsway West"
 "3237",,"Washington Street",,"42.251487","-71.002208","Quincy","Coddington St @ Washington St","Coddington Street"
@@ -6988,7 +7011,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-868-lobby",,,"Broadway - Bottom of main entrance elevator",,,"Boston","Broadway",
 "2197",,"Common Street",,"42.395293","-71.17319","Belmont","385 Concord Ave","Concord Avenue"
 "node-515-lobby",,,"Harvard - Bottom of escalator from Harvard Square mezzanine to lobby",,,"Cambridge","Harvard",
-"931",,"Commonwealth Avenue Frontage Road Westbound",,"42.352041","-71.125451","Boston","Brighton Ave @ Comm Ave","Brighton Avenue"
+"931",,"Saint Lukes Road",,"42.35214","-71.126219","Boston","Brighton Ave @ Comm Ave","Brighton Avenue"
 "74631",,,"Chelsea - Silver Line - Exit Only","42.39682","-71.040437","Chelsea","Chelsea","Chelsea Busway"
 "3038",,,,"42.2516","-71.003123","Quincy","1250 Hancock St","Washington Street"
 "2934",,"Annabel Street",,"42.318702","-71.063102","Boston","Columbia Rd @ Annabel St","Columbia Road"
@@ -7017,6 +7040,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "78512",,,,"42.367936","-71.215996","Waltham","700 Pleasant St","Pleasant Street"
 "node-sstat-399stair-middle",,,"South Station - Bottom of stairs for Red Line, Silver Line lobby",,,"Boston","South Station",
 "84886",,"Walnut Street",,"42.320359","-71.205142","Newton","Centre St @ Walnut St","Centre Street"
+"9070121",,,"Washington Street - Green Line Westbound Shuttle","42.34411","-71.142797","Boston","Washington Street",
 "32001",,,"Quincy Center - Berth 1","42.251696","-71.004973","Quincy","Quincy Center","Busway"
 "2891",,"Whyte Street",,"42.409608","-71.105403","Medford","Mystic Ave @ Whyte St","Mystic Avenue"
 "109874",,"Grovers Avenue",,"42.384428","-70.973253","Winthrop","Crest Ave @ Grovers Ave","Crest Avenue"
@@ -7048,6 +7072,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "1085",,"Academy Hill Road",,"42.347089","-71.15375","Boston","Chestnut Hill Ave @ Academy Hill Rd","Chestnut Hill Avenue"
 "46268",,"Central Avenue",,"42.438089","-71.029619","Malden","Kennedy Dr @ Central Ave","Kennedy Drive"
 "2419",,"Pitcher Avenue",,"42.421038","-71.139183","Medford","High St @ Pitcher Ave","High Street"
+"13378",,"Gallivan Boulevard",,"42.282827","-71.055898","Boston","Adams St @ Gallivan Blvd","Adams Street"
 "4811",,"Lynn Shore Drive",,"42.467796","-70.920572","Swampscott","Opp 58 Humphrey St","Humphrey Street"
 "14552",,"Almeda Street",,"42.510463","-70.909881","Salem","Highland Ave @ Almeda St","Highland Avenue"
 "4186",,"West Street",,"42.169097","-71.045626","Randolph","N Main St @ West St","North Main Street"
@@ -7083,7 +7108,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "15046",,"Commandant's Way",,"42.392509","-71.044421","Chelsea","Spruce St @ Williams St","Spruce Street"
 "5582",,"Essex Street",,"42.412114","-71.020429","Revere","290 Park Ave opp Essex St","Park Avenue"
 "5379",,"Cross Street",,"42.427481","-71.054588","Malden","210 Lyme St","Lyme Street"
-"18241",,,,"42.481068","-71.211996","Burlington","Burlington Mall @ Macys",
+"18241",,,,"42.480528","-71.212575","Burlington","Burlington Mall @ Macys",
 "node-gover-ebtransstairs-bl",,,"Government Center - Bottom of stairs between Green Line and Blue Line",,,"Boston","Government Center",
 "4773",,,,"42.482493","-70.898097","Swampscott","212 Salem St","Salem Street"
 "6837",,"Chatham Street",,"42.470279","-70.933344","Lynn","Trinity Ave @ Chatham St","Trinity Avenue"
@@ -7096,6 +7121,8 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "3724",,"East Howard Street",,"42.236825","-70.980632","Quincy","Quincy Ave @ E Howard St","Quincy Avenue"
 "7474",,"Main Street",,"42.464712","-71.009667","Saugus","Central St @ Hamilton St","Central Street"
 "node-sstat-ashbrain-fareunpaid",,,"South Station - Unpaid side of exit-only gates",,,"Boston","South Station",
+"7440",,"Wendell Street",,"42.456505","-70.989976","Saugus","60 Lincoln Ave","Lincoln Avenue"
+"1276",,"Beacon Street",,"42.339516","-71.135747","Brookline","Washington St @ Beacon St","Washington Street"
 "node-aqucl-nstatestairs-landingtop",,,"Aquarium - Landing for stairs for State Stree north",,,"Boston","Aquarium",
 "4706",,,,"42.45109","-70.963033","Lynn","715 Lynnway","Lynnway"
 "13819",,"West Lake Drive",,"42.203739","-70.950648","Weymouth","Washington St opp West Lake Dr","Washington Street"
@@ -7148,7 +7175,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "2467",,"Homer Road",,"42.419167","-71.195486","Arlington","Appleton St @ Homer Rd","Appleton Street"
 "4816",,"Marshall Street",,"42.467709","-70.907912","Swampscott","Humphrey St @ Marshall St","Humphrey Street"
 "530",,"Lorna Road",,"42.280126","-71.082373","Boston","Morton St @ W Selden St","Morton Street"
-"7240",,"Essex Street",,"42.46576","-70.949736","Lynn","Washington St @ Essex St","Washington Street"
+"7240",,"Essex Street",,"42.465888","-70.949959","Lynn","Washington St @ Essex St","Washington Street"
 "5506",,"Dexter Street",,"42.394293","-71.067205","Everett","Broadway @ Dexter St","Broadway"
 "2680",,"Lowell Street",,"42.390067","-71.107802","Somerville","Highland Ave @ Lowell St","Highland Avenue"
 "8629",,"Lincoln Street",,"42.439837","-71.250908","Lexington","Marrett Rd @ Lincoln St","Marrett Road"
@@ -7198,7 +7225,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "7852",,"Farwell Street",,"42.368412","-71.2176","Waltham","River St @ Seyon St","River Street"
 "1170",,"Martin Luther King Boulevard",,"42.321749","-71.091752","Boston","Washington St @ ML King Blvd","Washington Street"
 "4040",,"Maitland Avenue",,"42.191015","-71.029853","Randolph","North St @ Maitland Ave","North Street"
-"15088",,"East Springfield Street",,"42.335445","-71.074414","Boston","Harrison Ave opp. East Springfield St.","Harrison Avenue"
+"15088",,"East Springfield Street",,"42.335445","-71.074414","Boston","Harrison Ave opp East Springfield St","Harrison Avenue"
 "node-spmnl-obstairs-platform",,,"Science Park - Top of outbound platform stairs",,,"Boston","Science Park",
 "node-bbsta-upassestairs-top",,,"Back Bay - Top of eastern underpass stairs",,,"Boston","Back Bay",
 "4792",,"Country Side Lane",,"42.492308","-70.873451","Marblehead","Humphrey St @ Countryside Ln","Humphrey Street"
@@ -7227,8 +7254,6 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "1435",,"Louise Street",,"42.36413","-71.170768","Watertown","Arsenal St @ Louise St","Arsenal Street"
 "5324",,"Garfield Avenue",,"42.421827","-71.095275","Medford","Salem St @ Garfield Ave","Salem Street"
 "6390",,"Fairmount Avenue",,"42.255735","-71.121217","Boston","River St @ Fairmount Ave","River Street"
-"7440",,"Wendell Street",,"42.456505","-70.989976","Saugus","60 Lincoln Ave","Lincoln Avenue"
-"1276",,"Beacon Street",,"42.339516","-71.135747","Brookline","Washington St @ Beacon St","Washington Street"
 "5509",,"Bartlett Street",,"42.400396","-71.061599","Everett","Broadway St @ Bartlett St","Broadway"
 "node-ccmnl-stairs-lobby",,,"Community College - Top of stairs",,,"Boston","Community College",
 "5298",,"Medford Street",,"42.402073","-71.106406","Medford","Main St @ Medford St","Main Street"
@@ -7249,6 +7274,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "2431",,"Mossland Street",,"42.387227","-71.116851","Somerville","Somerville Ave opp Mossland St","Somerville Avenue"
 "5489",,"Waverly Avenue",,"42.413847","-71.049348","Everett","Broadway @ Waverly Ave","Broadway"
 "2896",,"Fulbright Street",,"42.402352","-71.098621","Medford","Mystic Ave opp Fulbright St","Mystic Avenue"
+"7696",,"Warren Street",,"42.381372","-71.203296","Waltham","Beaver St @ Warren St","Beaver Street"
 "4153",,"Reedsdale Road",,"42.24841","-71.069317","Milton","Randolph Ave @ Reedsdale Rd","Randolph Avenue"
 "node-aqucl-ebatlanticstairs-lobby",,,"Aquarium - Top of stairs between platform and Atlantic Avenue",,,"Boston","Aquarium",
 "7396",,"Nason Road",,"42.44996","-70.999054","Saugus","Lincoln Ave opp Nason Rd","Lincoln Avenue"
@@ -7286,7 +7312,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "34579",,"Main Street",,"42.363061","-71.088174","Cambridge","Ames St @ Main St","Ames Street"
 "7183",,"Blaine Avenue",,"42.565435","-70.885939","Beverly","497 Cabot St","Cabot Street"
 "Worcester",,,"Worcester - Commuter Rail","42.261461","-71.794888","Worcester","Worcester",
-"place-FR-0167","160 Lincoln Rd, Lincoln, MA 01773",,,"42.414229","-71.325344","Lincoln","Lincoln",
+"place-FR-0167","160 Lincoln Rd, Lincoln, MA 01773",,,"42.41342","-71.325404","Lincoln","Lincoln",
 "540",,"Lorna Road",,"42.280344","-71.082171","Boston","Morton St @ Selden St","Morton Street"
 "node-sstat-400stair-rl",,,"South Station - Bottom of stairs for Ashmont/Braintree",,,"Boston","South Station",
 "3561",,"Governor Long Road",,"42.254173","-70.894718","Hingham","Otis St @ Governor Long Rd","Otis Street"
@@ -7307,7 +7333,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "7599",,"Riverside Park",,"42.458888","-71.000788","Saugus","Winter St opp Riverside Pk","Winter Street"
 "4804",,"State Street",,"42.50548","-70.84917","Marblehead","Washington St @ State St","Washington Street"
 "5393",,"High Street",,"42.419114","-71.063869","Malden","Cross St @ High St","Cross Street"
-"14935",,"Eagan Place",,"42.522908","-70.92024","Peabody","133 Main St.","Main Street"
+"14935",,"Eagan Place",,"42.522908","-70.92024","Peabody","133 Main St","Main Street"
 "17006",,"Hickory Drive",,"42.385396","-71.26468","Waltham","300 Bear Hill Rd","Bear Hill Road"
 "4326",,,,"42.254212","-71.026871","Quincy","529 Adams St","Adams Street"
 "node-shmnl-sh-farepaid",,,"Savin Hill - Paid side of Savin Hill Avenue fare gates",,,"Boston","Savin Hill",
@@ -7361,7 +7387,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-810-entrance",,,"Quincy Center - Top of Elevator 810",,,"Quincy","Quincy Center",
 "6738",,"Sherman Street",,"42.471305","-70.99327","Lynn","Garfield Ave @ Sherman St","Garfield Avenue"
 "door-bcnfd-bcnfield",,,"Beaconsfield - Beaconsfield Rd","42.335788","-71.13993","Brookline","Beaconsfield - Beaconsfield Rd",
-"Boat-Charlestown","Pier 4, Boston, MA 02129",,,"42.373334","-71.05416","Boston","Charlestown",
+"Boat-Charlestown","Pier 4, Boston, MA 02129",,,"42.372756","-71.052528","Boston","Charlestown",
 "6733",,"Edison Street",,"42.475481","-70.997599","Saugus","Walnut St @ Edison St","Walnut Street"
 "4558",,"Monroe Street",,"42.520131","-70.902575","Salem","Essex St opp Monroe St","Essex Street"
 "7518",,"Anawan Avenue",,"42.451645","-71.016564","Saugus","Essex St opp Anawan Ave","Essex Street"
@@ -7403,7 +7429,6 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "9210",,"Rosemont Street",,"42.436509","-71.067705","Malden","Main St @ Rosemont St","Main Street"
 "5482",,,,"42.423469","-71.042806","Malden","990 Broadway opp Grover St","Broadway"
 "3516",,"McGrath Highway",,"42.250266","-70.998546","Quincy","Washington St @ McGrath Hwy","Washington Street"
-"7696",,"Warren Street",,"42.381372","-71.203296","Waltham","Beaver St @ Warren St","Beaver Street"
 "1146",,"Kenilworth Street",,"42.329314","-71.088302","Boston","42 Dudley St","Dudley Street"
 "node-312-lobby",,,"Malden Center - Bottom of Commuter Rail platform escalator",,,"Malden","Malden Center",
 "4841",,"Bessom Street",,"42.500246","-70.858824","Marblehead","Pleasant St @ Bessom St","Pleasant Street"
@@ -7452,7 +7477,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "3789",,"Circuit Road",,"42.241162","-70.990704","Quincy","Quincy Ave @ President Plaza","Quincy Avenue"
 "place-NEC-1659","1011 Ten Rod Rd, North Kingstown, RI",,,"41.581289","-71.491147","North Kingstown","Wickford Junction",
 "1856",,"Weld Street",,"42.294728","-71.130566","Boston","170 Walter St","Walter Street"
-"6627",,"Pond Street",,"42.42517","-70.92503","Nahant","Emerald Rd @ Pond St.","Emerald Road"
+"6627",,"Pond Street",,"42.42517","-70.92503","Nahant","Emerald Rd @ Pond St","Emerald Road"
 "7800",,"Lewis Terrace",,"42.35499","-71.195776","Newton","Adams St @ Washington St","Adams Street"
 "49923",,"Garden Street",,"42.474539","-71.169706","Woburn","81 Lexington St","Lexington Street"
 "70089",,,"Fields Corner - Red Line - Ashmont","42.300093","-71.061667","Boston","Fields Corner",
@@ -7488,6 +7513,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "9244",,"Walton Place",,"42.486427","-71.068713","Wakefield","830 Main St","Main Street"
 "4458",,"Highland Avenue",,"42.516619","-70.905671","Salem","Essex St opp Warren St","Essex Street"
 "9275",,"Church Street",,"42.508135","-71.071094","Wakefield","Salem St @ Main St","Salem Street"
+"56733",,"O'Callaghan Way",,"42.470118","-70.984672","Lynn","Fecteau Way","Fecteau Way"
 "5587",,,,"42.413224","-71.033033","Chelsea","60 Woodlawn Ave","Woodlawn Avenue"
 "node-grnst-844-platform",,,"Green Street - Bottom of Elevator 844",,,"Boston","Green Street",
 "7241",,"Quincy Terrace",,"42.467227","-70.952414","Lynn","182 Washington St","Washington Street"
@@ -7588,7 +7614,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-831-lobby",,,"JFK/UMass - Top of elevator between Ashmont, Alewife platform and lobby",,,"Boston","JFK/UMass",
 "2191",,"Trowbridge Street",,"42.391782","-71.161205","Belmont","Concord Ave @ Trowbridge St","Concord Avenue"
 "138",,,,"42.319967","-71.048782","Boston","Mt Vernon St @ Bay Side Expo Center","Mount Vernon Street"
-"place-DB-2222",,,,"42.271412","-71.096419","Boston","Blue Hill Avenue",
+"place-DB-2222",,,,"42.271466","-71.095782","Boston","Blue Hill Avenue",
 "2774",,"McGrath Highway",,"42.379792","-71.089974","Somerville","Washington St @ McGrath Hwy","Washington Street"
 "1890",,,,"42.296741","-71.157705","Boston","286 Independence Dr","Independence Drive"
 "70236",,,"Englewood Avenue - Green Line - Park Street & North","42.337011","-71.145368","Brookline","Englewood Avenue",
@@ -7730,6 +7756,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "2584",,"Beech Street",,"42.391598","-71.11922","Somerville","Elm St @ Beech St","Elm Street"
 "4550",,"Freeman Road",,"42.50752","-70.914922","Salem","Highland Ave opp Freeman Rd","Highland Avenue"
 "1320",,"Saint Alphonsus Street",,"42.332857","-71.101262","Boston","Tremont St @ Saint Alphonsus St","Tremont Street"
+"26137",,"Empire Street",,"42.471201","-70.929601","Lynn","Brookline St @ Marshall School","Brookline Street"
 "3214",,"Rawson Road",,"42.276227","-71.020759","Quincy","Billings Rd @ Faxon Rd","Billings Road"
 "109861",,"Petrel Street",,"42.363542","-70.970071","Winthrop","Shirley St @ Petrel St","Shirley Street"
 "119913",,,,"42.367336","-70.97058","Winthrop","Shirley St opp Winthrop Ferry Terminal","Shirley Street"
@@ -7743,6 +7770,8 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "5224",,"Shrewsbury Road",,"42.295711","-71.1342","Boston","Centre St opp Buchanan Rd","Centre Street"
 "109821",,"Washington Avenue",,"42.372701","-70.971585","Winthrop","Veterans Rd @ Washington Ave","Veterans Road"
 "Braintree-01",,,"Braintree - Red Line - Track 1","42.207481","-71.00164","Braintree","Braintree",
+"8491",,"Greenwood Street",,"42.303512","-71.191972","Newton","Dedham St @ Greenwood St","Dedham Street"
+"5748",,"Marginal Street",,"42.387939","-71.03857","Chelsea","Pearl St @ Marginal St","Pearl Street"
 "3968",,"Chandler Street",,"42.151688","-71.008353","Holbrook","S Franklin St @ Chandler St","South Franklin Street"
 "1777",,"Pilgrim Road",,"42.342648","-71.103431","Boston","Brookline Ave @ Pilgrim Rd","Brookline Avenue"
 "70137",,,"Babcock Street - Green Line - (B) Boston College","42.351903","-71.122042","Boston","Babcock Street",
@@ -7756,6 +7785,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "4731",,,,"42.397215","-71.008321","Revere","Opp 40 Burbank Hwy","Lee Burbank Highway"
 "4286",,"Jones Avenue",,"42.17643","-71.049275","Randolph","571 N Main St","North Main Street"
 "3733",,"Water Street",,"42.243725","-70.997438","Quincy","Quincy Ave opp Water St","Quincy Avenue"
+"10928",,,,"42.352614","-71.132097","Boston","Harvard Ave @ Brighton Ave","Harvard Avenue"
 "5569",,"Clarence Street",,"42.41173","-71.04559","Everett","Ferry St @ Clarence St","Ferry Street"
 "1311",,"School Street",,"42.335832","-71.120492","Brookline","Harvard St @ School St","Harvard Street"
 "480",,"Bradlee Street",,"42.297619","-71.072684","Boston","Washington St @ Algonquin St","Washington Street"
@@ -7863,8 +7893,6 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "4454",,"Nichols Street",,"42.520487","-70.912068","Salem","Boston St @ Nichols St","Boston Street"
 "5477",,,,"42.430616","-71.037631","Malden","1236 Eastern Ave","Eastern Avenue"
 "6790",,"Pine Road",,"42.471398","-70.966472","Lynn","Bellevue Rd @ Pine Rd","Bellevue Road"
-"8491",,"Greenwood Street",,"42.303512","-71.191972","Newton","Dedham St @ Greenwood St","Dedham Street"
-"5748",,"Marginal Street",,"42.387939","-71.03857","Chelsea","Pearl St @ Marginal St","Pearl Street"
 "41033",,,,"42.233844","-71.010995","Quincy","Centre St @ Crown Colony Dr","Centre Street"
 "6318",,"Mystic Street",,"42.421658","-71.126479","Medford","High St @ Mystic St","High Street"
 "7565",,"Mount Vernon Street",,"42.448656","-71.012967","Saugus","78 Essex St","Essex Street"
@@ -7877,6 +7905,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "4856",,"Oak Island Street",,"42.425153","-70.985951","Revere","N Shore Rd @ Oak Island St","North Shore Road"
 "2464",,"Dow Avenue",,"42.415764","-71.194248","Arlington","Wadsworth Rd @ Dow Ave","Wadsworth Rd"
 "15059",,"Middlesex Rotary",,"42.442612","-71.094263","Medford","Woodland Rd @ Molyneaux Circle","Woodland Road"
+"7787",,"Seminole Avenue",,"42.404609","-71.24607","Waltham","Lake St @ Seminole Ave","Lake Street"
 "9070219",,,"Coolidge Corner - Green Line Cleveland Circle Shuttle","42.342387","-71.121007","Brookline","Coolidge Corner",
 "1478",,"Rowell Street",,"42.312676","-71.06448","Boston","Hancock St @ Rowell St","Hancock Street"
 "3933",,"Academy Street",,"42.209759","-71.003525","Braintree","Washington St opp Academy St","Washington Street"
@@ -8012,6 +8041,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "4160",,"Hilltop Street",,"42.232031","-71.070883","Milton","Randolph Ave opp Hilltop St","Randolph Avenue"
 "9076",,"Pratt Street",,"42.46753","-71.063887","Melrose","Franklin St @ Albion St","Franklin Street"
 "node-980-lobby",,,"Science Park - Mezzanine level of south side elevator",,,"Boston","Science Park",
+"31318",,"Huntington Avenue",,"42.33577","-71.099902","Boston","Longwood Ave @ Huntington Ave","Longwood Avenue"
 "13844",,"Colonels Lane",,"42.198592","-70.924618","Weymouth","Pleasant St @ Colonels Dr","Pleasant Street"
 "41694",,"Edwards Road",,"42.499244","-71.194024","Burlington","Cambridge St @ Edwards Rd","Cambridge Street"
 "926",,"Islington Street",,"42.353347","-71.136687","Boston","Brighton Ave @ Cambridge St","Brighton Avenue"
@@ -8023,20 +8053,20 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "4814",,"Fuller Terrace",,"42.467168","-70.913087","Swampscott","281 Humphrey St","Humphrey Street"
 "2452",,"Hampshire Street",,"42.374439","-71.101574","Somerville","Beacon St @ Dickinson St","Beacon Street"
 "15236",,"Ophir Street",,"42.310567","-71.103348","Boston","Washington St @ Sylvia St","Washington Street"
-"7787",,"Seminole Avenue",,"42.404609","-71.24607","Waltham","Lake St @ Seminole Ave","Lake Street"
 "4145",,"Walnut Street",,"42.255817","-71.078941","Milton","Reedsdale Rd @ Walnut St","Reedsdale Road"
 "34",,"East Second Street",,"42.337528","-71.027304","Boston","P St @ E 2nd St","P Street"
 "7820",,"Buttrick Street",,"42.359299","-71.243603","Waltham","Rumford Ave @ Buttrick St","Rumford Avenue"
 "node-armnl-farepaid",,,"Arlington - Paid side of fare gates",,,"Boston","Arlington",
 "1340",,"Circuit Street",,"42.323789","-71.083852","Boston","Walnut Ave @ Circuit St","Walnut Avenue"
-"221",,"Pearl Street",,"42.353792","-71.053183","Boston","Atlantic Ave. @ Congress St.","Atlantic Avenue"
+"221",,"Pearl Street",,"42.353792","-71.053183","Boston","Atlantic Ave @ Congress St","Atlantic Avenue"
 "595",,,,"42.277935","-71.066407","Boston","Dorchester Ave opp Valley Rd","Dorchester Avenue"
-"12144",,"Park Avenue",,"42.378978","-71.148527","Cambridge","Huron Ave opp Park Ave","Huron Avenue"
+"12144",,,,"42.378896","-71.148062","Cambridge","Huron Ave opp Park Ave","Huron Avenue"
 "82030",,,,"42.316145","-71.209784","Newton","Needham St @ Easy St","Needham Street"
 "6692",,"Woodbine Street",,"42.466347","-70.97619","Lynn","Myrtle St @ Woodbine St","Myrtle Street"
 "4275",,"Union Street",,"42.162735","-71.041184","Randolph","North St @ Union St","North Street"
 "3227",,"Beach Street",,"42.276081","-71.014087","Quincy","Billings Rd @ Beach St","Billings Road"
 "1620",,,,"42.257475","-71.144938","Boston","Georgetowne Dr @ Margaretta Dr","Georgetowne Drive"
+"9079",,"Garfield Road",,"42.461665","-71.055183","Melrose","Porter St @ Garfield Rd","Porter Street"
 "node-435-platform",,,"Arlington - Bottom of eastbound escalator",,,"Boston","Arlington",
 "3619",,"Princeton Avenue",,"42.242769","-70.954695","Weymouth","Bridge St @ Bartlett St","Bridge Street"
 "node-362-entrance",,,"Kendall/MIT - Top of Escalator 362",,,"Cambridge","Kendall/MIT",
@@ -8071,7 +8101,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "9247",,"Charles Street",,"42.494618","-71.068794","Wakefield","Main St @ Charles St","Main Street"
 "15047",,"Commandant's Way",,"42.391747","-71.047492","Chelsea","Captains Row @ Commandants Way","Captain's Row"
 "70129",,,"Griggs Street - Green Line - (B) Boston College","42.348919","-71.134305","Boston","Griggs Street",
-"6697",,"Thorpe Road",,"42.466819","-70.980426","Lynn","Holyoke St opp Thorpe Rd","Holyoke Street"
+"6697",,"Curwin Circle",,"42.466589","-70.981102","Lynn","Holyoke St opp Thorpe Rd","Holyoke Street"
 "31861",,"Beale Street",,"42.261887","-71.025051","Quincy","N Central @ Beale St","North Central Avenue"
 "door-bbsta-garage",,,"Back Bay - Garage","42.347684","-71.075054","Boston","Back Bay - Garage",
 "2921",,"Old Road",,"42.303626","-71.084672","Boston","Columbia Rd @ Blue Hill Ave","Columbia Road"
@@ -8131,7 +8161,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-bbsta-2stairs-platform",,,"Back Bay - Bottom of Track 2 stairs",,,"Boston","Back Bay",
 "16539",,"Devonshire Street",,"42.356727","-71.05748","Boston","Milk St @ Devonshire St","Milk Street"
 "6120",,"Lincoln Road",,"42.493937","-70.893194","Salem","Loring Ave opp Lincoln Rd","Loring Avenue"
-"4913",,"Redington Street",,"42.468043","-70.916886","Swampscott","193 Humphrey St","Humphrey Street"
+"4913",,"Blaney Street",,"42.467492","-70.915652","Swampscott","198 Humphrey St","Humphrey Street"
 "49002",,,"Tufts Medical Center - Silver Line - Dudley","42.349908","-71.063684","Boston","Tufts Medical Center","Washington Street"
 "3330",,"Water Street",,"42.241968","-71.003612","Quincy","Franklin St @ Water St","Franklin Street"
 "5589",,"Winthrop Road",,"42.411201","-71.0314","Chelsea","Washington Ave @ Prospect Ave","Washington Avenue"
@@ -8178,8 +8208,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "2636",,"Waterhouse Street",,"42.405932","-71.131478","Somerville","Broadway @ North St","Broadway"
 "5290",,"Summer Street",,"42.413704","-71.110777","Medford","Main St @ Summer St","Main Street"
 "node-aport-buses-farepaid",,,"Airport - Paid side of fare gates",,,"Boston","Airport",
-"Canton Center",,,"Canton Center - Commuter Rail","42.15677","-71.145601","Canton","Canton Center",
-"9079",,"Garfield Road",,"42.461665","-71.055183","Melrose","Porter St @ Garfield Rd","Porter Street"
+"Canton Center",,,"Canton Center - Commuter Rail","42.157095","-71.14628","Canton","Canton Center",
 "door-smmnl-clemen",,,"Shawmut - Clementine Park, Centre St","42.293067","-71.065784","Boston","Shawmut - Clementine Park, Centre St",
 "9326",,,,"42.436901","-71.071145","Malden","Washington St @ Oak Grove Station","Washington Street"
 "19821",,"Tully Street",,"42.322323","-71.167627","Brookline","Boylston St @ Tully St","Boylston Street"
@@ -8194,6 +8223,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-davis-fareunpaid",,,"Davis - Unpaid side of fare gates",,,"Somerville","Davis",
 "2939",,"West Howell Street",,"42.325163","-71.059106","Boston","Boston St @ Howell St","Boston Street"
 "38497",,"Arnold Street",,"42.218022","-70.992352","Braintree","233 Middle St","Middle Street"
+"2852",,"Moulton Street",,"42.376755","-71.057048","Boston","Bunker Hill St @ Vine St","Bunker Hill Street"
 "2854",,"Robert Lowney Way",,"42.374386","-71.058189","Boston","Adams St @ Lowney Way","Adams Street"
 "door-gover-main",,,"Government Center - City Hall Plaza","42.359699","-71.05936","Boston","Government Center - City Hall Plaza",
 "node-cntsq-westernstair-farepaid",,,"Central - Paid side of fare gates",,,"Cambridge","Central",
@@ -8242,7 +8272,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "7550",,,,"42.45097","-71.025154","Saugus","1434 Broadway","Broadway"
 "5302",,"Moreland Street",,"42.396284","-71.09876","Somerville","Main St opp Moreland St","Main Street"
 "4788",,"Hereford Road",,"42.487801","-70.882204","Marblehead","Humphrey St @ Hereford Rd","Humphrey Street"
-"13838",,"Winter Street",,"42.200694","-70.945829","Weymouth","Middle St. opp. Winter St.","Middle Street"
+"13838",,"Winter Street",,"42.200694","-70.945829","Weymouth","Middle St opp Winter St","Middle Street"
 "26640",,"Brookfield Road",,"42.187362","-71.209414","Norwood","Walpole St @ Brookfield Rd","Walpole Street"
 "1713",,,,"42.282425","-71.092282","Boston","Blue Hill Ave @ Goodale Rd","Blue Hill Avenue"
 "8557",,,,"42.291967","-71.174975","Boston","Baker St @ Beth El Cemetery","Baker Street"
@@ -8318,7 +8348,6 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "6737",,"Washington Avenue",,"42.47293","-70.994669","Saugus","Garfield Ave @ Washington Ave","Garfield Avenue"
 "node-astao-717-platform",,,"Assembly - Bottom of Elevator 717",,,"Somerville","Assembly",
 "1679",,"Crossman Road",,"42.461377","-71.171197","Woburn","254 Cambridge Rd","Cambridge Street"
-"2852",,"Moulton Street",,"42.376755","-71.057048","Boston","Bunker Hill St @ Vine St","Bunker Hill Street"
 "2595",,"Bow Street",,"42.381176","-71.099677","Somerville","Somerville Ave @ Carlton St","Somerville Avenue"
 "1381",,"Pelham Street",,"42.340934","-71.071104","Boston","W Dedham St @ Washington St","West Dedham Street"
 "7352",,"Trevett Avenue",,"42.494735","-70.970954","Lynn","Lynnfield St @ Trevett Ave","Lynnfield Street"
@@ -8345,12 +8374,13 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "7321",,"Severance Street",,"42.486383","-70.963415","Lynn","Lynnfield St opp Severance St","Lynnfield Street"
 "1486",,"Magazine Street",,"42.325142","-71.074807","Boston","Dudley St @ Magazine St","Dudley Street"
 "9149",,"Exeter Street",,"42.425346","-71.123087","Medford","Winthrop St @ Exeter St","Winthrop Street"
-"place-WML-0081","770 Washington St Newton, MA 02460",,,"42.351603","-71.207338","Newton","Newtonville",
+"place-WML-0081","770 Washington St Newton, MA 02460",,,"42.351702","-71.205408","Newton","Newtonville",
 "16653",,,,"42.462057","-70.947263","Lynn","Market St @ Commuter Rail","Market Street"
 "4090",,"Saint Moritz Avenue",,"42.23187","-71.029931","Quincy","Willard St @ St Moritz Ave","Willard Street"
+"9070126",,,"Allston Street - Green Line Eastbound Shuttle","42.348475","-71.137871","Boston","Allston Street",
 "461",,"Bradlee Street",,"42.297609","-71.07253","Boston","Washington St opp Algonquin St","Washington Street"
 "26531",,"Hyde Park Avenue",,"42.255743","-71.12424","Boston","River St @ Hyde Park Ave","River Street"
-"place-FR-0115","1 Sawyer Rd, Waltham, MA 02453",,,"42.361728","-71.260854","Waltham","Brandeis/Roberts",
+"place-FR-0115","1 Sawyer Rd, Waltham, MA 02453",,,"42.361898","-71.260065","Waltham","Brandeis/Roberts",
 "6262",,"Brookdale Street",,"42.430221","-71.022687","Revere","Washington Ave opp Brookdale St","Washington Avenue"
 "node-811-lobby",,,"Braintree - Bottom of Red Line platform elevator",,,"Braintree","Braintree",
 "node-harsq-harstair-lobby",,,"Harvard - Top of stairs between Alewife platform and Church Street lobby",,,"Cambridge","Harvard",
@@ -8387,7 +8417,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-904-lobby",,,"Haymarket - Top of elevator between Forest Hills platform and Congress Street lobby",,,"Boston","Haymarket",
 "44330",,"Brackenbury Street",,"42.418162","-71.068466","Malden","Medford St @ Brackenbury St","Medford Street"
 "door-aport-bremen",,,"Airport - Bremen St","42.374553","-71.030306","Boston","Airport - Bremen St",
-"13821",,"Winter Street",,"42.200665","-70.945973","Weymouth","Middle St @ Winter St.","Middle Street"
+"13821",,"Winter Street",,"42.200665","-70.945973","Weymouth","Middle St @ Winter St","Middle Street"
 "888",,"Melcher Street",,"42.350437","-71.050865","Boston","Summer St @ Melcher St","Summer Street"
 "8172",,"Pearl Street",,"42.361395","-71.197011","Newton","Watertown St @ Pearl St","Watertown Street"
 "3241",,"Overlook Road",,"42.259604","-70.995269","Quincy","Sea St opp Overlook Rd","Sea Street"
@@ -8396,7 +8426,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-wondl-obplazastairs-street",,,"Wonderland - Bottom of Revere Beach Plaza stairs from Wonderland-bound platform",,,"Revere","Wonderland",
 "142",,,,"42.317071","-71.040217","Boston","Mt Vernon St @ South Point Dr","Mount Vernon Street"
 "Windsor Gardens",,,"Windsor Gardens - Commuter Rail","42.172127","-71.219366","Norwood","Windsor Gardens",
-"Route 128",,,"Route 128 - Commuter Rail","42.209884","-71.1471","Westwood","Route 128",
+"Route 128",,,"Route 128 - Commuter Rail","42.210308","-71.147134","Westwood","Route 128",
 "Wedgemere",,,"Wedgemere - Commuter Rail","42.444948","-71.140169","Winchester","Wedgemere",
 "4711",,"Blanchard Avenue",,"42.435546","-70.972115","Revere","N Shore Rd @ Blanchard Ave","North Shore Road"
 "4344",,"Randolph Avenue",,"42.248574","-71.069046","Milton","Reedsdale Rd @ Randolph Ave","Reedsdale Road"
@@ -8424,7 +8454,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "5721",,"Green Street",,"42.398745","-71.023666","Chelsea","Broadway opp Green St","Broadway"
 "node-lbusstairs-upper",,,"Sullivan Square - Top of stairs for lower busway",,,"Boston","Sullivan Square",
 "70209",,,"Lechmere - Green Line - Exit Only","42.370952","-71.077007","Cambridge","Lechmere",
-"place-MM-0200","7 Commercial St, Brockton, MA 02302",,,"42.08572","-71.0166","Brockton","Brockton",
+"place-MM-0200","7 Commercial St, Brockton, MA 02302",,,"42.084659","-71.016534","Brockton","Brockton",
 "node-921-lobby",,,"Prudential - Top of elevator between Park Street & North platform and lobby",,,"Boston","Prudential",
 "node-chmnl-nbstairs-platform",,,"Charles/MGH - Top of Alewife platform stairs",,,"Boston","Charles/MGH",
 "3897",,"Linfield Street",,"42.156247","-71.008631","Holbrook","N Franklin St @ Linfield St","North Franklin Street"
@@ -8490,7 +8520,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "4149",,"Meredith Circle",,"42.250905","-71.073788","Milton","Reedsdale Rd @ Spafford Rd","Reedsdale Road"
 "55618",,"Walnut Avenue",,"42.184613","-71.203202","Norwood","930 Washington St opp Walnut Ave","Washington Street"
 "28281",,"Gravel Lane",,"42.37226","-71.061979","Boston","Main St @ Park St","Main Street"
-"1508",,"Bowdoin Street",,"42.310318","-71.062716","Boston","Hancock St @ Bowdoin St","Hancock Street"
+"1508",,,,"42.311094","-71.062621","Boston","Hancock St @ Bowdoin St","Hancock Street"
 "3732",,"Scammell Street",,"42.242873","-70.996075","Quincy","Quincy Ave @ Scammell St","Quincy Avenue"
 "5794",,"Harris Street",,"42.408994","-71.003578","Revere","Beach St @ Harris St - Bell Circle","Beach Street"
 "place-lech","Cambridge St and O'Brien Hwy, Cambridge, MA 02141",,,"42.370772","-71.076536","Cambridge","Lechmere",
@@ -8502,7 +8532,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "70248",,,"Longwood Medical Area - Green Line - Park Street & North","42.336217","-71.099328","Boston","Longwood Medical Area",
 "2477",,"Village Lane",,"42.40384","-71.160663","Belmont","Lake St @ Albert Ave","Lake Street"
 "603",,"Albano Street",,"42.283507","-71.131363","Boston","Washington St @ Albano St","Washington Street"
-"231",,"Hull Street",,"42.367838","-71.057329","Boston","Commercial St. opp. Hull St.","Commercial Street"
+"231",,"Hull Street",,"42.367838","-71.057329","Boston","Commercial St opp Hull St","Commercial Street"
 "4144",,,,"42.257995","-71.081128","Milton","Reedsdale Rd @ Central Ave","Reedsdale Road"
 "1660",,"Davis Avenue",,"42.423843","-71.152874","Arlington","Mystic St @ Davis Ave","Mystic Street"
 "70116",,,"Sutherland Road - Green Line - Park Street & North","42.341589","-71.146089","Boston","Sutherland Road",
@@ -8575,7 +8605,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "3317",,"Empire Street",,"42.257964","-70.971833","Quincy","Palmer St @ Empire St","Palmer Street"
 "4702",,"Blossom Street",,"42.458034","-70.949363","Lynn","333 Lynnway","Lynnway"
 "34021",,"Bates Avenue",,"42.24645","-71.0327","Quincy","Willard St @ Bates Ave","Willard Street"
-"11521",,"James Shea Circle",,"42.300136","-71.106422","Boston","131 Morton St","Morton Street"
+"11521",,"Arborway",,"42.300388","-71.106632","Boston","Morton St @ Arborway","Morton Street"
 "place-bucen","Commonwealth Ave and Marsh Chapel, Boston, MA 02215",,,"42.350082","-71.106865","Boston","Boston University Central",
 "788",,"Bradwood Street",,"42.285984","-71.145019","Boston","Belgrade Ave @ Iona St","Belgrade Avenue"
 "49939",,,,"42.486963","-71.204918","Burlington","40 Burlington Mall Rd","Burlington Mall Road"
@@ -8835,7 +8865,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-886-lobby",,,"Beachmont - Bottom of Elevator 886",,,"Revere","Beachmont",
 "node-prmnl-152stair-platform",,,"Prudential - Bottom of stairs to escalator",,,"Boston","Prudential",
 "818",,,,"42.272032","-71.172122","Boston","Spring Street opp Charles River Loop","Spring Street"
-"6862",,"Euclid Avenue",,"42.488031","-70.959489","Lynn","Euclid Ave @ Broadway","Broadway"
+"6862",,"Euclid Avenue",,"42.488031","-70.959489","Lynn","Broadway @ Euclid Ave","Broadway"
 "node-chncl-fhlower-landing",,,"Chinatown - Top of stairs between lobby and landing",,,"Boston","Chinatown",
 "18926",,"Winter Street",,"42.397266","-71.260174","Waltham","Wyman St @ Winter St","Wyman Street"
 "5486",,"Edith Avenue",,"42.417359","-71.046423","Everett","Broadway @ Edith Ave","Broadway"
@@ -8853,7 +8883,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-bbsta-dartexit-platform",,,"Back Bay - Bottom of Tracks 5-7 Dartmouth Street exit stairs",,,"Boston","Back Bay",
 "8822",,,,"42.37335","-71.202912","Watertown","Main St @ Wilmot St","Main Street"
 "7705",,"Brookline Street",,"42.382367","-71.198735","Waltham","Warren St @ Brookline St","Warren Street"
-"14618",,"Worthington Street",,"42.245469","-71.175302","Dedham","445 Washington St @ Worthington St.","Washington Street"
+"14618",,"Worthington Street",,"42.245469","-71.175302","Dedham","445 Washington St @ Worthington St","Washington Street"
 "place-butlr","Butler St and Branchfield St, Dorchester, MA 02124",,,"42.272343","-71.062584","Boston","Butler",
 "node-aqucl-statefareunpaid",,,"Aquarium - Unpaid side of fare gates",,,"Boston","Aquarium",
 "7268",,"Bay State Road",,"42.496292","-70.957161","Lynn","Broadway @ Bay State Rd","Broadway"
@@ -8863,6 +8893,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "2901",,"Ramp - Rt 93 Northbound To Mystic Ave",,"42.394079","-71.08729","Somerville","Mystic Ave @ Wheatland St","Mystic Avenue"
 "7332",,"Harris Road",,"42.500133","-70.975966","Lynn","Lynnfield St @ Harris Rd","Lynnfield Street"
 "288",,"F Street",,"42.334842","-71.0499","Boston","W 6th St @ F St","West Sixth Street"
+"9070125",,,"Warren Street - Green Line Westbound Shuttle","42.348444","-71.140537","Boston","Warren Street",
 "node-411-sl",,,"South Station - Bottom of Escalator 411",,,"Boston","South Station",
 "2444",,"Green Street",,"42.365266","-71.105242","Cambridge","Western Ave @ Green St","Western Avenue"
 "node-nqncy-nhpstair-platform",,,"North Quincy - Bottom of stairs between platform and Hancock Street, Newport Avenue lobby",,,"Quincy","North Quincy",
@@ -8890,9 +8921,10 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "17096",,"Seaport Lane","Congress @ World Trade Center Sta - Silver Line - South Station","42.348769","-71.042336","Boston","Congress @ World Trade Center Sta","Congress Street"
 "7579",,"Warren Street",,"42.381259","-71.203285","Waltham","Beaver St @ Warren St","Beaver Street"
 "node-chncl-fhlower-lobby",,,"Chinatown - Bottom of stairs between landing and lobby",,,"Boston","Chinatown",
-"8643",,"Plainfield Street",,"42.434637","-71.210136","Lexington","Massachusetts Ave @ Plainfield St","Massachusetts Avenue"
+"4597",,"Commonwealth Ave",,"42.54838","-70.942894","Danvers","Endicott St @ Commonwealth Ave","Endicott Street"
+"8643",,"Plainfield Street",,"42.43446","-71.209909","Lexington","Massachusetts Ave @ Plainfield St","Massachusetts Avenue"
 "4316",,"Maywood Avenue",,"42.248975","-71.009571","Quincy","Whitwell St @ Maywood Ave","Whitwell Street"
-"Uphams Corner",,,"Uphams Corner - Commuter Rail","42.31867","-71.069072","Boston","Uphams Corner",
+"Uphams Corner",,,"Uphams Corner - Commuter Rail","42.319125","-71.068627","Boston","Uphams Corner",
 "1895",,"Walnut Hill Road",,"42.302621","-71.152112","Brookline","Grove St @ South St","Grove Street"
 "4382",,"Alrick Road",,"42.254539","-71.028377","Quincy","Adams St @ Alrick Rd","Adams Street"
 "88334",,,,"42.376247","-71.237816","Waltham","691 Main St","Main Street"
@@ -8962,6 +8994,8 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "9114",,"Clark Street",,"42.459212","-71.139961","Winchester","757 Main St","Main Street"
 "5524",,,,"42.424677","-71.04223","Malden","53 Broadway","Broadway"
 "2127",,"Williston Road",,"42.381068","-71.175691","Belmont","Trapelo Rd opp Williston Rd - Cushing Square","Trapelo Road"
+"16459",,"Regis Road",,"42.269672","-71.096952","Boston","Cummins Hwy @ Regis Rd","Cummins Highway"
+"door-dwnxg-101arch",,,"Downtown Crossing - 101 Arch St, Summer St","42.354843","-71.05948","Boston","Downtown Crossing - 101 Arch St, Summer St",
 "4006",,"Adams Street",,"42.149669","-71.008428","Holbrook","S Franklin St @ Holbrook HS","South Franklin Street"
 "node-lbusramp-upper",,,"Sullivan Square - Top of ramp for lower busway",,,"Boston","Sullivan Square",
 "16364",,"Holmfield Avenue",,"42.263947","-71.101102","Boston","River St @ Holmfield Ave","River Street"
@@ -9105,8 +9139,6 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-forhl-splatstairs-lobby",,,"Forest Hills - Top of Orange Line platform south stairs",,,"Boston","Forest Hills",
 "6538",,"Atlantic Avenue","Essex St @ Atlantic Ave - Silver Line - SL4 Dudley","42.35176","-71.056003","Boston","Essex St @ Atlantic Ave","Essex Street"
 "node-434-lobby",,,"Maverick - Bottom of escalator from Maverick Square to lobby",,,"Boston","Maverick",
-"16459",,"Regis Road",,"42.269672","-71.096952","Boston","Cummins Hwy @ Regis Rd","Cummins Highway"
-"door-dwnxg-101arch",,,"Downtown Crossing - 101 Arch St, Summer St","42.354843","-71.05948","Boston","Downtown Crossing - 101 Arch St, Summer St",
 "1812",,"Putnam Avenue",,"42.357438","-71.107841","Cambridge","Brookline St @ Putnam Ave","Brookline Street"
 "place-FR-0219","Commonwealth Ave and Main St, West Concord, MA 01742",,,"42.457043","-71.392892","Concord","West Concord",
 "node-masta-undernorth-lobby",,,"Massachusetts Avenue - Top of stairs to north end of underpass",,,"Boston","Massachusetts Avenue",
@@ -9118,7 +9150,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "3412",,"Granite Street",,"42.242378","-71.015376","Quincy","Copeland St @ Granite St","Copeland Street"
 "place-NEC-2108","1 Upland Rd, Sharon, MA 02067",,,"42.124553","-71.184468","Sharon","Sharon",
 "7831",,"Ash Street",,"42.347514","-71.250898","Newton","Commonwealth Ave @ Ash St","Commonwealth Avenue"
-"4776",,"Harrison Avenue",,"42.477713","-70.893932","Swampscott","Salem St opp Aycliffe Rd","Salem Street"
+"4776",,"Harrison Avenue",,"42.477713","-70.893932","Swampscott","Salem St opp Harrison Ave","Salem Street"
 "17411",,,,"42.309682","-71.092111","Boston","Seaver St opp Humboldt Ave","Seaver Street"
 "4209",,"Griggs Lane",,"42.267296","-71.075979","Milton","Central Ave @ Griggs Ln","Central Avenue"
 "109886",,"Winthrop Street",,"42.372303","-70.980875","Winthrop","Washington Ave @ Winthrop St","Washington Avenue"
@@ -9130,7 +9162,8 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "112116",,"Rockwood Terrace",,"42.424483","-71.101895","Medford","Fulton St from Webster St to Fellsway (FLAG)","Fulton Street"
 "node-723-gl",,,"Government Center - Top of elevator between Green Line and Blue Line",,,"Boston","Government Center",
 "6760",,"Federal Street",,"42.466219","-70.967978","Lynn","Boston St @ Federal St","Boston Street"
-"6699",,"Holyoke Street",,"42.465667","-70.983438","Lynn","O'Callaghan Way @ Holyoke St","O'Callaghan Way"
+"8274",,"Rangeley Road",,"42.420083","-71.152743","Arlington","144 Mystic St opp Rangely Rd","Mystic Street"
+"6699",,"Fecteau Way",,"42.466468","-70.984483","Lynn","O'Callaghan Way @ Holyoke St","O'Callaghan Way"
 "2396",,"Walnut Street",,"42.387354","-71.093038","Somerville","Pearl St @ Walnut St","Pearl Street"
 "4420",,"Marietta Avenue",,"42.230648","-70.973929","Braintree","Hayward St @ Marietta Ave","Hayward Street"
 "817",,"Gould Street",,"42.272991","-71.170956","Boston","Spring St @ VA Hospital","Spring Street"
@@ -9165,6 +9198,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "88342",,"Shakespeare Road",,"42.368396","-71.25127","Waltham","South St @ Shakespeare Rd","South Street"
 "6392",,"Truman Highway",,"42.252485","-71.117976","Boston","Beacon St @ Fairmount Ave","Beacon Street"
 "1612",,,,"42.262345","-71.146603","Boston","W Boundary Rd @ Cedarcrest Ln","West Boundary Road"
+"29049",,,,"42.326265","-71.062344","Boston","South Bay Mall @ Allstate Rd",
 "224",,"State Street",,"42.359567","-71.051725","Boston","Atlantic Ave @ State St-Marriott Hotel","Atlantic Avenue"
 "89613",,,,"42.40697","-71.256562","Waltham","Opp 404 Wyman St","Wyman Street"
 "2155",,"Fern Street",,"42.385954","-71.139005","Cambridge","Concord Ave opp Fern St","Concord Avenue"
@@ -9185,7 +9219,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "6830",,"Silsbee Street",,"42.465439","-70.942949","Lynn","Union St @ Silsbee St","Union Street"
 "4480",,"Tracy Avenue",,"42.480078","-70.946253","Lynn","Western Ave opp Tracey Ave","Western Avenue"
 "8328",,"Ernest Avenue",,"42.240706","-71.143445","Boston","1 W Milton St opp Ernest Ave","West Milton Street"
-"6771",,"Essex Street",,"42.465791","-70.950007","Lynn","Washington St @ Essex St","Washington Street"
+"6771",,"Essex Street",,"42.465668","-70.949799","Lynn","Washington St @ Essex St","Washington Street"
 "2023",,"Sparks Street",,"42.374729","-71.130454","Cambridge","Mt Auburn St @ Sparks St","Mount Auburn Street"
 "8924",,"Trapelo Road",,"42.413894","-71.253427","Waltham","Smith St @ Trapelo Rd","Smith Street"
 "1546",,"Warren Street",,"42.328706","-71.13262","Brookline","Boylston St @ Warren St","Boylston Street"
@@ -9274,7 +9308,6 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "5862",,"Aramon Street",,"42.366524","-71.030532","Boston","Opp 345 Maverick St","Maverick Street"
 "9238",,"Humphrey Street",,"42.475413","-71.061634","Wakefield","Main St @ Flint St","Main Street"
 "5695",,"Second Street",,"42.405955","-71.05641","Everett","Broadway @ Everett Sq","Broadway"
-"8274",,"Rangeley Road",,"42.420083","-71.152743","Arlington","144 Mystic St opp Rangely Rd","Mystic Street"
 "6213",,"Jasper Street",,"42.463015","-71.009658","Saugus","329 Central St opp Jasper St","Central Street"
 "5266",,"Emerald Street",,"42.421129","-71.086306","Malden","Fellsway @ Emerald St","Fellsway"
 "1084",,"Washington Street",,"42.349027","-71.153531","Boston","Chestnut Hill Ave @ Washington St","Chestnut Hill Avenue"
@@ -9290,6 +9323,8 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-864-platform",,,"Wellington - Bottom of elevator between Oak Grove platform and lobby",,,"Medford","Wellington",
 "39681",,"Jay Street",,"42.226899","-70.990867","Braintree","Elm St @ Jay St","Elm Street"
 "9070012",,,"Columbus Ave @ Massachusetts Ave - Orange Line Forest Hills Shuttle","42.340585","-71.081898","Boston","Massachusetts Avenue",
+"1152",,"New Heath Street",,"42.326053","-71.096665","Boston","Centre St @ New Heath St","Centre Street"
+"1272",,"Euston Road",,"42.344633","-71.144682","Boston","Washington St @ Euston St","Washington Street"
 "6376",,"Metropolitan Avenue",,"42.260492","-71.115601","Boston","River St @ Metropolitan Ave","River Street"
 "Norwood Depot",,,"Norwood Depot - Commuter Rail","42.196857","-71.196688","Norwood","Norwood Depot",
 "node-nqncy-sfareunpaid",,,"North Quincy - Unpaid side of Squantum Street fare gates",,,"Quincy","North Quincy",
@@ -9321,7 +9356,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "89609",,,,"42.397142","-71.250828","Waltham","Totten Pond Rd @ Glen St","Totten Pond Road"
 "7833",,"Auburn Street",,"42.344937","-71.240918","Newton","Commonwealth Ave @ Auburn St","Commonwealth Avenue"
 "2269",,"Cottage Park Avenue",,"42.399436","-71.133125","Cambridge","Massachusetts Ave @ Cottage Park Ave","Massachusetts Avenue"
-"8302",,"Elm Street",,"42.436082","-71.102168","Medford","Fellsway W opp. Elm St","Fellsway West"
+"8302",,"Elm Street",,"42.436082","-71.102168","Medford","Fellsway W opp Elm St","Fellsway West"
 "node-jfk-brasydstair-lobby",,,"JFK/UMass - Top of stairs between Braintree, Alewife platform and Sydney Street",,,"Boston","JFK/UMass",
 "2635",,"Weston Avenue",,"42.403963","-71.128532","Somerville","Broadway @ Dickson St","Broadway"
 "node-102-lobby",,,"Oak Grove - Top of escalator from Washington Street",,,"Malden","Oak Grove",
@@ -9410,7 +9445,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "22618",,"Upland Road",,"42.203594","-71.196657","Norwood","317 Washington St @ Fulton St","Washington Street"
 "3621",,"Sherwood Road",,"42.242644","-70.957268","Weymouth","Bridge St opp Sherwood Rd","Bridge Street"
 "3790",,"Charlesmount Avenue",,"42.240848","-70.989118","Quincy","Quincy Ave opp Charlesmount Ave","Quincy Avenue"
-"6706",,"Hayes Street",,"42.470633","-70.991603","Lynn","Garfield Rd opp Hayes St","Garfield Avenue"
+"6706",,"Hayes Street",,"42.470784","-70.991903","Lynn","Garfield Ave opp Hayes St","Garfield Avenue"
 "4303",,"Chickatawbut Road",,"42.224121","-71.070512","Milton","Randolph Ave @ Chickataubut Rd","Randolph Avenue"
 "15651",,"Crest Avenue",,"42.401434","-71.029118","Chelsea","Summit Ave @ Warren Ave","Summit Avenue"
 "3802",,"Edgemont Road",,"42.227335","-70.969728","Braintree","Quincy Ave @ Edgemont Rd","Quincy Avenue"
@@ -9423,8 +9458,6 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "112046",,"Hall Avenue",,"42.420895","-71.108275","Medford","Forest St from Webster St to Medford Sq (FLAG)","Forest Street"
 "2057",,"School Street",,"42.370622","-71.164816","Watertown","Mt Auburn St @ School St","Mount Auburn Street"
 "9307",,"Chestnut Street",,"42.502661","-71.07588","Wakefield","North Ave @ Chestnut St - Commuter Rail Station","North Avenue"
-"1152",,"New Heath Street",,"42.326053","-71.096665","Boston","Centre St @ New Heath St","Centre Street"
-"1272",,"Euston Road",,"42.344633","-71.144682","Boston","Washington St @ Euston St","Washington Street"
 "768",,"Northdale Road",,"42.267813","-71.162489","Boston","Centre St opp Northdale Rd","Centre Street"
 "70056",,,"Beachmont - Blue Line - Wonderland","42.397542","-70.992319","Revere","Beachmont",
 "node-tumnl-washsbstairs-platform",,,"Tufts Medical Center - Bottom of stairs for Forest Hills, Washington Street",,,"Boston","Tufts Medical Center",
@@ -9485,7 +9518,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "3299",,"Brockton Avenue",,"42.257293","-70.970922","Quincy","Palmer St opp Brockton Ave","Palmer Street"
 "node-astao-rev-farepaid",,,"Assembly - Paid side of fare gates",,,"Somerville","Assembly",
 "node-6476-lobby",,,"South Station - Bottom of Elevator 6476",,,"Boston","South Station",
-"8642",,"Tower Road",,"42.435542","-71.211716","Lexington","Massachusetts Ave @ Marrett Rd - Rt 2A","Massachusetts Avenue"
+"8642",,"Tower Road",,"42.435542","-71.211716","Lexington","Massachusetts Ave @ Tower Rd","Massachusetts Avenue"
 "9014",,"Norris Court",,"42.451183","-71.060917","Melrose","Linwood Ave @ Norris Ct","Linwood Avenue"
 "2628",,,,"42.396024","-71.120198","Somerville","Grove St @ Highland Ave","Grove Street"
 "49999",,,,"42.495112","-71.126163","Woburn","400 W Cummings Pk",
@@ -9555,7 +9588,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "5654",,"Shawmut Street",,"42.389857","-71.033679","Chelsea","Central Ave @ Shawmut St","Central Avenue"
 "3928",,"Summer Street",,"42.203566","-71.005039","Braintree","Washington St opp Summer St","Washington Street"
 "1549",,"Walnut Street",,"42.328548","-71.126042","Brookline","Cypress St @ Walnut","Cypress Street"
-"4866",,"Harrison Avenue",,"42.477817","-70.893872","Swampscott","Salem St @ Aycliffe Rd","Salem Street"
+"4866",,"Harrison Avenue",,"42.477817","-70.893872","Swampscott","Salem St @ Harrison Ave","Salem Street"
 "5760",,"Fenno Street",,"42.406365","-71.014559","Revere","Broadway @ Beach St","Broadway"
 "1807",,,,"42.345214","-71.104266","Boston","Park Dr @ Fenway Station","Park Drive"
 "9195",,"Highland Avenue East",,"42.469067","-71.061211","Melrose","Main St @ W Highland Ave","Main Street"
@@ -9563,7 +9596,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "8609",,"School Street",,"42.441035","-71.251988","Lexington","655 Marrett Rd","Marrett Road"
 "node-haecl-congfhstair-passage",,,"Haymarket - Bottom of stairs between lobby and Forest Hills mezzanine",,,"Boston","Haymarket",
 "5898",,"Prescott Street",,"42.380349","-71.030574","Boston","Lexington St @ Prescott St","Lexington Street"
-"3896",,"Elm Avenue",,"42.158339","-71.006804","Holbrook","N Franklin St. @ Elm Ave","North Franklin Street"
+"3896",,"Elm Avenue",,"42.158339","-71.006804","Holbrook","N Franklin St @ Elm Ave","North Franklin Street"
 "node-qnctr-rdstair-platform",,,"Quincy Center - Stairs platform level",,,"Quincy","Quincy Center",
 "70013",,,"Massachusetts Avenue - Orange Line - Oak Grove","42.341512","-71.083423","Boston","Massachusetts Avenue",
 "15625",,"Malden Street",,"42.402641","-71.041771","Everett","Everett Ave @ Revere Beach Pkwy","Everett Avenue"
@@ -9597,9 +9630,10 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "20763",,"Palmer Street",,"42.373369","-71.120265","Cambridge","Brattle St @ Palmer St","Brattle Street"
 "node-andrw-fareunpaid",,,"Andrew - Unpaid side of fare gates",,,"Boston","Andrew",
 "2669",,"Crocker Street",,"42.390841","-71.109274","Somerville","235 Highland Ave","Highland Avenue"
+"3051",,"Beach Street",,"42.267934","-71.016405","Quincy","Hancock St @ Beach St","Hancock Street"
 "6107",,"Gardner Street",,"42.513569","-70.892375","Salem","Lafayette St @ Gardner St","Lafayette Street"
 "3548",,"Beal Street",,"42.248136","-70.925221","Hingham","Lincoln St @ Lincoln Plaza","Lincoln Street"
-"2531",,"Bennett Court",,"42.378425","-71.094474","Somerville","30 Prospect St","Prospect Street"
+"2531",,"Bennett Street",,"42.37812","-71.09467","Somerville","34 Prospect St","Prospect Street"
 "9070171",,,"Newton Centre - Green Line Newton Highlands Shuttle","42.330073","-71.191265","Newton","Newton Centre",
 "14925",,"Blaney Avenue",,"42.520766","-70.934817","Peabody","Washington St @ Blaney Ave","Washington Street"
 "86491",,"Pleasant Street",,"42.422092","-71.20906","Lexington","Watertown St @ Pleasant St","Watertown Street"
@@ -9645,7 +9679,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "7548",,,,"42.444317","-71.028813","Malden","735 Broadway","Broadway"
 "place-ER-0312","70 Railroad Ave, Rowley, MA 01969",,,"42.726845","-70.859034","Rowley","Rowley",
 "65543",,,,"42.343304","-71.236355","Newton","Washington St @ Greenough St","Washington Street"
-"86970",,"Main Street",,"42.375765","-71.236893","Waltham","Moody St @ Main St.","Moody Street"
+"86970",,"Main Street",,"42.375765","-71.236893","Waltham","Moody St @ Main St","Moody Street"
 "7919",,"Drake Road",,"42.425322","-71.189411","Arlington","Massachusetts Ave opp Drake Rd","Massachusetts Avenue"
 "26625",,"Gay Avenue",,"42.163964","-71.234868","Walpole","Main St @ Gay Ave","Main Street"
 "77378",,"Hovey Road",,"42.365527","-71.228447","Waltham","High St @ Hovey Rd","High Street"
@@ -9748,12 +9782,11 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "node-mvbcl-msqstair-lobby",,,"Maverick - Bottom of stairs between Maverick Square and lobby",,,"Boston","Maverick",
 "611",,,,"42.270144","-71.147358","Boston","Washington St @ Maplewood St","Washington Street"
 "22819",,"Glenwood Avenue",,"42.248475","-71.127058","Boston","Hyde Park Ave @ Glenwood Ave","Hyde Park Avenue"
-"3051",,"Beach Street",,"42.267934","-71.016405","Quincy","Hancock St @ Beach St","Hancock Street"
 "node-ogmnl-banksstair-lobby",,,"Oak Grove - Top of Banks Place, busway, parking stairs",,,"Malden","Oak Grove",
 "8303",,"Fellsway West",,"42.429834","-71.103828","Medford","Fellsway W @ S Border Rd","Roosevelt Circle"
 "place-smary","Beacon St and Saint Mary's St, Boston, MA",,,"42.345974","-71.107353","Brookline","Saint Marys Street",
 "5422",,"Bryant Street",,"42.422975","-71.050701","Malden","Newland St @ Bryant St","Newland Street"
-"448",,"Stanton Street",,"42.285363","-71.0804","Boston","Norfolk St. @ Stanton St. opp. #227","Norfolk Street"
+"448",,"Stanton Street",,"42.285363","-71.0804","Boston","Norfolk St @ Stanton St opp #227","Norfolk Street"
 "3341",,"Furnace Brook Parkway",,"42.244348","-71.024664","Quincy","Copeland St @ Furnace Brook Pwky","Copeland Street"
 "3959",,"Pearl Street",,"42.241031","-71.003354","Quincy","Franklin St @ Pearl St","Franklin Street"
 "12081",,"Donnybrook Road",,"42.353889","-71.158537","Boston","Faneuil St @ Donnybrook Rd","Faneuil Street"
@@ -9830,6 +9863,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "70620",,"Croft Regis Road",,"42.226905","-71.186426","Westwood","Washington St @ Loring St","Washington Street"
 "29004",,,"Sullivan Square - Upper Berth 4","42.384142","-71.076513","Boston","Sullivan Square","Busway"
 "8291",,,,"42.373227","-71.203268","Watertown","Main St @ Evans St","Main Street"
+"9070124",,,"Warren Street - Green Line Eastbound Shuttle","42.348432","-71.140169","Boston","Warren Street",
 "44618",,"Manison Drive",,"42.162636","-71.215303","Walpole","Opp 123 Washington St","Washington Street"
 "70052",,,"Orient Heights - Blue Line - Wonderland","42.386867","-71.004736","Boston","Orient Heights",
 "node-aqucl-wbatlanticstairs-lobby",,,"Aquarium - Top of stairs between platform and Atlantic Avenue",,,"Boston","Aquarium",
@@ -9904,7 +9938,7 @@ id,address,at_street,description,latitude,longitude,municipality,name,on_street
 "6202",,"Appleton Street",,"42.421252","-71.182991","Arlington","Park Ave @ Appleton St","Park Avenue"
 "3128",,"Newbury Avenue",,"42.278137","-71.027252","Quincy","E Squantum St @ Newbury Ave","East Squantum Street"
 "7326",,"Great Woods Road",,"42.491272","-70.971708","Lynn","Lynnfield St opp Great Woods Rd","Lynnfield Street"
-"465",,"Vassar Street",,"42.300899","-71.075905","Boston","Washington St @ Vassar St.","Washington Street"
+"465",,"Vassar Street",,"42.300899","-71.075905","Boston","Washington St @ Vassar St","Washington Street"
 "2412",,"North Street",,"42.414151","-71.125672","Medford","Boston Ave @ North St","Boston Avenue"
 "node-416-lobby",,,"Courthouse - Top of escalator from South Station platform to exit-only gates",,,"Boston","Courthouse",
 "node-armnl-nwstairs-lobby",,,"Arlington - Bottom of Boylston Street stairs",,,"Boston","Arlington",

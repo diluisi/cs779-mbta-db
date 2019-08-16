@@ -3,21 +3,13 @@ import cx_Oracle
 import os
 import csv
 
+from dateutil import parser
+
 password = os.environ.get('ORACLE_PASSWORD')
 
 dsn_tns = cx_Oracle.makedsn('localhost', '1521', service_name='orclpdb1')
 conn = cx_Oracle.connect(user='system', password=password, dsn=dsn_tns)
 c = conn.cursor()
-
-
-def load_statuses():
-    reader = csv.reader(open('vehicles-current_statuses.csv'), quotechar='"', delimiter=',', quoting=csv.QUOTE_ALL)
-    next(reader)  # Skip header
-    for l in reader:
-        sql = "INSERT INTO STATUSES (status) VALUES ('%s')" % l[0]
-        c.execute(sql)
-
-    conn.commit()
 
 
 def load_directions_ids():
@@ -35,14 +27,6 @@ def load_directions_ids():
     conn.commit()
 
 
-def load_vehicles():
-    reader = csv.reader(open('vehicles.csv'))
-    next(reader)  # Skip header
-    for l in reader:
-        sql = "INSERT INTO VEHICLES (vehicle_id, label) VALUES ('%s', '%s')" % (l[0], l[1])
-        c.execute(sql)
-
-
 def load_stops():
     reader = csv.reader(open('stops.csv'), quotechar='"', delimiter=',', quoting=csv.QUOTE_ALL)
     next(reader)  # Skip header
@@ -50,7 +34,7 @@ def load_stops():
         sql = "SELECT stop_id FROM stops WHERE stop_id='%s'" % (l[0])
         c.execute(sql)
         exists = c.fetchone()
-
+        print(l)
         if not exists:
             sql = "SELECT municipality_id FROM municipalities WHERE municipality='%s'" % (l[6])
             c.execute(sql)
@@ -66,13 +50,20 @@ def load_stops():
 
             if not at_street and on_street:
                 sql = """INSERT INTO STOPS (STOP_ID, ADDRESS, DESCRIPTION, LATITUDE, LONGITUDE, MUNICIPALITY_ID, NAME, ON_STREET) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')""" % (
-                    l[0], l[1], l[3], l[4], l[5], municipality_id, l[7].replace("'", "''"), on_street[0])
+                    l[0], l[1].replace("'", "''"), l[3].replace("'", "''"), l[4], l[5], municipality_id,
+                    l[7].replace("'", "''"), on_street[0])
                 c.execute(sql)
-            if not on_street and at_street:
-                if not at_street:
-                    sql = """INSERT INTO STOPS (STOP_ID, ADDRESS, AT_STREET, DESCRIPTION, LATITUDE, LONGITUDE, MUNICIPALITY_ID, NAME) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')""" % (
-                        l[0], l[1], at_street, l[3], l[4], l[5], municipality_id, l[7].replace("'", "''"))
-                    c.execute(sql)
+            elif not on_street and at_street:
+                sql = """INSERT INTO STOPS (STOP_ID, ADDRESS, AT_STREET, DESCRIPTION, LATITUDE, LONGITUDE, MUNICIPALITY_ID, NAME) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')""" % (
+                    l[0], l[1].replace("'", "''"), at_street, l[3].replace("'", "''"), l[4], l[5], municipality_id,
+                    l[7].replace("'", "''"))
+                c.execute(sql)
+            else:
+                sql = """INSERT INTO STOPS (STOP_ID, ADDRESS, DESCRIPTION, LATITUDE, LONGITUDE, MUNICIPALITY_ID, NAME) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s')""" % (
+                    l[0], l[1].replace("'", "''"), l[3].replace("'", "''"), l[4], l[5], municipality_id,
+                    l[7].replace("'", "''"))
+                c.execute(sql)
+
     conn.commit()
 
 
@@ -334,6 +325,55 @@ def load_statuses():
     conn.commit()
 
 
+def load_vehicles_data():
+    reader = csv.reader(open('vehicles.csv'), quotechar='"', delimiter=',', quoting=csv.QUOTE_ALL)
+    next(reader)  # Skip header
+
+    for l in reader:
+        sql = "SELECT vehicle_id, updated_at FROM vehicles_data WHERE vehicle_id='%s' and updated_at='%s'" % (
+            l[0], l[8])
+        c.execute(sql)
+        exists = c.fetchone()
+
+        print(l)
+
+        if not exists:
+            sql = "SELECT direction_id FROM directions WHERE direction='%s'" % (l[4])
+            c.execute(sql)
+            direction_id = c.fetchone()[0]
+
+            sql = "SELECT route_id FROM routes WHERE route_id='%s'" % (l[10])
+            c.execute(sql)
+            route_id = c.fetchone()[0]
+
+            sql = "SELECT stop_id FROM stops WHERE stop_id='%s'" % (l[11])
+            c.execute(sql)
+            stop_id = c.fetchone()
+
+            sql = "SELECT status_id FROM statuses WHERE status='%s'" % (l[9])
+            c.execute(sql)
+            status_id = c.fetchone()[0]
+
+            speed = l[7]
+            if speed == 'None' or not speed:
+                speed = ''
+
+            updated_at = parser.parse(l[8])
+
+
+        if not stop_id:
+            sql = "INSERT INTO vehicles_data (vehicle_id, label, bearing, current_stop_sequence, longitude, latitude, speed, updated_at, direction_id, route_id, current_status) " \
+                  "VALUES ('%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s')" % (
+                      l[0], l[1], l[2], l[3], l[5], l[6], speed, updated_at, direction_id, route_id, status_id)
+            c.execute(sql)
+
+        sql = "INSERT INTO vehicles_data (vehicle_id, label, bearing, current_stop_sequence, longitude, latitude, speed, updated_at, direction_id, route_id, current_status, stop_id) " \
+              "VALUES ('%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s')" % (
+                  l[0], l[1], l[2], l[3], l[5], l[6], speed, updated_at, direction_id, route_id, status_id, stop_id[0])
+        print(sql)
+        c.execute(sql)
+
+
 if __name__ == '__main__':
     # load_directions_ids()
     # load_destinations()
@@ -347,8 +387,9 @@ if __name__ == '__main__':
     # load_municipalities()
     # load_streets()
     # load_stops()
+    # load_statuses()
 
-    load_statuses()
+    load_vehicles_data()
 
     c.execute('select * from colors')
     for row in c:
