@@ -124,7 +124,7 @@ CREATE TABLE VEHICLES_DATA(
 	latitude FLOAT(63)	NOT NULL,
 	longitude FLOAT(63)	NOT NULL,
 	speed FLOAT(63),
-	updated_at DATE,
+	updated_at TIMESTAMP NOT NULL,
 	direction_id NUMBER,
 	route_id VARCHAR(32),
 	label VARCHAR(128),

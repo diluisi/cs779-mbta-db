@@ -2,6 +2,7 @@
 import cx_Oracle
 import os
 import csv
+import datetime
 
 from dateutil import parser
 
@@ -335,9 +336,9 @@ def load_vehicles_data():
         c.execute(sql)
         exists = c.fetchone()
 
-        print(l)
-
         if not exists:
+            print('--')
+            print(l)
             sql = "SELECT direction_id FROM directions WHERE direction='%s'" % (l[4])
             c.execute(sql)
             direction_id = c.fetchone()[0]
@@ -358,20 +359,26 @@ def load_vehicles_data():
             if speed == 'None' or not speed:
                 speed = ''
 
-            updated_at = parser.parse(l[8])
+            current_stop_sequence = l[3]
+            if current_stop_sequence == 'None' or not current_stop_sequence:
+                current_stop_sequence = ''
 
+            utc_delta = datetime.datetime.utcnow() - datetime.datetime.now()
+            updated_at = parser.parse(l[8]) + utc_delta
+            updated_at = updated_at.strftime('%Y-%m-%d %H:%M:%S')
 
-        if not stop_id:
-            sql = "INSERT INTO vehicles_data (vehicle_id, label, bearing, current_stop_sequence, longitude, latitude, speed, updated_at, direction_id, route_id, current_status) " \
-                  "VALUES ('%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s')" % (
-                      l[0], l[1], l[2], l[3], l[5], l[6], speed, updated_at, direction_id, route_id, status_id)
-            c.execute(sql)
-
-        sql = "INSERT INTO vehicles_data (vehicle_id, label, bearing, current_stop_sequence, longitude, latitude, speed, updated_at, direction_id, route_id, current_status, stop_id) " \
-              "VALUES ('%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s')" % (
-                  l[0], l[1], l[2], l[3], l[5], l[6], speed, updated_at, direction_id, route_id, status_id, stop_id[0])
-        print(sql)
-        c.execute(sql)
+            if not stop_id:
+                sql = "INSERT INTO vehicles_data (vehicle_id, label, bearing, current_stop_sequence, longitude, latitude, speed, updated_at, direction_id, route_id, current_status) " \
+                      "VALUES ('%s','%s','%s','%s','%s','%s','%s',TO_DATE('%s','yyyy-mm-DD HH:MI:SS'),'%s','%s','%s')" % (
+                          l[0], l[1], l[2], current_stop_sequence, l[5], l[6], speed, updated_at, direction_id, route_id, status_id)
+                print(sql)
+                c.execute(sql)
+            else:
+                sql = "INSERT INTO vehicles_data (vehicle_id, label, bearing, current_stop_sequence, longitude, latitude, speed, updated_at, direction_id, route_id, current_status, stop_id) " \
+                      "VALUES ('%s','%s','%s','%s','%s','%s','%s', TO_DATE('%s','yyyy-mm-DD HH:MI:SS'),'%s','%s','%s','%s')" % (
+                          l[0], l[1], l[2], current_stop_sequence, l[5], l[6], speed, updated_at, direction_id, route_id, status_id, stop_id[0])
+                print(sql)
+                c.execute(sql)
 
 
 if __name__ == '__main__':
