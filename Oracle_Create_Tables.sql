@@ -114,16 +114,17 @@ CREATE TABLE ROUTES(
 	CONSTRAINT routes_color_fk FOREIGN KEY (color) REFERENCES colors(color_id),
 	CONSTRAINT routes_text_color_fk FOREIGN KEY (text_color) REFERENCES colors(color_id)
 );
+
 DROP TABLE VEHICLES_DATA;
 CREATE TABLE VEHICLES_DATA(
 	vehicle_data_id NUMBER GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1) NOT NULL,
     vehicle_id VARCHAR(128) NOT NULL,
 	bearing	NUMBER,
-	current_stop_sequence NUMBER(5),
+	current_stop_sequence NUMBER,
 	latitude FLOAT(63)	NOT NULL,
 	longitude FLOAT(63)	NOT NULL,
 	speed FLOAT(63),
-	updated_at DATE NOT NULL,
+	updated_at DATE,
 	direction_id NUMBER,
 	route_id VARCHAR(32),
 	label VARCHAR(128),
