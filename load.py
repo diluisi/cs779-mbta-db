@@ -335,7 +335,7 @@ def load_vehicles_data():
         updated_at = parser.parse(l[8]) + utc_delta
         updated_at = updated_at.strftime('%Y-%m-%d %H:%M:%S')
 
-        sql = "SELECT vehicle_id, updated_at FROM vehicles_data WHERE vehicle_id='%s' and updated_at=TO_DATE('%s','yyyy-mm-DD HH:MI:SS')" % (
+        sql = "SELECT vehicle_id, updated_at FROM vehicles_data WHERE vehicle_id='%s' and updated_at=TO_DATE('%s','yyyy-mm-DD HH24:MI:SS')" % (
             l[0], updated_at)
         c.execute(sql)
         exists = c.fetchone()
@@ -375,13 +375,13 @@ def load_vehicles_data():
 
             if not stop_id:
                 sql = "INSERT INTO vehicles_data (vehicle_id, label, bearing, current_stop_sequence, longitude, latitude, speed, updated_at, direction_id, route_id, current_status) " \
-                      "VALUES ('%s','%s','%s','%s','%s','%s','%s',TO_DATE('%s','yyyy-mm-DD HH:MI:SS'),'%s','%s','%s')" % (
+                      "VALUES ('%s','%s','%s','%s','%s','%s','%s',TO_DATE('%s','yyyy-mm-DD HH24:MI:SS'),'%s','%s','%s')" % (
                           l[0], l[1], bearing, current_stop_sequence, l[5], l[6], speed, updated_at, direction_id,
                           route_id, status_id)
                 c.execute(sql)
             else:
                 sql = "INSERT INTO vehicles_data (vehicle_id, label, bearing, current_stop_sequence, longitude, latitude, speed, updated_at, direction_id, route_id, current_status, stop_id) " \
-                      "VALUES ('%s','%s','%s','%s','%s','%s','%s', TO_DATE('%s','yyyy-mm-DD HH:MI:SS'),'%s','%s','%s','%s')" % (
+                      "VALUES ('%s','%s','%s','%s','%s','%s','%s', TO_DATE('%s','yyyy-mm-DD HH24:MI:SS'),'%s','%s','%s','%s')" % (
                           l[0], l[1], bearing, current_stop_sequence, l[5], l[6], speed, updated_at, direction_id,
                           route_id, status_id, stop_id[0])
                 c.execute(sql)
