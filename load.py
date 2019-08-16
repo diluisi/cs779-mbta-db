@@ -52,8 +52,6 @@ def load_stops():
         exists = c.fetchone()
 
         if not exists:
-            print('------------------')
-            print('PARSING %s' % l)
             sql = "SELECT municipality_id FROM municipalities WHERE municipality='%s'" % (l[6])
             c.execute(sql)
             municipality_id = c.fetchone()[0]
@@ -321,6 +319,21 @@ def load_streets():
     conn.commit()
 
 
+def load_statuses():
+    reader = csv.reader(open('vehicles-current_statuses.csv'), quotechar='"', delimiter=',', quoting=csv.QUOTE_ALL)
+    next(reader)  # Skip header
+
+    for l in reader:
+        sql = "SELECT status FROM statuses WHERE status='%s'" % (l[0])
+        c.execute(sql)
+        exists = c.fetchone()
+
+        if not exists:
+            sql = "INSERT INTO statuses (status) VALUES ('%s')" % l[0]
+            c.execute(sql)
+    conn.commit()
+
+
 if __name__ == '__main__':
     # load_directions_ids()
     # load_destinations()
@@ -333,7 +346,9 @@ if __name__ == '__main__':
     # load_destinations_routes_bridge()
     # load_municipalities()
     # load_streets()
-    load_stops()
+    # load_stops()
+
+    load_statuses()
 
     c.execute('select * from colors')
     for row in c:
